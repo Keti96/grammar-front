@@ -1,0 +1,54 @@
+/* button style */
+
+/* button video */
+.button-video {
+    width: 158px;
+    height: 56px;
+    background: #00CC6F;
+    border-radius: 28px;
+}
+.button-video a {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: FiraGo Medium;
+    color: #ffffff;
+    align-items: center;
+    margin: 21px 0 21px 23px;
+}
+.button-video img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 6px 6px 6px 12px;
+}
+/* end button */
+
+/* input button */
+.input-button {
+    display: block;
+    width: 384px;
+    height: 80px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #00CC6F;
+    text-align: center;
+    margin: 48px auto 38px;
+    font-family: FiraGo Bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+/* end input button */
+
+
+
+/* button :disabled */
+.disabled{
+    background-color: #80E5B7;
+    cursor: default;
+}
+.disabled:hover{
+    background-color: #80E5B7;
+    box-shadow: none;
+}
+
+
+/* end button style */
