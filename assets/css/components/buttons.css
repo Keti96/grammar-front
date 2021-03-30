@@ -50,5 +50,33 @@
     box-shadow: none;
 }
 
-
+/* grammar button style */
+.grammar-button {
+    width: 205px;
+    height: 68px;
+    border: 3px solid #333333;
+    border-radius: 16px;
+    font-family: 'FiraGo Medium';
+    font-size: 16px;
+    line-height: 16px;
+    color: #333333;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+.grammar-content-arrow-icon-black {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.grammar-disabled{
+    background-color: transparent;
+    cursor: default;
+    color:  #999999;
+    border-color: #999999;
+}
+.grammar-disabled:hover{
+    background-color: transparent!important;
+    color:  #999999!important;
+    border-color: #999999!important;
+}
 /* end button style */

@@ -217,22 +217,43 @@ span.header-content-text-item {
     line-height: 32px;
     margin-bottom: 36px;
 }
-.grammar-content-button {
-    width: 205px;
-    height: 68px;
-    border: 3px solid #333333;
-    border-radius: 16px;
-    font-family: 'FiraGo Medium';
-    font-size: 16px;
-    line-height: 16px;
-    color: #333333;
-    background-color: #ffffff;
-    box-sizing: border-box;
+.grammar-content-button:hover {
+    border-color: #00CC6F;
+    color: #00C851;
 }
-.grammar-content-arrow-icon-black {
+.grammar-content-arrow-icon-grey{
+    display: none;
+}
+.grammar-disabled .grammar-content-arrow-icon-grey{
     display: inline-block;
     vertical-align: middle;
     margin-left: 8px;
+}
+.grammar-content-button:hover .grammar-content-arrow-icon-black, .grammar-content-button:focus .grammar-content-arrow-icon-black{
+    display: none;
+}
+.grammar-content-button:hover .grammar-content-arrow-icon-green, .grammar-content-button:focus .grammar-content-arrow-icon-green{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+.grammar-disabled:hover .grammar-content-arrow-icon-green, .grammar-disabled:focus .grammar-content-arrow-icon-green{
+    display: none;
+}
+.grammar-disabled .grammar-content-arrow-icon-black{
+    display: none;
+}
+.grammar-disabled:hover .grammar-content-arrow-icon-green, .grammar-disabled:focus .grammar-content-arrow-icon-green{
+    display: none;
+}
+.grammar-content-button:focus {
+    border-color: #00B361;
+    color: #00B361;
+    box-shadow: none;
+    background-color: #F2FCF8;
+}
+.grammar-content-arrow-icon-green{
+    display: none;
 }
 .for-d-flex {
     display: flex;
@@ -368,417 +389,12 @@ span.header-content-text-item {
     opacity: 0.7;
 }
 /* end footer content */
-    .appear{
-        display: none;
-    }
-    .appear2{
-        display: none;
-    }
-    .appear3{
-        display: none;
-    }
-/* @media (min-width: 1400px) {
-    .container-two {
-        max-width: 1132px;
-    }
+.appear{
+    display: none;
 }
-
-@media only screen and (max-width: 1439.98px) {
-    .header {
-        height: inherit;
-    }
-    .header-auth{
-        width: 100%;
-        background-size: 100% 100%;
-        padding: 9px 0 0 74px;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        margin: 0px 5px;
-    }
-    .registration-form {
-        width: 82%;
-    }
-    .auth-input-email, .auth-input-password, .auth-button {
-        width: 77%;
-    }
-    .auth-input-email input[type=email], .auth-input-password input[type=password] {
-        width: 72%;
-    }
-    .mouse-icon img {
-        margin: 0 auto;
-        padding: 15px 0 30px;
-    }
-    .grammar-images {
-        width: 50%;
-    }
-    .Noun-content .grammar-images img,.adjective-content .grammar-images img, .verb-content .grammar-images img {
-        width: 100%;
-        height: inherit;
-    }
-    .grammar-content h3 {
-        margin: 0 0 20px;
-    }
-    .grammar-content {
-        width: 50%;
-    }
-    .grammar-content p {
-        margin-bottom: 16px;
-    }
-    .grammar-content-button {
-        width: 52%;
-        height: 50px;
-    }
-    .Noun-content {
-        margin: 90px auto 80px;
-    }
-    .verb-content {
-        margin: 90px auto 155px;
-    }
-    .instruction-content-item {
-        width: 67%;
-    }
-    .instruction-video {
-        margin: 6.7rem auto 0;;
-    }
-    .instruction-video::after {
-        width: 100%;
-    }
-    .instruction-video iframe {
-        width: 100%;
-    }
-    .instruction-bg {
-        width: 100%;
-        background-size: 100% 100%;
-    }
+.appear2{
+    display: none;
 }
-
-@media only screen and (max-width: 990.98px) {
-    span.header-content-text-item, .header-content-text {
-        font-size: 30px;
-        line-height: 30px;
-    }
-    .header-auth {
-        margin-top: 10px;
-        padding: 9px 0 0 74px;
-        width: 108%;
-        height: inherit;
-    }
-    .vertical-middle {
-        margin: 22% 0 0;
-    }
-    .registration-header-title {
-        padding: 18% 0 8%;
-    }
-    .auth-path-registration {
-        text-align: center;
-        margin: 0 auto 12%;
-    }
-    .auth-button {
-        margin: 25px auto 25px;
-    }
-    .registration-form {
-        height: inherit;
-    }
-    .mouse-icon img {
-        margin: 0 auto;
-        padding: 40px 0 30px;
-    }
-    .instruction-video {
-        margin: 8.7rem auto 0;;
-    }
-    .instruction-video iframe {
-        height: 350px;
-    }
-  }
-  @media only screen and (max-width: 767.98px) {
-      .hide{
-          display: none!important;
-      }
-      .appear{
-        display: initial;
-    }
-    .appear4{
-        display: none;
-    }
-    .login{
-        display: inherit;
-    }
-      .for-100{
-          flex: 100%;
-          max-width: 100%;
-      }
-      .header{
-        background-image: url(/assets/images/homepage/header-background-ipad.svg);
-        width: 100%;
-        height: 737px;
-      }
-      .navbar-light .navbar-toggler{
-        color: #333333;
-        border-color: transparent;
-      }
-      .container-two{
-        max-width: 688px;
-      }
-      .for-flex{
-          display: flex;
-      }
-      .grammer-button-2{
-          display: inline-block;
-          width: inherit;
-          height: 100%;
-          margin-left: auto;
-          padding: 18px 28px;
-      }
-      .for-100 .for-flex h3{
-          line-height: 38px;
-      }
-      .header-content{
-          text-align: center;
-      }
-      .header-content-text-content{
-        margin: 32px auto 42px;
-        width: 366px;
-      }
-      span.header-content-text-item, .header-content-text {
-        font-size: 36px;
-        line-height: 44px;
-    }
-    .section-about-project .about-project-cont{
-        font-size: 14px;
-    }
-    .bold-black{
-        font-family: inherit;
-    }
-    .bold-black2{
-        font-family: FiraGo ExtraBold;
-    }
-    button.about-project-button{
-        padding: 32px 136px;
-        width: initial;
-        height: initial;
-        border: 3px solid #333333;
-        background-color: transparent;
-        color: #333333;
-    }
-    .about-project-button{
-        display: flex;
-    }
-    .register-sect .registration-form{
-        background-image: url(/assets/images/homepage/auth-bg-ipad.svg);
-        background-position: 100% 100%;  
-        background-repeat: no-repeat;
-        width: 100%;
-        margin: 0 auto;
-        border: 3px solid #F5F5F5;
-        box-sizing: border-box;
-        border-radius: 44px;
-    }
-    .header-content .for-100 .appear .about-project-button{
-        border: none;
-        background-color: #00CC6F;
-        color: white;
-        padding: 24px 38px;
-    }
-    .register-sect .registration-header-title{
-        padding-top: 60px;
-    }
-    .grammar-content{
-        margin-top: 56px;
-    }
-    .auth-input-email, .auth-input-password, .auth-button {
-        width: 58%;
-    }
-    .auth-button {
-        margin: 48px auto 40px;
-    }
-
-    .footer-logo-content{
-        display: block;
-        margin: 330px 0 0px;
-    }
-    section.register-sect{
-        position: relative;
-    }
-    .footer-bg-fill{
-        margin-top: -259px;
-    }
-    .verb-content {
-        margin: 90px auto 100px;
-    }
-    .logo-footer img{
-        margin: 0 auto;
-        margin-bottom: 36px;
-    }
-    .footer-text-item{
-        width: 85%;
-        font-size: 14px;
-        text-align: center;
-        display: block;
-        margin: 0 auto;
-    }
-      .footer-logo-content-item{
-          margin-left: 0;
-      }
-      .footer-logo-content-item{
-          margin-bottom: 20px;
-      }
-      .conf-user{
-      display: block;
-      text-align: center;
-      margin-top: 52px;
-      margin-bottom: 52px;
-    }
-    .footer-buttons{
-        margin: 0 auto;
-    }
-    .footer-icons-texts{
-        display: block;
-        margin: 52px 0 52px;
-    }    
-    .Education-logo{
-        margin: 0 auto;
-    }
-    .footer-copyright span{
-        text-align: center;
-    }
-    .footer-user-icon,
-    .footer-facebook-icon{
-        background-color: transparent;
-    }
-    .vertical-middle {
-        margin: 95px 0 0;
-    }
-    .header-content .for-100 .appear .about-project-button{
-        margin: 48px auto 74px;
-    }
-    .instruction-video {
-        margin: 0 auto 0;
-    }
-    .section-about-project {
-        margin: 265px auto 0;
-    }
-    .instruction-video iframe {
-        height: 320px;
-    }
-    .instruction-video iframe{
-        border-radius: 48px;
-    }
-  }
-@media only screen and (max-width: 687.98px) {
-    .container-two{
-        max-width: 500px;
-    }
+.appear3{
+    display: none;
 }
-    
-@media only screen and (max-width: 500.98px) {
-    .container-two{
-        max-width: 413px;
-    }
-    .instruction-video iframe {
-        height: 205px;
-    }
-    .hide3{
-        display: none;
-    }
-    .appear3{
-        display: initial;
-    }
-    .for-100 .for-flex h3 {
-        font-size: 28px;
-    }
-    .header{
-        background-image: url(/assets/images/homepage/header-background-414.svg);
-    }
-    .row.for-100{
-        margin: 0;
-    }
-    .instruction-video{
-        flex: 0 0 auto;
-        width: 94%;
-    }
-    .instruction-video::after {
-        width: 100%;
-        height: 25px;
-    }
-}
-@media only screen and (max-width: 415px) {
-    .appear4{
-        display: initial;
-    }
-    .container-two{
-        max-width: 366px;
-    }
-    .hide2{
-        display: none!important;
-    }
-    .appear2{
-        display: initial!important;
-    }
-    .navbar-brand {
-        padding-top: 1.3rem;
-    }
-    .header-content-text-content{
-        width: 100%;
-        text-align: initial;
-    }
-    .header-content-text{
-        text-align: initial;
-    }
-    .header-content .for-100 .appear .about-project-button{
-        width: 100%;
-        display: block;
-        padding: 24px 0px;
-    }
-    .for-100 .for-flex h3{
-        font-size: 28px;
-    }
-    .grammar-content-button{
-        height: initial;
-    }
-    .grammar-content-button{
-        padding: 26px 0;
-        width: 100%;
-    }
-    .grammar-content p {
-        margin-bottom: 44px;
-    }
-    .auth-input-email, .auth-input-password, .auth-button {
-        width: 74%;
-    }
-    .register-sect .registration-header-title{
-        font-size: 16px;
-    }
-    .auth-button {
-        margin: 25px auto 25px;
-        height: initial;
-        padding: 18px 0;
-    }
-    .footer-buttons{
-        display: block;
-    }
-    .footer-user-icon, .footer-facebook-icon{
-        background-color: #333333;
-        width: 100%;
-        margin: 5px auto;
-    }
-    button.about-project-button{
-        padding: 26px 0;
-        width: 100%;
-        display: block;
-    }
-    .footer-user-icon, .footer-facebook-icon {
-        width: 157px;
-    }
-}
-@media only screen and (max-width: 360px) {
-    .header-content .for-100 .appear .about-project-button {
-        margin: 48px auto 46px;
-    }
-    .footer-user-icon, .footer-facebook-icon{
-        width: 100%;
-    }
-    .grammar-content p {
-        margin-bottom: 24px;
-    }
-}
- */
