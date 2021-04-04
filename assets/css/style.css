@@ -1,15 +1,15 @@
-@import "./partials/fonts";
-@import "./partials/reset";
-@import "./components/inputs";
-@import "./components/buttons";
+@import "./partials/fonts.css";
+@import "./partials/reset.css";
+@import "./components/inputs.css";
+@import "./components/buttons.css";
 
 
 /* page import */
-@import "./pages/homepage";
+@import "./pages/homepage.css";
 
 
 /* end page import */
 
 
 
-@import "./responsive";
+@import "./responsive.css";
