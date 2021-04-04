@@ -3,7 +3,7 @@
     flex-grow: 0;
 }
 .header {
-    background-image: url('/assets/images/homepage/header-background.svg');
+    background-image: url('./assets/images/homepage/header-background.svg');
     height: 960px;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ span.header-content-text-item {
     margin: auto 0;
 }
 .header-auth {
-    background-image: url('/assets/images/homepage/auth-bg.svg');
+    background-image: url('./assets/images/homepage/auth-bg.svg');
     height: 716.6px;
     width: 735.6px;
     padding: 9px 0 0 118px;
@@ -279,7 +279,7 @@ span.header-content-text-item {
     font-family: 'FiraGo ExtraBold';
 }
 .instruction-bg {
-    background-image: url('/assets/images/homepage/instruction-bg.svg');
+    background-image: url('./assets/images/homepage/instruction-bg.svg');
     background-position: center;
     background-size: cover;
     width: 1212px;
