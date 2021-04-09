@@ -2,13 +2,16 @@
     .container-two {
         max-width: 1132px;
     }
+    .container-three {
+        max-width: 1200px;
+    }
 }
 
 @media only screen and (max-width: 1439.98px) {
     .header {
         height: inherit;
     }
-    .header-auth{
+    .header-auth {
         width: 100%;
         background-size: 100% 100%;
         padding: 9px 0 0 74px;
@@ -29,47 +32,140 @@
         margin: 0 auto;
         padding: 15px 0 30px;
     }
-    .grammar-images {
-        width: 50%;
+    /* .container-three {
+        max-width: 1132px;
+    } */
+    .Noun-content .grammar-images img {
+        width: 655px;
+        height: 555px;
     }
-    .Noun-content .grammar-images img,.adjective-content .grammar-images img, .verb-content .grammar-images img {
-        width: 100%;
-        height: inherit;
+    .adjective-content .grammar-images img {
+        width: 589px;
+        height: 555px;
+        margin-left: 60px;
     }
-    .grammar-content h3 {
-        margin: 0 0 20px;
-    }
-    .grammar-content {
-        width: 50%;
-    }
-    .grammar-content p {
-        margin-bottom: 16px;
-    }
-    .grammar-content-button {
-        width: 52%;
-        height: 50px;
+    .verb-content .grammar-images img {
+        width: 637px;
+        height: 611px;
     }
     .Noun-content {
-        margin: 90px auto 80px;
+        margin: 120px auto 110px;
     }
     .verb-content {
-        margin: 90px auto 155px;
+        margin: 70px auto 155px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 175px 0 36px;
+    }
+    .adjective-content .grammar-content {
+        padding-left: 15px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 100px 0 36px;
+    }
+    .grammar-content h3 {
+        margin: 120px 0 36px;
     }
     .instruction-content-item {
-        width: 67%;
-    }
-    .instruction-video {
-        margin: 6.7rem auto 0;;
+        width: 60%;
     }
     .instruction-video::after {
         width: 100%;
     }
-    .instruction-video iframe {
-        width: 100%;
+    .instruction-video .video-image {
+        width: 96%;
     }
+    .instruction-bg {
+        width: 1294px;
+        height: 478px;
+        margin: -38px auto -17px;
+    }
+}
+
+@media only screen and (max-width: 1320.98px) {
     .instruction-bg {
         width: 100%;
         background-size: 100% 100%;
+    }
+    .grammar-images {
+        width: 52%;
+    }
+    .Noun-content .grammar-images img, .adjective-content .grammar-images img, .verb-content .grammar-images img {
+        width: 100%;
+        height: inherit;
+        margin-left: 0;
+    }
+    .grammar-content h3 {
+        margin: 80px 0 20px;
+    }
+    .grammar-content {
+        width: 48%;
+    }
+    .grammar-content p {
+        margin-bottom: 36px;
+    }
+    .grammar-content-button {
+        width: 40%;
+        height: 68px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 70px 0 36px;
+    }
+    .grammar-content h3 {
+        margin: 100px 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1200.98px) {
+    .Noun-content .grammar-content h3 {
+        margin: 38px 0 36px;
+    }
+    .grammar-content h3 {
+        margin: 55px 0 20px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 100px 0 36px;
+    }
+}
+
+@media only screen and (max-width: 1100.98px) {
+    .grammar-images {
+        width: 57%;
+    }
+    .adjective-content .grammar-images {
+        width: 55%;
+    }
+    .grammar-content h3 {
+        margin: 40px 0 20px;
+    }
+    .grammar-content {
+        width: 43%;
+    }
+    .grammar-content p {
+        margin-bottom: 36px;
+    }
+    .grammar-content-button {
+        width: 48%;
+        height: 68px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 45px 0 36px;
+    }
+    .adjective-content .grammar-content {
+        padding-left: 15px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 100px 0 36px;
+    }
+    .instruction-video .video-image {
+        width: 95%;
+        height: 330px;
+    }
+    .instruction-bg {
+        margin: -88px auto -44px;
+    }
+    .instruction-video {
+        margin: 143px auto 0;
     }
 }
 
@@ -104,89 +200,140 @@
         margin: 0 auto;
         padding: 40px 0 30px;
     }
+    .grammar-images, .adjective-content .grammar-images {
+        width: 50%;
+    }
+    .grammar-content h3 {
+        margin: 5px 0 10px;
+    }
+    .grammar-content {
+        width: 50%;
+    }
+    .grammar-content-button {
+        width: 62%;
+        height: 68px;
+    }
+    .grammar-content p {
+        margin-bottom: 18px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 5px 0 10px;
+    }
+    .adjective-content .grammar-content {
+        padding-left: 15px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 5px 0 10px;
+    }
+    .Noun-content {
+        margin: 120px auto 120px;
+    }
+    .verb-content {
+        margin: 100px auto 155px;
+    }
+    .instruction-bg {
+        margin: -97px auto -73px;
+    }
     .instruction-video {
-        margin: 8.7rem auto 0;;
+        margin: 9.6rem auto 0;
     }
-    .instruction-video iframe {
-        height: 350px;
+    .instruction-video .video-image, .instruction-video .video-image-one {
+        width: 100%;
+        height: 290px;
     }
-  }
-  @media only screen and (max-width: 767.98px) {
-      .hide{
-          display: none!important;
-      }
-      .appear{
+    .instruction-content-item {
+        width: 67%;
+    }
+    .container-three {
+        max-width: 767px;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    .hide {
+        display: none!important;
+    }
+    .appear {
         display: initial;
     }
-    .appear4{
+    .appear4 {
         display: none;
     }
-    .login{
+    .login {
         display: inherit;
     }
-      .for-100{
-          flex: 100%;
-          max-width: 100%;
-      }
-      .header{
+    .for-100 {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .header {
         background-image: url('../images/homepage/header-background-ipad.svg');
         width: 100%;
         height: 737px;
-      }
-      .navbar-light .navbar-toggler{
+    }
+    .navbar-light .navbar-toggler {
         color: #333333;
         border-color: transparent;
-      }
-      .container-two{
+    }
+    .container-two, .container-three {
         max-width: 688px;
-      }
-      .for-flex{
-          display: flex;
-      }
-      .grammer-button-2{
-          display: inline-block;
-          width: inherit;
-          height: 100%;
-          margin-left: auto;
-          padding: 18px 28px;
-      }
-      .for-100 .for-flex h3{
-          line-height: 38px;
-      }
-      .header-content{
-          text-align: center;
-      }
-      .header-content-text-content{
+    }
+    .for-flex {
+        display: flex;
+    }
+    .grammer-button-2 {
+        display: inline-block;
+        width: inherit;
+        height: 100%;
+        margin-left: auto;
+        padding: 13px 16px;
+    }
+    .grammar-content h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .for-100 .for-flex h3 {
+        line-height: 38px;
+    }
+    .header-content {
+        text-align: center;
+    }
+    .header-content-text-content {
         margin: 32px auto 42px;
         width: 366px;
-      }
-      span.header-content-text-item, .header-content-text {
-        font-size: 36px;
+    }
+    span.header-content-text-item, .header-content-text {
+        font-size: 32px;
         line-height: 44px;
     }
-    .section-about-project .about-project-cont{
+    /* .about-project-button:focus {
+        background-color: #00B361;
+        box-shadow: none;
+    } */
+    .section-about-project .about-project-cont {
         font-size: 14px;
     }
-    .bold-black{
+    .bold-black {
         font-family: inherit;
     }
-    .bold-black2{
+    .bold-black2 {
         font-family: FiraGo ExtraBold;
     }
-    button.about-project-button{
-        padding: 32px 136px;
+    button.about-project-button {
+        display: block;
+        padding: 34px 136px;
         width: initial;
         height: initial;
         border: 3px solid #333333;
         background-color: transparent;
         color: #333333;
     }
-    .about-project-button{
+    .about-project-button {
         display: flex;
     }
-    .register-sect .registration-form{
+    .register-sect .registration-form {
         background-image: url('../images/homepage/auth-bg-ipad.svg');
-        background-position: 100% 100%;  
+        background-position: 100% 100%;
         background-repeat: no-repeat;
         width: 100%;
         margin: 0 auto;
@@ -194,17 +341,65 @@
         box-sizing: border-box;
         border-radius: 44px;
     }
-    .header-content .for-100 .appear .about-project-button{
+    .header-content .for-100 .appear .about-project-button {
         border: none;
         background-color: #00CC6F;
         color: white;
         padding: 24px 38px;
     }
-    .register-sect .registration-header-title{
+    /*  */
+    .about-project-button:hover {
+        border-color: #00CC6F;
+        color: #00C851;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .about-disabled .about-project-arrow-icon-grey {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 8px;
+    }
+    .about-project-button:hover .about-project-arrow-icon-black, .about-project-button:focus .about-project-arrow-icon-black {
+        display: none;
+    }
+    .about-project-button:hover .about-project-arrow-icon-green, .about-project-button:focus .about-project-arrow-icon-green {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 8px;
+    }
+    .about-disabled:hover .about-project-arrow-icon-green, .about-disabled:focus .about-project-arrow-icon-green {
+        display: none;
+    }
+    .about-disabled .about-project-arrow-icon-black {
+        display: none;
+    }
+    .about-disabled:hover .grammar-content-arrow-icon-green, .about-disabled:focus .grammar-content-arrow-icon-green {
+        display: none;
+    }
+    .about-project-button:focus {
+        border-color: #00B361;
+        color: #00B361;
+        box-shadow: none;
+        background-color: #F2FCF8;
+    }
+    .about-project-arrow-icon-green, .about-project-arrow-icon-grey {
+        display: none;
+    }
+    /*  */
+    .register-sect .registration-header-title {
         padding-top: 60px;
     }
-    .grammar-content{
+    .grammar-content {
         margin-top: 56px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 0 0 32px;
+    }
+    .grammar-content h3 {
+        margin: 0 0 32px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 0 0 32px;
     }
     .auth-input-email, .auth-input-password, .auth-button {
         width: 58%;
@@ -212,152 +407,315 @@
     .auth-button {
         margin: 48px auto 40px;
     }
-
-    .footer-logo-content{
+    .footer-logo-content {
         display: block;
         margin: 330px 0 0px;
     }
-    section.register-sect{
+    section.register-sect {
         position: relative;
     }
-    .footer-bg-fill{
+    .footer-bg-fill {
         margin-top: -259px;
     }
     .verb-content {
         margin: 90px auto 100px;
     }
-    .logo-footer img{
+    .logo-footer img {
         margin: 0 auto;
         margin-bottom: 36px;
     }
-    .footer-text-item{
+    .footer-text-item {
         width: 85%;
         font-size: 14px;
         text-align: center;
         display: block;
         margin: 0 auto;
     }
-      .footer-logo-content-item{
-          margin-left: 0;
-      }
-      .footer-logo-content-item{
-          margin-bottom: 20px;
-      }
-      .conf-user{
-      display: block;
-      text-align: center;
-      margin-top: 52px;
-      margin-bottom: 52px;
+    .footer-logo-content-item {
+        margin-left: 0;
     }
-    .footer-buttons{
+    .footer-logo-content-item {
+        margin-bottom: 20px;
+    }
+    .conf-user {
+        display: block;
+        text-align: center;
+        margin-top: 52px;
+        margin-bottom: 52px;
+    }
+    .footer-buttons {
         margin: 0 auto;
     }
-    .footer-icons-texts{
+    .footer-icons-texts {
         display: block;
         margin: 52px 0 52px;
-    }    
-    .Education-logo{
+    }
+    .Education-logo {
         margin: 0 auto;
     }
-    .footer-copyright span{
+    .footer-copyright span {
         text-align: center;
-    }
-    .footer-user-icon,
-    .footer-facebook-icon{
-        background-color: transparent;
     }
     .vertical-middle {
         margin: 95px 0 0;
     }
-    .header-content .for-100 .appear .about-project-button{
+    .header-content .for-100 .appear .about-project-button {
         margin: 48px auto 74px;
     }
     .instruction-video {
         margin: 0 auto 0;
     }
     .section-about-project {
-        margin: 265px auto 0;
+        margin: 240px auto 0;
     }
-    .instruction-video iframe {
-        height: 320px;
+    .play-video {
+        width: 86px;
+        height: 86px;
+        position: inherit;
     }
-    .instruction-video iframe{
-        border-radius: 48px;
+    .video-image-one {
+        background-image: url('../images/homepage/small-video-img.svg');
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
     }
-  }
-@media only screen and (max-width: 687.98px) {
-    .container-two{
-        max-width: 500px;
+    .popup {
+        margin: 22% auto 0;
+        width: 95%;
+        height: 65%;
+        /* transition: all 5s ease-in-out; */
+    }
+    .popup .close { 
+        top: -46px;
+        right: 24px;
+    }
+    .instruction-cont-item {
+        display: flex;
+        align-items: flex-start;
+        width: 85%;
+        margin-bottom: 54px;
+    }
+    .instruction-cont-item p {
+        z-index: 1;
+    }
+    .play-video {
+        width: 68px;
+        height: 68px;
+    }
+    .instruction-video::after {
+        width: 80%;
+        height: 60px;
+        opacity: 1;
+        filter: blur(45px);
+        border-radius: 20px;
+        bottom: 70px;
     }
 }
-    
+
+@media screen and (max-width: 700px) {
+    .popup {
+        width: 90%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 687.98px) {
+    .container-two {
+        max-width: 500px;
+    }
+    .instruction-cont-item p {
+        font-size: 14px;
+    }
+    .instruction-cont-item span {
+        font-size: 14px;
+    }
+    .section-about-project {
+        margin: 235px auto 0;
+    }
+    .instruction-video::after {
+        bottom: 85px;
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .section-about-project {
+        margin: 218px auto 0;
+    }
+    .instruction-video::after {
+        bottom: 90px;
+    }
+}
+
 @media only screen and (max-width: 500.98px) {
-    .container-two{
+    .container-two {
         max-width: 413px;
     }
-    .instruction-video iframe {
-        height: 205px;
+    .header-content-text-content {
+        width: 100%;
+        text-align: initial;
     }
-    .hide3{
+    .header-content-text {
+        text-align: initial;
+        font-size: 36px;
+    }
+    button.about-project-button {
+        padding: 26px 0;
+        width: 100%;
+        display: block;
+    }
+    .about-project-button {
+        width: 100%;
+        display: block;
+        padding: 24px 0px;
+    }
+    .hide3 {
         display: none;
     }
-    .appear3{
+    .appear3 {
         display: initial;
     }
     .for-100 .for-flex h3 {
         font-size: 28px;
+        line-height: 32px;
     }
-    .header{
-        background-image: url('../images/homepage/header-background-414.svg');
+    .Noun-content .grammar-content h3 {
+        margin: 0 0 36px;
     }
-    .row.for-100{
+    .grammar-content h3 {
+        margin: 0 0 36px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 0 0 36px;
+    }
+    .row.for-100 {
         margin: 0;
     }
-    .instruction-video{
+    .instruction-video {
         flex: 0 0 auto;
         width: 94%;
     }
+    .instruction-cont-item {
+        width: 90%;
+        margin-bottom: 60px;
+    }
+    .section-about-project {
+        margin: 300px auto 0;
+    }
     .instruction-video::after {
-        width: 100%;
-        height: 25px;
+        bottom: 102px;
     }
 }
+
 @media only screen and (max-width: 415px) {
-    .appear4{
+    .appear4 {
         display: initial;
     }
-    .container-two{
+    .container-two {
         max-width: 366px;
     }
-    .hide2{
+    .hide2 {
         display: none!important;
     }
-    .appear2{
+    .appear2 {
         display: initial!important;
     }
     .navbar-brand {
         padding-top: 1.3rem;
     }
-    .header-content-text-content{
+    .header-content-text-content {
         width: 100%;
         text-align: initial;
     }
-    .header-content-text{
+    .header-content-text {
         text-align: initial;
     }
-    .header-content .for-100 .appear .about-project-button{
+    .header-content .for-100 .appear .about-project-button {
         width: 100%;
         display: block;
         padding: 24px 0px;
     }
-    .for-100 .for-flex h3{
+    .collapse2 ul li a {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .overlay2 .active {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .popup2 {
+        position: initial;
+        margin: 215px auto;
+    }
+    .popup {
+        margin: 200px auto;
+        width: 95%;
+        height: 50%;
+    }
+    .popup .close {
+        top: 100%;
+        right: 50%;
+        margin-right: -25px;
+    }
+    .grammar-gray-bg, .grammar-gray-bg-two {
+        background-color: #F8F7F2;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+        width: 100%;
+        height: 943px;
+    }
+    .grammar-gray-bg-two {
+        height: 1130px;
+    }
+    .grammar-white-bg {
+        background-color: #ffffff;
+        border-top-left-radius: 32px;
+        border-top-right-radius: 32px;
+        width: 100%;
+        height: 750px;
+    }
+    .grammar-content-button {
+        background-color: transparent;
+    }
+    .img-adjective, .img-verb, .img-noun {
+        display: none;
+    }
+    .img-adjective-small, .img-verb-small, .img-noun-small {
+        display: inherit;
+        margin: 15% auto 0;
+    }
+    .adjective-content {
+        margin-top: -200px;
+    }
+    .Noun-content .grammar-content h3 {
+        margin: 0 0 24px;
+    }
+    .grammar-content h3 {
+        margin: 0 0 24px;
+    }
+    .verb-content .grammar-content h3 {
+        margin: 0 0 24px;
+    }
+    .verb-content {
+        margin: 90px auto -228px;
+    }
+    .section-about-project {
+        margin: 255px auto 0;
+    }
+    .section-about-project h3 {
         font-size: 28px;
     }
-    .grammar-content-button{
+    .instruction-video::after {
+        bottom: 120px;
+    }
+    .for-100 .for-flex h3 {
+        font-size: 28px;
+    }
+    .grammar-content-button {
         height: initial;
     }
-    .grammar-content-button{
-        padding: 26px 0;
+    .grammar-content-button {
+        padding: 20px 0;
         width: 100%;
     }
     .grammar-content p {
@@ -366,7 +724,7 @@
     .auth-input-email, .auth-input-password, .auth-button {
         width: 74%;
     }
-    .register-sect .registration-header-title{
+    .register-sect .registration-header-title {
         font-size: 16px;
     }
     .auth-button {
@@ -374,15 +732,18 @@
         height: initial;
         padding: 18px 0;
     }
-    .footer-buttons{
+    .instruction-cont-item {
+        margin-bottom: 70px;
+    }
+    .footer-buttons {
         display: block;
     }
-    .footer-user-icon, .footer-facebook-icon{
+    .footer-user-icon, .footer-facebook-icon {
         background-color: #333333;
         width: 100%;
         margin: 5px auto;
     }
-    button.about-project-button{
+    button.about-project-button {
         padding: 26px 0;
         width: 100%;
         display: block;
@@ -391,15 +752,24 @@
         width: 157px;
     }
 }
+
 @media only screen and (max-width: 360px) {
     .header-content .for-100 .appear .about-project-button {
         margin: 48px auto 46px;
     }
-    .footer-user-icon, .footer-facebook-icon{
+    .footer-user-icon, .footer-facebook-icon {
         width: 100%;
+    }
+    .section-about-project {
+        margin: 215px auto 0;
+    }
+    .instruction-video::after {
+        bottom: 125px;
     }
     .grammar-content p {
         margin-bottom: 24px;
     }
+    .verb-content {
+        margin: 90px auto -248px;
+    }
 }
-
