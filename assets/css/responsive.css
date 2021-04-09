@@ -350,6 +350,9 @@
     .header-content .for-100 .appear .about-project-button:hover {
         background-color: #00CC6F;
         box-shadow: 6px 6px 0px #00B261;
+        position: relative;
+        left: -2px;
+        top: -2px;
     }
     /*  */
     .about-project-button:hover {
@@ -490,7 +493,7 @@
         height: 65%;
         /* transition: all 5s ease-in-out; */
     }
-    .popup .close { 
+    .popup .close {
         top: -46px;
         right: 24px;
     }

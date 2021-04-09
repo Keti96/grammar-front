@@ -147,6 +147,9 @@ a.button-video.see-video {
 .auth-button:hover {
     background-color: #00CC6F;
     box-shadow: 6px 6px 0px #00B261;
+    position: relative;
+    left: -2px;
+    top:-2px;
 }
 
 .auth-button:focus {
@@ -232,6 +235,9 @@ a.button-video.see-video {
 .about-project-button:hover {
     background-color: #00CC6F;
     box-shadow: 4px 4px 0px #00B261;
+    position: relative;
+    left: -1px;
+    top:-1px;
 }
 
 .about-project-button:focus {
