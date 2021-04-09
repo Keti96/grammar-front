@@ -96,7 +96,11 @@ a.button-video.see-video {
 
 .button-video.see-video:hover {
     background-color: #00CC6F;
-    box-shadow: 6px 6px 0px #00B261;
+    box-shadow: 5px 5px 0px #00B261;
+    /* transition: all .1s ease-in-out; */
+    position: relative;
+    left: -1px;
+    top:-1px;
 }
 
 .button-video.see-video:focus {
