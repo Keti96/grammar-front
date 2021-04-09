@@ -490,6 +490,10 @@
         top: -46px;
         right: 24px;
     }
+    .overlay2 .close {
+        top: 60px;
+        right: 52px;
+    }
     .instruction-cont-item {
         display: flex;
         align-items: flex-start;
@@ -656,6 +660,10 @@
         top: 100%;
         right: 50%;
         margin-right: -25px;
+    }
+    .overlay2 .close {
+        top: 60px;
+        right: 52px;
     }
     .grammar-gray-bg, .grammar-gray-bg-two {
         background-color: #F8F7F2;
