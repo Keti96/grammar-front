@@ -100,7 +100,7 @@ a.button-video.see-video {
     /* transition: all .1s ease-in-out; */
     position: relative;
     left: -1px;
-    top:-1px;
+    top: -1px;
 }
 
 .button-video.see-video:focus {
@@ -149,7 +149,7 @@ a.button-video.see-video {
     box-shadow: 6px 6px 0px #00B261;
     position: relative;
     left: -2px;
-    top:-2px;
+    top: -2px;
 }
 
 .auth-button:focus {
@@ -166,10 +166,12 @@ a.button-video.see-video {
     background-color: #80E5B7;
     box-shadow: none;
 }
+
 .auth-path-registration:hover {
     color: #333;
     text-decoration: underline;
 }
+
 .auth-path-registration {
     text-align: center;
     margin: 0 auto 56px;
@@ -237,7 +239,7 @@ a.button-video.see-video {
     box-shadow: 4px 4px 0px #00B261;
     position: relative;
     left: -1px;
-    top:-1px;
+    top: -1px;
 }
 
 .about-project-button:focus {
@@ -305,7 +307,7 @@ a.button-video.see-video {
 }
 
 .grammar-content h3 span {
-    font-family: 'FiraGo Medium';
+    font-family: 'FiraGo ExtraBold';
 }
 
 .grammar-content p {
@@ -579,9 +581,11 @@ button:focus:not(:focus-visible) {
     justify-content: center;
     align-items: center;
 }
-.instruction-cont-item{
+
+.instruction-cont-item {
     z-index: 9;
 }
+
 .instruction-cont-item p {
     font-family: 'FiraGo Book';
     font-size: 18px;
@@ -626,9 +630,11 @@ button:focus:not(:focus-visible) {
     margin-left: 62px;
     padding-top: 10px;
 }
+
 .footer-logo-content-item:hover {
     color: #00C851;
 }
+
 .footer-text-item {
     width: 560px;
     margin-bottom: 48px;
@@ -656,6 +662,7 @@ button:focus:not(:focus-visible) {
     color: #ffffff;
     margin-left: 16px;
 }
+
 .footer-user-icon:hover, .footer-facebook-icon:hover {
     background-color: #707070;
 }

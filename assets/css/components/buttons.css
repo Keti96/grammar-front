@@ -1,6 +1,5 @@
 /* button style */
 
-
 /* button video */
 
 .button-video {
@@ -25,9 +24,7 @@
     margin: 6px 6px 6px 12px;
 }
 
-
 /* end button */
-
 
 /* input button */
 
@@ -45,7 +42,6 @@
     line-height: 16px;
 }
 
-
 /* end input button */
 
 .more-button {
@@ -62,7 +58,6 @@
     line-height: 16px;
 }
 
-
 /* button :disabled */
 
 .disabled {
@@ -74,7 +69,6 @@
     background-color: #80E5B7;
     box-shadow: none;
 }
-
 
 /* grammar button style */
 
@@ -109,6 +103,5 @@
     color: #999999!important;
     border-color: #999999!important;
 }
-
 
 /* end button style */
