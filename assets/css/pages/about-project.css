@@ -119,6 +119,7 @@ a.sign-in-parent:hover:after {
 }
 
 .about-user-icon {
+    background: paint(smooth-corners);
     width: 172px;
     height: 56px;
     background: rgba(255, 255, 255, 0.2);
@@ -893,3 +894,15 @@ a.sign-in-parent:hover:after {
         background-image: none;
     }
 }
+
+/* .el {
+    
+    border-radius: 70px;
+  } */
+  @supports (mask-image: paint(smooth-corners)) {
+    .about-user-icon.is-loaded {
+      border-radius: 0;
+      mask-image: paint(smooth-corners);
+      --smooth-corners: 4;
+    }
+  }

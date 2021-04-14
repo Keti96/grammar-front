@@ -62,9 +62,9 @@
                 </a>
                 <div class="navbar-icons">
                     <a href="" class="login appear"><img src="./assets/images/icons/login.svg" alt=""></a>
-                    <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navb  arsExample04" aria-controls="navbarsExample04" aria-expanded="false"
-                            aria-label="Toggle navigation">
+                    <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navb  arsExample04"
+                            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button></a>
                 </div>
@@ -162,15 +162,16 @@
 
                 <div class="instruction-cont video-image-one">
                     <div class="instruction-cont-item">
-                        <a href="#popup2" onclick="openVideos2();"><img src="./assets/images/icons/Play.svg" class="play-video"
-                                alt="playvideo"></a>
+                        <a href="#popup2" onclick="openVideos2();"><img src="./assets/images/icons/Play.svg"
+                                class="play-video" alt="playvideo"></a>
                         <p><span>რესურსის გამოყენების</span> <br> ინსტრუქცია</p>
                     </div>
 
 
                     <div id="popup2" class="overlay">
                         <div class="popup" id="pop-dessapear2">
-                            <a class="close" id="pause-button2" href="javascript:void(0);" onclick="stopVideos();">&times;</a>
+                            <a class="close" id="pause-button2" href="javascript:void(0);"
+                                onclick="stopVideos();">&times;</a>
                             <iframe width="100%" height="100%" style="border-radius: 30px;"
                                 src="https://www.youtube.com/embed/yu9GPOwo0nw?enablejsapi=1&html5=1&mute=1"
                                 title="YouTube video player" frameborder="0"
@@ -183,8 +184,12 @@
             </div>
         </div>
 
-        <div class="mouse-icon hide">
-            <img src="./assets/images/icons/mouse-icon.svg" alt="mouse-icon">
+        <div class="mouse-icon hide" >
+            <!-- <img src="./assets/images/icons/mouse-icon.svg" alt="mouse-icon"> -->
+            <div id="mouse-icon">
+                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <lottie-player src="./Mouse-scroller.json" loop autoplay></lottie-player>
+            </div>
         </div>
     </div>
 
@@ -473,7 +478,6 @@
             </div>
         </div>
     </footer>
-
     <script>
         var stopVideos = function () {
             var videos = document.querySelectorAll('iframe, video');
@@ -527,22 +531,22 @@
 
         function remove_hash_from_url() {
             var uri = window.location.toString();
-  
+
             if (uri.indexOf("#") > 0) {
-                var clean_uri = uri.substring(0, 
-                                uri.indexOf("#"));
-  
-                window.history.replaceState({}, 
-                        document.title, clean_uri);
+                var clean_uri = uri.substring(0,
+                    uri.indexOf("#"));
+
+                window.history.replaceState({},
+                    document.title, clean_uri);
             }
         }
 
         remove_hash_from_url();
 
-        var navDessapear = function(){
+        var navDessapear = function () {
             document.getElementById("popup5").style.display = "none";
         }
-        var navAppear = function(){
+        var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
     </script>
