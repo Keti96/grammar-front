@@ -166,7 +166,7 @@
                         alt="playvideo">
                 </a>
                 <div id="popup1" class="overlay">
-                    <div class="popup">
+                    <div class="popup" id="pop-dessapear">
                         <a class="close" id="pause-button" onclick="stopVideos();" href="#">&times;</a>
                         <iframe width="100%" height="100%" style="border-radius: 30px;" id="video"
                             src="https://www.youtube.com/embed/yu9GPOwo0nw" title="YouTube video player" frameborder="0"
@@ -411,6 +411,15 @@
                 }
             });
         };
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('pop-dessapear').contains(e.target)) {
+                // Clicked in box
+            } else {
+                // Clicked outside the box
+                document.getElementById("pause-button").click();
+            }
+        });
+
 
     </script>
 </body>
