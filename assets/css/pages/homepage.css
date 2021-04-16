@@ -29,7 +29,7 @@
 }
 
 a.nav-link.active {
-    color: #333333;
+    color: #333333!important;
     font-weight: 800;
 }
 
@@ -631,8 +631,12 @@ button:focus:not(:focus-visible) {
     margin-left: 62px;
     padding-top: 10px;
 }
+.footer-logo-content-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
-.footer-logo-content-item:hover {
+.footer-logo-content-item a:hover {
     color: #00C851;
 }
 

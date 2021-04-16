@@ -525,6 +525,15 @@ a.sign-in-parent:hover:after {
     height: 538px;
 }
 
+.footer-logo-content-item a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-logo-content-item a:hover {
+    color: #00C851;
+}
+
 @media only screen and (max-width: 1520px) {
     .resources-used-bg {
         background-image: url('../../images/about-project/resources-small-bg.svg');

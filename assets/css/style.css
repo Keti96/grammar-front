@@ -4,7 +4,10 @@
 @import "./components/buttons.css";
 /* page import */
 
+
 @import "./pages/homepage.css";
+@import "./pages/about-project.css";
+@import "./pages/privacy-policy.css";
 /* @import "./pages/about-project.css"; */
 /* end page import */
 
