@@ -29,20 +29,20 @@
     justify-content: space-between;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-light .navbar-nav .about-nav-link {
     color: white;
     font-family: 'FiraGo Light';
 }
-a.nav-link.active {
+a.about-nav-link.active {
     color: #ffffff;
     font-weight: 800;
 }
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .about-nav-link.active, .navbar-light .navbar-nav .show>.about-nav-link {
     color: white;
     font-family: 'FiraGo ExtraBold';
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .about-nav-link:hover {
     color: white;
 }
 
@@ -694,7 +694,7 @@ a.sign-in-parent:hover:after {
         display: block;
         margin: 44px 0 0px;
     }
-    .navbar-light .navbar-toggler-icon {
+    .navbar-light .about-navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
 }

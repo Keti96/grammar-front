@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/libraries/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>ქართული ენის გრამატიკის ელექტრონული რესურსი</title>
+</head>
+
+<body>
+
+    <div id="popup5" class="overlay overlay2">
+        <div class="popup popup2">
+            <a class="open hide3" href="#"><img src="./assets/images/icons/footer-logo.svg" alt=""></a>
+            <a class="open appear3" href="#"><img src="./assets/images/icons/burger-menu-small.svg" alt=""></a>
+            <a class="close " href="javascript:void(0);" onclick="navDessapear();">&times;</a>
+            <div class="collapse2 navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link burger-menu active" aria-current="page" href="index.html">
+                            მთავარი
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-project.html">
+                            პროექტის შესახებ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            სავარჯიშოები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ტესტირება
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-d-flex conf-user justify-content-between conf2">
+                <p class="footer-logo-content-item">
+                    <a href="privacy-policy.html">
+                        კონფიდენციალურობის პოლიტიკა
+                    </a>
+                </p>
+                <p class="footer-logo-content-item">
+                    <a href="#">
+                        მოხმარების პირობები
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="error-page">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container container-two">
+                <a class="navbar-brand" href="#">
+                    <img class=" hide3" src="./assets/images/icons/logo.svg" alt="logo">
+                    <img class="appear3" src="./assets/images/icons/logo-414.svg" alt="">
+                </a>
+                <div class="navbar-icons">
+                    <a href="" class="login appear"><img src="./assets/images/icons/login.svg" alt=""></a>
+                    <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navb  arsExample04"
+                            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button></a>
+                </div>
+                <div class="collapse navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">
+                                მთავარი
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-project.html">
+                                პროექტის შესახებ
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                სავარჯიშოები
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                ტესტირება
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container-fluid error-container-fluid">
+        <div class="error-page-content">
+            <div class="container container-two">
+                <div class="row">
+                    <div class="error-page-item">
+                        <img src="./assets/images/error-page/error-page-stiker.svg" class="error-page-stiker"
+                            alt="error-stiker">
+                        <h2 class="error-page-title">
+                            გვერდი <span>ვერ მოიძებნა</span>
+                        </h2>
+                        <p class="error-page-text">
+                            სამწუხაროდ მოცემული გვერდი წაშლილია ან დროებით მიუწვდომელი. დააჭირე ღილაკს მთავარ გვერდზე
+                            დასაბრუნებლად.
+                        </p>
+
+                        <a href="index.html">
+                            <button class="error-page-button">
+                                მთავარ გვერდზე გადასვლა
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function remove_hash_from_url() {
+            var uri = window.location.toString();
+
+            if (uri.indexOf("#") > 0) {
+                var clean_uri = uri.substring(0,
+                    uri.indexOf("#"));
+
+                window.history.replaceState({},
+                    document.title, clean_uri);
+            }
+        }
+
+        remove_hash_from_url();
+        var navDessapear = function () {
+            document.getElementById("popup5").style.display = "none";
+        }
+        var navAppear = function () {
+            document.getElementById("popup5").style.display = "inherit";
+        }
+
+    </script>
+
+</body>
+
+</html>
