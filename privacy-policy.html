@@ -56,6 +56,41 @@
             </div>
         </div>
     </div>
+    <div id="popup7" class="overlay">
+        <div class="popup" id="pop-dessapear7">
+            <a class="close close-in" id="close-in" onclick="navDessapear2();"  href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg">
+                <div class="registration-form registration-form-signin">
+                    <h4 class="registration-header-title">
+                        ავტორიზაცია
+                    </h4>
+                    <form action="#">
+                        <div class="form-group input-email auth-input-email">
+                            <input type="email" name="email" placeholder="ელ-ფოსტა">
+                        </div>
+                        <div class="auth-input-password input-password">
+                            <input type="password" name="pwd" placeholder="პაროლი">
+                        </div>
+                        <p class="error-p">
+                            შეყვანილი მონაცემები არასწორია
+                        </p>
+                        <a href="#" class="recover-password">
+                            დაგავიწყდა პაროლი?
+                        </a>
+                        <a href="#popup7" onclick="navAppear2();" class="sign-in-parent nav-link">
+
+                        <button type="button" class="auth-button input-button">
+                            შესვლა
+                        </button>
+                        </a>
+                    </form>
+                    <div class="auth-path-registration">
+                        <a href="#">გაიარე რეგისტრაცია</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="privacy-policy">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-two">
@@ -237,11 +272,33 @@
         }
 
         remove_hash_from_url();
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup7').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear7').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in").click();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
         var navDessapear = function () {
             document.getElementById("popup5").style.display = "none";
         }
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
+        }
+        
+        var navDessapear2 = function () {
+            document.getElementById("popup7").style.display = "none";
+        }
+        var navAppear2 = function () {
+            document.getElementById("popup7").style.display = "inherit";
         }
 
     </script>

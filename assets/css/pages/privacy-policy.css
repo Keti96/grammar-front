@@ -126,6 +126,18 @@ section.privacy-policy-more {
     }
 }
 
+@media only screen and (max-width: 415.98px) {
+    .privacy-policy {
+        height: 293px;
+    }
+    .privacy-policy-content {
+        margin: 72px 0 52px 0;
+    }
+    .privacy-policy-content-item {
+        margin: 72px 0 52px 0;
+    }
+    
+}
 
 @media only screen and (max-width: 320.98px) {
     .privacy-policy-content-item {

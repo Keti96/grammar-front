@@ -56,6 +56,305 @@
             </div>
         </div>
     </div>
+    <div id="popup7" class="overlay">
+        <div class="popup" id="pop-dessapear7">
+            <a class="close close-in" id="close-in" onclick="navDessapear2();" href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg">
+                <div class="registration-form auth-registration-form">
+                    <h4 class="registration-header-title popup-registration-title">
+                        ავტორიზაცია
+                    </h4>
+                    <form action="#">
+                        <div class="form-group input-email auth-input-email popup-auth-input-email">
+                            <input type="email" name="email" placeholder="ელ-ფოსტა">
+                        </div>
+                        <div class="auth-input-password popup-auth-input-password input-password">
+                            <input type="password" name="pwd" placeholder="პაროლი">
+                        </div>
+                        <p class="error-p popup-error-p">
+                            შეყვანილი მონაცემები არასწორია
+                        </p>
+                        <a href="#popup8" onclick="navAppear3();" class="recover-password popup-recover-password">
+                            დაგავიწყდა პაროლი?
+                        </a>
+                        <button type="button" class="pass-changed-button bg-hover popup-auth-button input-button">
+                            შესვლა
+                        </button>
+                    </form>
+                    <div class="auth-path-registration popup-auth-path">
+                        <a href="#popup10" onclick="navAppear5();" href="javascript:void(0);">რეგისტრაცია</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup8" class="overlay">
+        <div class="popup" id="pop-dessapear8">
+            <a class="close close-in" id="close-in2" onclick="navDessapear3();" href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg">
+                <div class="registration-form registration-form-signin registration-form-forgotpas">
+                    <div class="first-forgot-pass" id="first-forgot-pass">
+                        <img src="./assets/images/forgot-password/forgot-password-smile.svg" alt="">
+                        <div>
+                            <h3>დაგავიწყდა პაროლი?</h3>
+                            <p>ჩაწერე რეგისტრაციისას გამოყენებული ელ-ფოსტის მისამართი და ჩვენ დაგეხმარებით მის
+                                აღდგენაში.
+                            </p>
+                        </div>
+                        <form action="#">
+                            <div class="form-group input-email auth-input-email forgot-input-email">
+                                <input type="email" name="email" placeholder="ელ-ფოსტა">
+                            </div>
+                            <button type="button" onclick="errorExchange1();" class="auth-button .sign-in-single-button input-button">
+                                გამომიგზავნე აღდგენის ბმული
+                            </button>
+                        </form>
+                    </div>
+                    <div class="second-forgot-pass" id="second-forgot-pass">
+                        <img src="./assets/images/forgot-password/angel.svg" alt="img">
+                        <div class="second-forgot-pass-content">
+                            <h3 class="second-forgot-pass-title">ესეც ასე, შეამოწმე ელ-ფოსტა.</h3>
+                            <p class="second-forgot-pass-text">პაროლის აღდგენის ინსტრუქციას მიიღებ ელ-ფოსტაზე:
+                                <span>Saba.chitaishvili@geolab.edu.ge</span>
+                            </p>
+                        </div>
+                        <a href="#popup9" onclick="navAppear4();">
+                            <button type="button" class="auth-button input-button second-forgot-pass-input">
+                                ბმული არ მიმიღია
+                            </button></a>
+                        <a href="#popup7" onclick="navAppear2();" class="second-forgot-pass-button">შესვლა</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup9" class="overlay">
+        <div class="popup" id="pop-dessapear9">
+            <a class="close close-in" id="close-in3" onclick="navDessapear4();" href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg">
+                <div
+                    class="registration-form registration-form-signin registration-form-forgotpas new-pass-registr-form">
+                    <div class="new-password" id="new-password">
+                        <h4 class="new-password-title">
+                            მოიფიქრე ახალი პაროლი
+                        </h4>
+                        <form action="#" class="new-password-form">
+                            <label for="pwd">ახალი პაროლი <span>*</span></label>
+                            <div class="pwd-input-password popup-auth-input-password input-password rem-back-img">
+                                <input type="password" id="pwd" name="pwd" placeholder="პაროლი">
+                            </div>
+                            <label for="repeat-pwd">შეიყვანე პაროლი <span>*</span></label>
+                            <div
+                                class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
+                                <input type="password" id="repeat-pwd" name="pwd" placeholder="შეიყვანე პაროლი">
+                            </div>
+                        </form>
+                        <button type="button" onclick="errorExchange2();" class="auth-button input-button">
+                            პაროლის შეცვლა
+                        </button>
+                        <a href="#popup7" onclick="navAppear2();" class="second-forgot-pass-button">შესვლა</a>
+                    </div>
+                    <div class="password-changed" id="password-changed">
+                        <img src="./assets/images/sign-in/success-smile.svg" alt="img">
+                        <div class="password-changed-content">
+                            <h3 class="password-changed-title">შენ წარმატებით აღადგინე პაროლი.</h3>
+                            <p class="password-changed-text">დააჭირე შესვლის ღილაკს ანგარიშში შესასვლელად.
+                            </p>
+                        </div>
+                        <form action="#">
+                            <button type="button" class="pass-changed-button popup-auth-button input-button">
+                                შესვლა
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup10" class="overlay">
+        <div class="popup" id="pop-dessapear10">
+            <a class="close close-in" id="close-in4" onclick="navDessapear5();" href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg">
+                <div class="registration-form registration-form-signin registration-form-new-region">
+                    <div class="new-region" id="new-region">
+                        <h4 class="new-account-title new-region-title">
+                            ახალი ანგარიშის შექმნა
+                        </h4>
+                        <form action="#" class="new-password-form">
+                            <label for="region">რომელია შენი რეგიონი? <span>*</span></label>
+                            <div
+                                class="pwd-input-password popup-auth-input-password input-password rem-back-img custom-select">
+                                <details class="custom-select">
+                                    <summary class="radios">
+                                        <input type="radio" name="item" id="default" title="აირჩიე რეგიონი" checked>
+                                        <input type="radio" name="item" id="item1" title="აფხაზეთი">
+                                        <input type="radio" name="item" id="item2" title="აჭარა">
+                                        <input type="radio" name="item" id="item3" title="გურია">
+                                        <input type="radio" name="item" id="item4" title="იმერეთი">
+                                        <input type="radio" name="item" id="item5" title="კახეთი">
+                                        <input type="radio" name="item" id="item6" title="მცხხეთა - მთიანეთი">
+                                        <input type="radio" name="item" id="item7" title="რაჭა ლეჩხუმი - ქვემო სვანეთი">
+                                        <input type="radio" name="item" id="item8" title="სამეგრელო - ზემო სვანეთი">
+                                        <input type="radio" name="item" id="item9" title="სამცხე-ჯავახეთი">
+                                    </summary>
+                                    <ul class="list">
+                                        <li>
+                                            <label for="item1">აფხაზეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item2">აჭარა</label>
+                                        </li>
+                                        <li>
+                                            <label for="item3">გურია</label>
+                                        </li>
+                                        <li>
+                                            <label for="item4">იმერეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item5">კახეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item6">მცხხეთა - მთიანეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item7">რაჭა ლეჩხუმი - ქვემო სვანეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item8">სამეგრელო - ზემო სვანეთი</label>
+                                        </li>
+                                        <li>
+                                            <label for="item9">სამცხე-ჯავახეთი</label>
+                                        </li>
+                                    </ul>
+                                </details>
+                            </div>
+                            <label for="repeat-pwd">რომელია შენი სკოლა?</label>
+                            <div
+                                class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
+                                <input type="password" id="repeat-pwd" name="pwd" placeholder="შენი სკოლის სახელი">
+                            </div>
+                            <label for="i-am">მე ვარ:</label>
+                            <div class="about-header-icons about-header-icons2 about-header-icons3">
+                                <div class="can-toggle">
+                                    <input id="a2" type="checkbox">
+                                    <label for="a2">
+                                        <div class="can-toggle__switch" data-checked="მოსწავლე"
+                                            data-unchecked="მასწავლებელი"></div>
+                                    </label>
+                                </div>
+                            </div>
+                        </form>
+                        <button type="button" onclick="errorExchange3();"
+                            class="auth-button input-button new-region-button">
+                            გაგრძელება
+                        </button>
+                    </div>
+                    <div class="name-fields" id="name-fields">
+                        <h4 class="new-account-create-title">
+                            ახალი ანგარიშის შექმნა
+                        </h4>
+                        <form action="#" class="new-password-form create-account-form">
+                            <label for="pwd">სახელი <span>*</span></label>
+                            <div
+                                class="pwd-input-password popup-auth-input-password input-password create-account-input rem-back-img">
+                                <input type="password" id="pwd" name="pwd" placeholder="ჩაწერე შენი სახელი">
+                            </div>
+                            <label for="repeat-pwd">გვარი <span>*</span></label>
+                            <div
+                                class="pwd-repeat-input-password popup-auth-input-password input-password create-account-input rem-back-img">
+                                <input type="password" id="repeat-pwd" name="pwd" placeholder="ჩაწერე შენი გვარი">
+                            </div>
+                            <label for="account-email">ელ-ფოსტა <span>*</span></label>
+                            <div
+                                class="pwd-repeat-input-password popup-auth-input-password input-password create-account-input-email rem-back-img">
+                                <input type="email" id="account-email" name="email" placeholder="ელ-ფოსტის მისამათი">
+                            </div>
+                        </form>
+                        <div class="return-continue">
+                            <a class="return" href="javascript:void(0);" onclick="return1();">
+                                <img src="./assets/images/sign-in/Arrow - Left 2.svg" alt="">
+                                <span> უკან</span>
+                            </a>
+                            <button type="button" onclick="next1();"
+                                class="auth-button input-button create-account-button">
+                                გაგრძელება
+                            </button>
+                        </div>
+                    </div>
+                    <div class="create-password" id="create-password">
+                        <h4 class="new-password-create-title">
+                            ახალი ანგარიშის შექმნა
+                        </h4>
+                        <form action="#" class="new-password-form">
+                            <label for="pwd">პაროლი <span>*</span></label>
+                            <div
+                                class="pwd-input-password popup-auth-input-password input-password rem-back-img create-pass-input">
+                                <input type="password" id="pwd" name="pwd" placeholder="შეიყვანე პაროლი">
+                            </div>
+                            <label for="repeat-pwd">გაიმეორე პაროლი <span>*</span></label>
+                            <div
+                                class="pwd-input-password popup-auth-input-password input-password rem-back-img create-pass-input">
+                                <input type="password" id="repeat-pwd" name="pwd" placeholder="შეიყვანე პაროლი">
+                            </div>
+                            <div class="checkbox-input">
+                                <div class="squaredOne">
+                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
+                                    <label for="squaredOne" class="squaredOne2"></label>
+                                </div>
+                                <p class="checkbox-input-text">წავიკითხე და ვეთანხმები რესურსის გამოყენების
+                                    <span>წესებსა და პირობებს</span> </p>
+                            </div>
+                        </form>
+                        <div class="return-continue">
+                            <a class="return" href="javascript:void(0);" onclick="return2();">
+                                <img src="./assets/images/sign-in/Arrow - Left 2.svg" alt="">
+                                <span> უკან</span>
+                            </a>
+                            <button type="button" onclick="next2();" class="create-pass-button input-button">
+                                დასრულება
+                            </button>
+                        </div>
+                    </div>
+                    <div class="mail-approve" id="mail-approve">
+                        <img src="./assets/images/sign-in/mail-approve.png" class="mail-approve-img" alt="img">
+                        <div class="mail-approve-content">
+                            <h3 class="mail-approve-title">სულ ცოტაც, მხოლოდ ელ-ფოსტის დადასტურებაღა დაგვრჩა.</h3>
+                            <p class="mail-approve-text">ელ-ფოსტაზე: <span>Saba.chitaishvili@geolab.edu.ge</span>
+                                რეგისტრაციის დასრულების ბმული გამოგიგზავნეთ.
+                            </p>
+                        </div>
+                        <div class="return-continue success-registred-input-content appear-mail-approve">
+                            <button type="button" onclick="next3();" class="success-registred-input input-button">
+                                შესვლა
+                            </button>
+                        </div>
+                        <div class="return-continue mail-approve-input hide-mail-approve">
+                            <a class="return" href="javascript:void(0);" onclick="return3();"><img
+                                    src="./assets/images/sign-in/Arrow - Left 2.svg" alt=""> უკან</a>
+                            <button type="button" onclick="next3();"
+                                class="auth-button  mail-approve-button input-button">
+                                ბმული არ მიმიღია
+                            </button>
+                        </div>
+                    </div>
+                    <div class="success-registred" id="success-registred">
+                        <img src="./assets/images/sign-in/success-registred.png" class="success-registred-img"
+                            alt="img">
+                        <div class="success-registred-content">
+                            <h3 class="success-registred-title">შენ წარმატებით დარეგისტრირდი. </h3>
+                            <p class="success-registred-text">დააჭირე შესვლის ღილაკს ანგარიშში შესასვლელად.</span>
+                            </p>
+                        </div>
+                        <div class="return-continue success-registred-input-content">
+                            <button type="button" onclick="next3();" class="success-registred-input input-button">
+                                შესვლა
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="about-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-two">
@@ -93,7 +392,7 @@
                                 ტესტირება
                             </a>
                         </li>
-                        <a href="#" class="sign-in-parent nav-link">
+                        <a href="#popup7" onclick="navAppear2();" class="sign-in-parent nav-link">
                             <button type="button" class="sign-in-button">
                                 შესვლა
                             </button>
@@ -107,9 +406,9 @@
                 <div class="about-header-item">
                     <h1 class="about-project-text"><span class="project-text1">პროექტის</span> <span
                             class="about-pr-text1">შესახებ</span></h1>
-                    <div class="about-header-icons">
+                    <div class="about-header-icons header-content-icon">
                         <a href="#">
-                            შემოგვიერთდი ჯგუფში <br class="hide-991"><span>Facebook-ზე</span>
+                            შემოგვიერთდი ჯგუფში <br class="hide-99"><span>Facebook-ზე</span>
                         </a>
                         <button type="button" class="about-user-icon is-loaded">
                             <img src="./assets/images/icons/user.svg" alt="user-icon">
@@ -372,7 +671,7 @@
                         <p class="footer-logo-content-item">
                             <a href="terms-of-use.html">
                                 მოხმარების პირობები
-                            </a> 
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -454,8 +753,65 @@
             }
         }
 
-        remove_hash_from_url();
+        // remove_hash_from_url();
 
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup7').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear7').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup8').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear8').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in2").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup9').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear9').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in3").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup10').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear10').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in4").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
         var navDessapear = function () {
             document.getElementById("popup5").style.display = "none";
         }
@@ -463,7 +819,95 @@
             document.getElementById("popup5").style.display = "inherit";
         }
 
+        var navDessapear2 = function () {
+            document.getElementById("popup7").style.display = "none";
+        }
+        var navAppear2 = function () {
+            document.getElementById("popup7").style.display = "inherit";
+        }
+
+        var navDessapear3 = function () {
+            document.getElementById("popup8").style.display = "none";
+        }
+        var navAppear3 = function () {
+            document.getElementById("popup8").style.display = "inherit";
+            document.getElementById("first-forgot-pass").style.display = "inherit";
+            document.getElementById("second-forgot-pass").style.display = "none";
+        }
+
+        var navDessapear4 = function () {
+            document.getElementById("popup9").style.display = "none";
+        }
+        var navAppear4 = function () {
+            document.getElementById("popup9").style.display = "inherit";
+            document.getElementById("new-password").style.display = "inherit";
+            document.getElementById("password-changed").style.display = "none";
+        }
+        var navDessapear5 = function () {
+            document.getElementById("popup10").style.display = "none";
+        }
+        var navAppear5 = function () {
+            document.getElementById("popup10").style.display = "inherit";
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+            document.getElementById("create-password").style.display = "none";
+            document.getElementById("mail-approve").style.display = "none";
+            document.getElementById("success-registred").style.display = "none";
+        }
+        var errorExchange1 = function () {
+            document.getElementById("first-forgot-pass").style.display = "none";
+            document.getElementById("second-forgot-pass").style.display = "inherit";
+        }
+        var errorExchange2 = function () {
+            document.getElementById("new-password").style.display = "none";
+            document.getElementById("password-changed").style.display = "inherit";
+        }
+        var errorExchange3 = function () {
+            document.getElementById("new-region").style.display = "none";
+            document.getElementById("name-fields").style.display = "inherit";
+        }
+
+
+
+
+
+
+        var return1 = function () {
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var next1 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var return2 = function () {
+            document.getElementById("name-fields").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var next2 = function () {
+            document.getElementById("mail-approve").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var return3 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+        var next3 = function () {
+            document.getElementById("success-registred").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+        // var errorExchange11 = function () {
+        // }
+
+        // var errorExchange2 = function () {
+        //     document.getElementById("popup10").style.display = "none";
+        // }
+        // var errorExchange22 = function () {
+        //     document.getElementById("popup10").style.display = "inherit";
+        // }
+
     </script>
+
 </body>
 
 </html>
