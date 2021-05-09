@@ -114,10 +114,10 @@ input[type=email]::placeholder, input[type=password]::placeholder {
 
 .error-p {
     /* display: none; */
-    margin: 0 auto;
+    margin: 12px auto 0;
     color: #FF4444;
     width: 71%;
-    font-family: 'FiraGo Medium';
+    font-family: 'FiraGo Light';
     font-size: 14px;
     line-height: 14px;
 }

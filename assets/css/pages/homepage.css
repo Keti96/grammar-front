@@ -66,6 +66,10 @@ a.nav-link.active:after {
     display: flex;
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
 .login {
     display: -webkit-inline-box;
 }
@@ -133,7 +137,8 @@ a.button-video.see-video {
 
 .registration-form {
     width: 504px;
-    height: 568px;
+    /* height: 568px; */
+    height: 602px;
     background-color: white;
     border: 3px solid #F5F5F5;
     box-sizing: border-box;
@@ -519,7 +524,7 @@ a.button-video.see-video {
 
 .overlay2 {
     z-index: 999;
-    background: rgba(19, 21, 21, 0.9);
+    background: rgba(19, 21, 21, 0.8);
     backdrop-filter: blur(24px);
 }
 
@@ -537,7 +542,7 @@ a.button-video.see-video {
 }
 
 .collapse2 ul li.nav-item {
-    height: 54px;
+    height: 50px;
 }
 
 .collapse2 ul li a {
@@ -630,7 +635,7 @@ button:focus:not(:focus-visible) {
 }
 
 .footer-logo-content-item {
-    font-family: 'FiraGo Medium';
+    font-family: 'FiraGo Book';
     font-size: 14px;
     line-height: 17px;
     color: #ffffff;
