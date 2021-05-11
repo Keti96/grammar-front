@@ -519,7 +519,7 @@ a.about-nav-link.active {
     background-position: center;
     background-repeat: no-repeat;
     padding: 76px 0;
-    width: 1512px;
+    width: 100%;
     height: 538px;
 }
 
@@ -535,7 +535,6 @@ a.about-nav-link.active {
 @media only screen and (max-width: 1520px) {
     .resources-used-bg {
         background-image: url('../../images/about-project/resources-small-bg.svg');
-        width: 1284px;
         height: 538px;
     }
     .video-icon-text .about-project-text2 {
@@ -559,12 +558,18 @@ a.about-nav-link.active {
         display: none;
     }
     .resources-used-bg {
-        width: 990px;
-        background-size: contain;
+        width: 96%;
+        background-size: 100% 100%;
         height: 512px;
     }
     .resources-used-content-title, .resources-used-content-item {
         font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1100.98px) {
+    .resources-used-bg {
+        width: 98%;
     }
 }
 

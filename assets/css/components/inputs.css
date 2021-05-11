@@ -123,7 +123,7 @@ input[type=email]::placeholder, input[type=password]::placeholder {
 }
 
 .error-p2 {
-    font-family: 'FiraGo Medium';
+    font-family: 'FiraGo Light';
     font-size: 14px;
     line-height: 14px;
     width: 51%;
