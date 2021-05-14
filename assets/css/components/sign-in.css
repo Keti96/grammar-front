@@ -6,7 +6,9 @@ a.sign-in-parent:hover:after {
     margin-top: 0;
     margin-bottom: 0;
 }
-
+.overlay {
+    z-index: 99;
+}
 .input-popup-bg {
     background-image: url('../../images/sign-in/input-popup-bg.svg');
     background-repeat: no-repeat;
@@ -308,7 +310,7 @@ a.sign-in-parent:hover:after {
 }
 .new-password-create-title {
     width: 446px;
-    margin: 82px auto 92px;
+    margin: 72px auto 82px;
 }
 .about-header-icons3 .can-toggle {
     width: 446px;
@@ -390,7 +392,7 @@ details[open] {
 }
 
 summary {
-    padding: 1rem;
+    padding: 1.2rem;
     cursor: pointer;
     border-radius: 15.5px;
     background-color: transparent;
@@ -598,7 +600,12 @@ input[type=checkbox] {
 .checkbox-input {
     display: flex;
     width: 397px;
-    margin: 0 auto 92px;
+    margin: 0 auto 24px;
+}
+.checkbox-input-privacy {
+    display: flex;
+    width: 397px;
+    margin: 0 auto 54px;
 }
 .checkbox-input-text {
     width: 369px;

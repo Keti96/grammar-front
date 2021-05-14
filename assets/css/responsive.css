@@ -80,6 +80,11 @@
         height: 478px;
         margin: -38px auto -17px;
     }
+    /* video popup */
+    #popup1 .video-popup {
+        width: 80.2%;
+        margin: 132px auto;
+    }
     /* auth registration form */
     .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
         width: 446px;
@@ -192,7 +197,6 @@
         width: 688px;
         height: 765px;
     }
-
     #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
         width: 728px;
     }
@@ -275,6 +279,11 @@
     }
     .registration-form {
         height: inherit;
+    }
+    /* video popup */
+    #popup1 .video-popup {
+        width: 80.2%;
+        margin: 194px auto;
     }
     /* auth registration form */
     .registration-form.registration-form-signin {
@@ -391,7 +400,7 @@
         font-family: inherit;
     }
     .bold-black2 {
-        font-family: FiraGo ExtraBold;
+        font-family: 'FiraGo ExtraBold';
     }
     button.about-project-button {
         display: block;
@@ -427,6 +436,12 @@
         position: relative;
         left: -2px;
         top: -2px;
+    }
+    /* video popup */
+    #popup2 .small-video-popup {
+        width: 94%;
+        height: 382px;
+        margin: 321px auto;
     }
     /*  */
     .about-project-button:hover {
@@ -470,6 +485,9 @@
     .register-sect .registration-header-title {
         padding-top: 60px;
     }
+    .register-sect .input-email {
+        margin: 0 auto 16px;
+    }
     .grammar-content {
         margin-top: 56px;
     }
@@ -492,18 +510,27 @@
         display: block;
         margin: 330px 0 0px;
     }
+    .header-body .footer-logo-content {
+        margin: 319px 0 0px;
+    }
+    .header-body .footer-text-item {
+        width: 82%;
+        line-height: 23px;
+    }
     section.register-sect {
         position: relative;
     }
-    .footer-bg-fill {
-        margin-top: -259px;
+    .header-body .header-footer {
+        margin-top: -272px;
+        height: 100%;
     }
     .verb-content {
         margin: 90px auto 100px;
     }
     .logo-footer img {
         margin: 0 auto;
-        margin-bottom: 36px;
+        /* margin-bottom: 36px; */
+        margin-bottom: 28px;
     }
     .footer-text-item {
         width: 85%;
@@ -531,11 +558,17 @@
         display: block;
         margin: 52px 0 52px;
     }
+    .header-body .footer-icons-texts {
+        margin: 52px 0 44px;
+    }
     .Education-logo {
         margin: 0 auto;
     }
     .footer-copyright span {
         text-align: center;
+    }
+    .footer-copyright {
+        margin-top: 52px;
     }
     .vertical-middle {
         margin: 95px 0 0;
@@ -730,6 +763,10 @@
 }
 
 @media only screen and (max-width: 600.98px) {
+    /* index style  */
+    .register-sect .registration-form {
+        background-image: none;
+    }
     .success-registred-title {
         font-size: 24px;
         line-height: 26px;
@@ -871,10 +908,14 @@
         width: 100%;
         text-align: initial;
     }
-    .header-content-text {
+    span.header-content-text-item, .header-content-text {
         text-align: initial;
         font-size: 36px;
     }
+    /* .header-content-text {
+        text-align: initial;
+        font-size: 36px;
+    } */
     button.about-project-button {
         padding: 26px 0;
         width: 100%;
@@ -969,6 +1010,7 @@
     }
     .container-two {
         max-width: 366px;
+        padding: 0;
     }
     .hide2 {
         display: none!important;
@@ -991,14 +1033,32 @@
     .header-content-text-content {
         width: 100%;
         text-align: initial;
+        margin: 26px auto 28px;
+    }
+    .vertical-middle {
+        margin: 58px 0 0;
+    }
+    #popup2 .popup .close {
+        top: 240px;
+        background: rgba(255, 255, 255, .4);
+    }
+    #popup2 .small-video-popup {
+        width: 98%;
+        height: 230px;
+        margin: 354px auto;
+    }
+    #popup2 .small-video-popup iframe {
+        border-radius: 16px;
     }
     .header-content-text {
         text-align: initial;
     }
     .header-content .for-100 .appear .about-project-button {
         width: 100%;
+        height: 80px;
         display: block;
         padding: 24px 0px;
+        margin: 0 auto 28px;
     }
     .collapse2 ul li a {
         font-size: 20px;
@@ -1012,8 +1072,13 @@
         left: 25px;
     } */
     .register-sect .auth-input-password, .register-sect .auth-input-email {
+        width: 318px;
         height: 60px;
+        border-radius: 16px;
     }
+    /* .register-sect .input-email {
+        margin: 0 auto 16px;
+    } */
     .register-sect .auth-input-password input[type="password"], .register-sect .auth-input-email input[type="email"] {
         margin: 3.8px 48px;
     }
@@ -1137,13 +1202,17 @@
     .instruction-cont-item {
         margin-bottom: 70px;
     }
+    .register-sect .registration-form {
+        background-image: none;
+        border-radius: 28px;
+    }
     .footer-buttons {
         display: block;
     }
     .footer-user-icon, .footer-facebook-icon {
         background-color: #333333;
         width: 100%;
-        margin: 5px auto;
+        margin: 6px auto;
     }
     button.about-project-button {
         padding: 26px 0;
@@ -1360,7 +1429,7 @@
     }
 }
 
-@media only screen and (min-height: 700px) {
+/* @media only screen and (min-height: 700px) {
     .popup {
         margin: 200px auto 0;
         width: 95%;
@@ -1373,9 +1442,9 @@
         text-align: center;
         margin: 0 auto 50px;
     }
-}
+} */
 
-@media only screen and (min-height: 896px) {
+/* @media only screen and (min-height: 896px) {
     .popup {
         margin: 80% auto 0;
         width: 95%;
@@ -1388,9 +1457,20 @@
         text-align: center;
         margin: 0 auto 35%;
     }
-}
+} */
 
 @media only screen and (max-width: 400px) {
+    /* index style */
+    .container-two {
+        max-width: 340px;
+        padding: 0;
+    }
+    .register-sect .auth-input-password, .register-sect .auth-input-email {
+        width: 242px;
+        height: 60px;
+        border-radius: 16px;
+    }
+    /* index style end */
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .new-password-form label, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
         width: 240px;
     }
@@ -1445,6 +1525,10 @@
 }
 
 @media only screen and (max-width: 360px) {
+    .container-two {
+        max-width: 290px;
+        padding: 0;
+    }
     .header-content .for-100 .appear .about-project-button {
         margin: 48px auto 46px;
     }
@@ -1492,6 +1576,51 @@
 
 @media only screen and (max-width: 320.98px) {
     /* index style */
+    .header {
+        height: 656px;
+    }
+    .container-two {
+        max-width: 290px;
+        padding: 0;
+    }
+    /* .container-two {
+        max-width: 304px;
+    } */
+    .header-content .for-100 .appear .about-project-button {
+        width: 100%;
+        height: 64px;
+        display: block;
+        padding: 24px 0px;
+        margin: 0 auto;
+    }
+    span.header-content-text-item, .header-content-text {
+        font-size: 32px;
+        line-height: 38.72px;
+    }
+    #popup2 .small-video-popup {
+        width: 100%;
+        height: 194px;
+        margin: 206px auto;
+    }
+    #popup2 .small-video-popup iframe {
+        border-radius: 8px;
+    }
+    #popup2 .popup .close {
+        top: 194px;
+        font-size: 23px;
+        border-radius: 10px;
+        width: 36.67px;
+        height: 36.67px;
+    }
+    .instruction-video .video-image, .instruction-video .video-image-one {
+        height: 250px;
+    }
+    .header-content-text-content {
+        margin: 28px auto 32px;
+    }
+    .vertical-middle {
+        margin: 68px 0 0;
+    }
     .overlay2 .close {
         top: 28px;
         right: 52px;
@@ -1505,6 +1634,13 @@
     }
     .conf-user {
         margin-top: 0;
+    }
+    button.about-project-button {
+        padding: 22px 0;
+        height: 68px;
+    }
+    .header-footer {
+        margin-top: -259px;
     }
     /* auth registration form  */
     .auth-registration-form {

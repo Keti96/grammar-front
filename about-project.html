@@ -105,7 +105,8 @@
                             <div class="form-group input-email auth-input-email forgot-input-email">
                                 <input type="email" name="email" placeholder="ელ-ფოსტა">
                             </div>
-                            <button type="button" onclick="errorExchange1();" class="auth-button .sign-in-single-button input-button">
+                            <button type="button" onclick="errorExchange1();"
+                                class="auth-button .sign-in-single-button input-button">
                                 გამომიგზავნე აღდგენის ბმული
                             </button>
                         </form>
@@ -143,10 +144,10 @@
                             <div class="pwd-input-password popup-auth-input-password input-password rem-back-img">
                                 <input type="password" id="pwd" name="pwd" placeholder="პაროლი">
                             </div>
-                            <label for="repeat-pwd">შეიყვანე პაროლი <span>*</span></label>
+                            <label for="repeat-pwd">გაიმეორე პაროლი <span>*</span></label>
                             <div
                                 class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
-                                <input type="password" id="repeat-pwd" name="pwd" placeholder="შეიყვანე პაროლი">
+                                <input type="password" id="repeat-pwd" name="pwd" placeholder="გაიმეორე პაროლი">
                             </div>
                         </form>
                         <button type="button" onclick="errorExchange2();" class="auth-button input-button">
@@ -162,9 +163,13 @@
                             </p>
                         </div>
                         <form action="#">
-                            <button type="button" class="pass-changed-button popup-auth-button input-button">
+                            <a href="#popup7" onclick="navAppear2();">
+                                <button type="button" class="pass-changed-button popup-auth-button input-button">
+                                    შესვლა
+                                </button></a>
+                            <!-- <button type="button" class="pass-changed-button popup-auth-button input-button">
                                 შესვლა
-                            </button>
+                            </button> -->
                         </form>
                     </div>
                 </div>
@@ -302,7 +307,17 @@
                                     <label for="squaredOne" class="squaredOne2"></label>
                                 </div>
                                 <p class="checkbox-input-text">წავიკითხე და ვეთანხმები რესურსის გამოყენების
-                                    <span>წესებსა და პირობებს</span> </p>
+                                    <a href="terms-of-use.html"><span>წესებსა და პირობებს</span></a>
+                                </p>
+                            </div>
+                            <div class="checkbox-input checkbox-input-privacy">
+                                <div class="squaredOne">
+                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
+                                    <label for="squaredOne" class="squaredOne2"></label>
+                                </div>
+                                <p class="checkbox-input-text">წავიკითხე და ვეთანხმები რესურსის
+                                    <a href="privacy-policy.html"><span>კონფიდენციალურობის პოლიტიკას</a></span>
+                                </p>
                             </div>
                         </form>
                         <div class="return-continue">
@@ -358,16 +373,20 @@
     <div class="about-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-two">
-                <a class="navbar-brand" href="#">
-                    <img class="hide3 about-small-logo hide-991" src="./assets/images/icons/about-project-logo.svg" alt="logo">
-                    <img class="appear3 about-small-logo appear-991" src="./assets/images/icons/burger-menu-small.svg" alt="">
+                <a class="navbar-brand" href="index.html">
+                    <img class="hide3 about-small-logo hide-991" src="./assets/images/icons/about-project-logo.svg"
+                        alt="logo">
+                    <img class="appear3 about-small-logo appear-991" src="./assets/images/icons/burger-menu-small.svg"
+                        alt="">
                 </a>
                 <div class="navbar-icons">
-                    <a href="" class="login appear"><img src="./assets/images/icons/Logout.svg" alt=""></a>
+                    <a href="#popup7" onclick="navAppear2();" class="login appear"><img
+                            src="./assets/images/icons/Logout.svg" alt=""></a>
                     <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
                             data-bs-toggle="collapse" data-bs-target="#navb  arsExample04"
                             aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon about-navbar-toggler-icon"><img src="./assets/images/icons/about-burger-icon.svg" alt="img"></span>
+                            <span class="navbar-toggler-icon about-navbar-toggler-icon"><img
+                                    src="./assets/images/icons/about-burger-icon.svg" alt="img"></span>
                         </button></a>
                 </div>
                 <div class="collapse navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
@@ -410,10 +429,12 @@
                         <a href="#">
                             შემოგვიერთდი ჯგუფში <br class="hide-99"><span>Facebook-ზე</span>
                         </a>
-                        <button type="button" class="about-user-icon is-loaded">
-                            <img src="./assets/images/icons/user.svg" alt="user-icon">
-                            ფეისბუქ ჯგუფი
-                        </button>
+                        <a href="#">
+                            <button type="button" class="about-user-icon is-loaded">
+                                <img src="./assets/images/icons/user.svg" alt="user-icon">
+                                ფეისბუქ ჯგუფი
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -680,14 +701,18 @@
                         აითვალწუნებენ მიღწეული ოჰ, ვარდიდან წასჩურჩულეს. მგზნებარე დაავიწყდათ საკონტაქტო ქვეშავრდომად
                         ჩადი ავიდოდა.</p>
                     <div class="footer-buttons">
-                        <button type="button" class="footer-user-icon">
-                            <img src="./assets/images/icons/user.svg" alt="user-icon">
-                            ფეისბუქ ჯგუფი
-                        </button>
-                        <button type="button" class="footer-facebook-icon">
-                            <img src="./assets/images/icons/facebook.svg" alt="facebook-icon">
-                            ფეისბუქ გვერდი
-                        </button>
+                        <a href="#">
+                            <button type="button" class="footer-user-icon">
+                                <img src="./assets/images/icons/user.svg" alt="user-icon">
+                                ფეისბუქ ჯგუფი
+                            </button>
+                        </a>
+                        <a href="#">
+                            <button type="button" class="footer-facebook-icon">
+                                <img src="./assets/images/icons/facebook.svg" alt="facebook-icon">
+                                ფეისბუქ გვერდი
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div class="for-d-flex justify-content-between footer-icons-texts">
@@ -701,7 +726,9 @@
                     </div>
                     <div class="footer-copyright">
                         <span>ყველა უფლება დაცულია Ⓒ</span>
-                        <span>განათლების მართვის საინფორმაციო სისტემა 2021</span>
+                        <span>განათლების მართვის საინფორმაციო სისტემა
+                            <script>document.write(new Date().getFullYear())</script>
+                        </span>
                     </div>
                 </div>
             </div>

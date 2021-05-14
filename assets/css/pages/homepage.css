@@ -134,6 +134,9 @@ a.button-video.see-video {
     background-position: center;
     background-size: cover;
 }
+.header-auth .auth-input-email {
+    margin: 16px auto;
+}
 
 .registration-form {
     width: 504px;
@@ -484,7 +487,18 @@ a.button-video.see-video {
 #popup2 {
     z-index: 9;
 }
-
+/* video popup */
+#popup1 .video-popup {
+    width: 1132px;
+    height: 636px;
+    margin: 205px auto;
+    padding: 0;
+}
+#popup1 .popup .close  {
+    top: -52px;
+    right: -52px;
+}
+/* video popup end */
 .popup h2 {
     margin-top: 0;
     color: #333;
@@ -515,6 +529,7 @@ a.button-video.see-video {
 .popup iframe {
     max-height: 100%;
     overflow: auto;
+    border-radius: 30px;
 }
 
 .popup2 {
@@ -655,7 +670,7 @@ button:focus:not(:focus-visible) {
 .footer-text-item {
     width: 560px;
     margin-bottom: 48px;
-    font-family: 'FiraGo Book';
+    font-family: 'FiraGo Light';
     font-size: 16px;
     line-height: 32px;
     color: #ffffff;
@@ -722,7 +737,7 @@ button:focus:not(:focus-visible) {
 .footer-copyright span {
     display: block;
     text-align: right;
-    font-family: 'FiraGo';
+    font-family: 'FiraGo Light';
     font-size: 12px;
     line-height: 20px;
     color: #ffffff;
