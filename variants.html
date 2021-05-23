@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/libraries/bootstrap-grid.min.css">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/pages/about-project.css">
+
+    <title>ქართული ენის გრამატიკის ელექტრონული რესურსი</title>
+</head>
+
+<body class="variants-body">
+
+    <div id="popup5" class="overlay overlay2">
+        <div class="popup popup2">
+            <a class="open hide3" href="#"><img src="./assets/images/icons/footer-logo.svg" alt=""></a>
+            <a class="open appear3" href="#"><img src="./assets/images/icons/burger-menu-small.svg" alt=""></a>
+            <a class="close " href="javascript:void(0);" onclick="navDessapear();">&times;</a>
+            <div class="collapse2 navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link burger-menu active" aria-current="page" href="index.html">
+                            მთავარი
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-project.html">
+                            პროექტის შესახებ
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            სავარჯიშოები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ტესტირება
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-d-flex conf-user justify-content-between conf2">
+                <p class="footer-logo-content-item">
+                    <a href="privacy-policy.html">
+                        კონფიდენციალურობის პოლიტიკა
+                    </a>
+                </p>
+                <p class="footer-logo-content-item">
+                    <a href="terms-of-use.html">
+                        მოხმარების პირობები
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="variants-header">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container container-variants">
+                <a class="navbar-brand" href="index.html">
+                    <img class="hide3" src="./assets/images/icons/logo.svg" alt="logo">
+                    <img class="appear3" src="./assets/images/icons/logo-414.svg" alt="">
+                </a>
+                <div class="navbar-icons">
+                    <a href="#popup7" onclick="navAppear2();" class="login appear"><img
+                            src="./assets/images/icons/login.svg" alt=""></a>
+                    <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navb  arsExample04"
+                            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><img src="./assets/images/icons/burger-icon.svg"
+                                    alt=""></span>
+                        </button></a>
+                </div>
+                <div class="col-9 navbar-content">
+                    <div class="header-variants-input-search">
+                        <input type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
+                    </div>
+                    <div class="col-4 user-registred">
+                        <div class="header-variants-item user-registred-yes">
+                            <div class="col-9 header-variants-input-user">
+                                <div class="header-variants-input-user-text">
+                                    <p>თკ</p>
+                                </div>
+
+                                <div class="header-variants-input-user-fields">
+                                    <p class="variants-user-name">თამთა კერესელიძე</p>
+                                    <span class="variants-user-status">მოსწავლე</span>
+                                </div>
+                            </div>
+                            <div class="header-variants-login-icon">
+                                <a href="#">
+                                    <img src="./assets/images/icons/Logout-variants.svg" alt="Logout-variants">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-variants-item user-registred-no">
+                            <div class="col-9 header-variants-input-user">
+                                <a href="#" class="header-variants-regist">რეგისტრაცია</a>
+                                <a href="#" class="header-variants-login">შესვლა</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <section class="variants-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 variants-user">
+                    <div class="user-registred2">
+                        <div class="variants-user-content user-registred-yes2">
+                            <p class="variants-user-title">თამთა კერესელიძე</p>
+                            <p class="variants-user-point"><span> 56</span>/250 ქულა</p>
+                            <button class="variants-user-button">ჩემი პროფილი</button>
+                        </div>
+                        <div class="variants-user-content user-registred-no2">
+                            <p class="variants-user-title2">სავარჯიშოების გასაკეთებლად გაიარე ავტორიზაცია</p>
+                            <button class="variants-user-button-longin">შესვლა</button>
+                            <button class="variants-user-button-regist">რეგისტრაცია</button>
+                        </div>
+                    </div>
+                    <div class="variants-navbar">
+
+                        <ul>
+                            <li><a href="#"><img src="./assets/images/icons/Bookmark.svg" alt="Bookmark"> საკითხები</a>
+                            </li>
+                            <li><a href="#"><img src="./assets/images/icons/Document.svg" alt="Document">
+                                    სავარჯიშოები</a></li>
+                            <li><a href="#"><img src="./assets/images/icons/Graph.svg" alt="Graph"> სტატისტიკა</a></li>
+                            <li><a href="#"><img src="./assets/images/icons/Profile.svg" alt="Profile"> ჩემი პროფილი</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="variants-need-help">
+                        <p>გჭირდება დახმარება?</p>
+                    </div>
+                </div>
+
+
+                <div class="col-9 p-0">
+                    <div class="variants-bg-fill">
+                        <div class="variants-choose-fields">
+                            <div class="variants-fields-title">
+                                <p>საკითხები</p>
+
+                            </div>
+                            <div class="switch-toggle switch-3 switch-candy">
+
+                                <input id="on" name="state-d" type="radio" checked="" />
+                                <label for="on" onclick="">ყველა</label>
+
+                                <input id="no" name="state-d" type="radio" />
+                                <label for="no" onclick="">მორფოლოგია</label>
+
+                                <input id="off" name="state-d" type="radio" />
+                                <label for="off" onclick="">სინტაქსი</label>
+
+                            </div>
+                        </div>
+                        <div class="all-variants-all">
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">არსებითი სახელი</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">14 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <!-- <svg viewBox="0 0 14 14">
+                                                    
+                                                    <path
+                                                      d="M7 1
+                                                        a 6 6 0 0 1 0 12
+                                                        a 6 6 0 0 1 0 -12"
+                                                      fill="none"
+                                                      stroke="#444";
+                                                      stroke-width="1";
+                                                      stroke-dasharray="56, 100"
+                                                    />
+                                                   
+                                                  </svg> -->
+                                                <div class="c100 p56 center small">
+                                                    <!-- <span>.</span> -->
+                                                    <div class="slice">
+                                                        <div class="bar"></div>
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </div>
+                                                <span class="percentage-distance">56%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">რიცხვითი სახელი</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">9 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <div class="c100 p56 center small">
+                                                    <!-- <span>.</span> -->
+                                                    <div class="slice">
+                                                        <div class="bar"></div>
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </div>
+                                                <span class="percentage-distance">56%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ნაცვალსახელი</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">10 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <div class="c100 p56 center small">
+                                                    <!-- <span>.</span> -->
+                                                    <div class="slice">
+                                                        <div class="bar"></div>
+                                                        <div class="fill"></div>
+                                                    </div>
+                                                </div>
+                                                <span class="percentage-distance">56%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ზმნა - პირი და რიცხვი</p>
+                                        <span class="variants-issue-status">მორფოლოგია</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">16 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <span class="percentage-distance">0 შესრულებული</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ზმნა - თავისებური ზმნები</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">10 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <span class="percentage-distance">0 შესრულებული</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ზმნა - თავისებური ზმნები</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">10 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <span class="percentage-distance">0 შესრულებული</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ზმნა - თავისებური ზმნები</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">10 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <span class="percentage-distance">0 შესრულებული</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="all-variants-one">
+                                <div class="all-variants-distance">
+                                    <div class="all-variants-first">
+                                        <p class="variants-issue-name">ზმნა - თავისებური ზმნები</p>
+                                        <span class="variants-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <div class="all-variants-second">
+                                        <img class="variants-file" src="./assets/images/icons/variants-file.svg"
+                                            alt="variants-file">
+                                        <div class="exercises-left">
+                                            <p class="number-of-exercises">10 სავარჯიშო</p>
+                                            <div class="percentage-of-exercise">
+                                                <!-- <img src="./assets/images/icons/variants-radio.svg" alt=""> -->
+                                                <span class="percentage-distance">0 შესრულებული</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="all-variants-third">
+                                        <button class="open-this-variant">
+                                            საკითხის გახსნა
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        var stopVideos = function () {
+            var videos = document.querySelectorAll('iframe, video');
+            Array.prototype.forEach.call(videos, function (video) {
+                if (video.tagName.toLowerCase() === 'video') {
+                    video.pause();
+                } else {
+                    var src = video.src;
+                    video.src = src;
+                }
+            });
+            document.getElementById("popup1").style.display = "none";
+            document.getElementById("popup2").style.display = "none";
+
+        };
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup1').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("pause-button").click();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup2').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear2').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("pause-button2").click();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+
+        var openVideos = function () {
+            document.getElementById("popup1").style.display = "inherit";
+        };
+        var openVideos2 = function () {
+            document.getElementById("popup2").style.display = "inherit";
+        };
+
+
+        function remove_hash_from_url() {
+            var uri = window.location.toString();
+
+            if (uri.indexOf("#") > 0) {
+                var clean_uri = uri.substring(0,
+                    uri.indexOf("#"));
+
+                window.history.replaceState({},
+                    document.title, clean_uri);
+            }
+        }
+
+        // remove_hash_from_url();
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup7').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear7').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup8').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear8').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in2").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup9').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear9').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in3").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup10').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear10').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in4").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        var navDessapear = function () {
+            document.getElementById("popup5").style.display = "none";
+        }
+        var navAppear = function () {
+            document.getElementById("popup5").style.display = "inherit";
+        }
+
+        var navDessapear2 = function () {
+            document.getElementById("popup7").style.display = "none";
+        }
+        var navAppear2 = function () {
+            document.getElementById("popup7").style.display = "inherit";
+        }
+
+        var navDessapear3 = function () {
+            document.getElementById("popup8").style.display = "none";
+        }
+        var navAppear3 = function () {
+            document.getElementById("popup8").style.display = "inherit";
+            document.getElementById("first-forgot-pass").style.display = "inherit";
+            document.getElementById("second-forgot-pass").style.display = "none";
+        }
+
+        var navDessapear4 = function () {
+            document.getElementById("popup9").style.display = "none";
+        }
+        var navAppear4 = function () {
+            document.getElementById("popup9").style.display = "inherit";
+            document.getElementById("new-password").style.display = "inherit";
+            document.getElementById("password-changed").style.display = "none";
+        }
+        var navDessapear5 = function () {
+            document.getElementById("popup10").style.display = "none";
+        }
+        var navAppear5 = function () {
+            document.getElementById("popup10").style.display = "inherit";
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+            document.getElementById("create-password").style.display = "none";
+            document.getElementById("mail-approve").style.display = "none";
+            document.getElementById("success-registred").style.display = "none";
+        }
+        var errorExchange1 = function () {
+            document.getElementById("first-forgot-pass").style.display = "none";
+            document.getElementById("second-forgot-pass").style.display = "inherit";
+        }
+        var errorExchange2 = function () {
+            document.getElementById("new-password").style.display = "none";
+            document.getElementById("password-changed").style.display = "inherit";
+        }
+        var errorExchange3 = function () {
+            document.getElementById("new-region").style.display = "none";
+            document.getElementById("name-fields").style.display = "inherit";
+        }
+
+
+
+
+
+
+        var return1 = function () {
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var next1 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var return2 = function () {
+            document.getElementById("name-fields").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var next2 = function () {
+            document.getElementById("mail-approve").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var return3 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+        var next3 = function () {
+            document.getElementById("success-registred").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+
+        var navDessapear = function () {
+            document.getElementById("popup5").style.display = "none";
+        }
+        var navAppear = function () {
+            document.getElementById("popup5").style.display = "inherit";
+        }
+    </script>
+</body>
+
+</html>
