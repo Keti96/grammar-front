@@ -3128,23 +3128,30 @@
     }
     #popup10 summary {
         margin: auto;
+        /* padding: 1rem 0.7rem; */
+        border-radius: 10px;
+        text-align: left;
+        background: white;
+    }
+    #popup10 .input-password input[type=password] {
+        padding: 14px 10px;
     }
     #popup10 summary:after {
         width: 8px;
         height: 8px;
         border-bottom: 2.5px solid #130F26;
         border-left: 2.5px solid #130F26;
-        margin: 8px 7px 0 0;    
+        /* margin: 8px 7px 0 0;     */
     }
     #popup10 .popup {
         bottom: 0;
         height: 610px;
     }
     #popup10 .popup .close {
-        bottom: 34px; 
-    } 
+        bottom: 34px;
+    }
     #popup10 .input-popup-bg {
-        height: 502px; 
+        height: 502px;
     }
     #popup10 .new-account-title {
         margin: 30px auto 22px;
