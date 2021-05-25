@@ -81,10 +81,10 @@
         margin: -38px auto -17px;
     }
     /* video popup */
-    #popup1 .video-popup {
+    /* #popup1 .video-popup {
         width: 80.2%;
-        margin: 132px auto;
-    }
+        margin: auto;
+    } */
     /* auth registration form */
     .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
         width: 446px;
@@ -186,20 +186,20 @@
         width: 95%;
         height: 330px;
     }
-    .instruction-bg {
+    /* .instruction-bg {
         margin: -88px auto -44px;
     }
     .instruction-video {
         margin: 143px auto 0;
-    }
-    .input-popup-bg {
+    }*/
+    /* .input-popup-bg {
         background-image: url('../images/sign-in/input-popup-bg2.svg');
         width: 688px;
         height: 765px;
-    }
+    } 
     #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
         width: 728px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 990.98px) {
@@ -216,7 +216,7 @@
     .vertical-middle {
         margin: 22% 0 0;
     }
-    .registration-header-title {
+    .header-content .registration-header-title {
         padding: 18% 0 8%;
     }
     .auth-path-registration {
@@ -281,12 +281,12 @@
         height: inherit;
     }
     /* video popup */
-    #popup1 .video-popup {
+    /* #popup1 .video-popup {
         width: 80.2%;
-        margin: 194px auto;
-    }
+        margin: auto;
+    } */
     /* auth registration form */
-    .registration-form.registration-form-signin {
+    /* .registration-form.registration-form-signin {
         display: initial;
         height: 535px;
     }
@@ -297,27 +297,23 @@
     .popup-registration-title {
         padding: 0;
         margin: 0 auto 72px;
-    }
+    } */
     /* new pass registration */
-    .new-account-title {
+    /* .new-account-title {
         text-align: left;
         margin: 0px 0 58px 58px;
     }
     .about-header-icons3 {
         margin-bottom: 64px;
-    }
+    } */
     /* new account form */
-    .new-account-title {
+    /* .new-account-title {
         margin: 81px auto 64px;
         width: 446px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 830px) {
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
-        top: -46px;
-        right: 24px;
-    }
     .navbar-brand {
         margin-right: 0;
     }
@@ -441,7 +437,7 @@
     #popup2 .small-video-popup {
         width: 94%;
         height: 382px;
-        margin: 321px auto;
+        margin: auto;
     }
     /*  */
     .about-project-button:hover {
@@ -594,7 +590,8 @@
         justify-content: center;
         align-items: flex-end;
     }
-    .popup {
+    #popup5 .popup {
+        position: initial;
         margin: 22% auto 0;
         width: 95%;
         height: 65%;
@@ -630,7 +627,7 @@
         bottom: 70px;
     }
     /* auth registration form */
-    .registration-form.registration-form-signin, .input-popup-bg {
+    /* .registration-form.registration-form-signin, .input-popup-bg {
         border-radius: 44px;
     }
     #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
@@ -649,12 +646,12 @@
     }
     .popup-auth-button {
         margin: 0 auto 48px;
-    }
+    } */
     /* new account form */
-    .new-account-title {
+    /* .new-account-title {
         margin: 82px auto 64px;
         width: 446px;
-    }
+    } */
     .hide-99 {
         display: none;
     }
@@ -671,7 +668,7 @@
 
 @media only screen and (max-width: 730px) {
     /* auth registration form */
-    .input-popup-bg {
+    /* .input-popup-bg {
         background-image: none;
     }
     .registration-form-signin, .auth-registration-form {
@@ -687,8 +684,8 @@
     }
     .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
         width: 84%;
-    }
-    /* forgot pass registration form  */
+    } */
+    /* forgot pass registration form  
     .registration-form.registration-form-signin, .input-popup-bg {
         width: 99%;
         height: 100%;
@@ -704,12 +701,12 @@
     }
     #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
         width: 100%;
-    }
+    }*/
     /* new pass registration form */
-    .pwd-input-password, .pwd-repeat-input-password {
-        width: 446px;
-    }
-    /* new account form */
+    /* .pwd-input-password, .pwd-repeat-input-password {
+        width: 446px; 
+    }*/
+    /* new account form 
     .new-account-title {
         margin: 82px auto 64px;
         width: 446px;
@@ -722,20 +719,20 @@
         font-family: 'FiraGo Medium';
         font-size: 16px;
         line-height: 14px;
-    }
+    }*/
 }
 
 @media screen and (max-width: 700px) {
-    .popup {
+    #popup5 .popup {
         width: 90%;
         height: 50%;
     }
     /* changed pass registration form */
-    .password-changed .password-changed-title {
+    /* .password-changed .password-changed-title {
         width: 100%;
         font-size: 20px;
         line-height: 26px;
-    }
+    } */
 }
 
 @media only screen and (max-width: 687.98px) {
@@ -754,9 +751,9 @@
     .instruction-video::after {
         bottom: 85px;
     }
-    .registration-form.registration-form-signin, .input-popup-bg {
+    /* .registration-form.registration-form-signin, .input-popup-bg {
         border-radius: 28px;
-    }
+    } */
     .register-sect .error-p2 {
         width: 52%;
     }
@@ -785,7 +782,7 @@
     .register-sect .auth-button {
         height: 64px;
     }
-    /* registration form */
+    /* registration form 
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
         width: 318px;
         height: 64px;
@@ -798,8 +795,8 @@
     }
     .forgot-input-email input[type='email'] {
         padding: 17px 20px;
-    }
-    /* new pass registration form */
+    }*/
+    /* new pass registration form 
     .pwd-input-password input[type=password], .pwd-repeat-input-password input[type=password] {
         width: 248px;
         padding: 18px 20px;
@@ -810,8 +807,8 @@
     }
     .new-password-form label {
         width: 318px;
-    }
-    /* new account form */
+    } */
+    /* new account form 
     .new-account-title {
         font-family: 'FiraGO ExtraBold';
         font-size: 20px;
@@ -842,8 +839,8 @@
     }
     ul.list {
         width: 318px;
-    }
-    /* create accound form */
+    } */
+    /* create accound form 
     .new-account-create-title {
         width: 100%;
         margin: 82px auto 56px;
@@ -864,8 +861,8 @@
     .registration-form-new-region .create-account-button {
         width: 246px;
         margin: 0;
-    }
-    /* create pass */
+    } */
+    /* create pass 
     .new-password-create-title {
         font-size: 20px;
         line-height: 24px;
@@ -879,8 +876,8 @@
     .checkbox-input {
         width: 318px;
         margin: 12px auto 92px;
-    }
-    /* mail approve and success-registred*/
+    } */
+    /* mail approve and success-registred
     .mail-approve .mail-approve-button {
         margin: 0 auto;
     }
@@ -897,7 +894,7 @@
     }
     .mail-approve-text {
         width: 100%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 500.98px) {
@@ -962,7 +959,7 @@
     .instruction-video::after {
         bottom: 102px;
     }
-    /* check email registration form*/
+    /* check email registration form
     .second-forgot-pass-title {
         font-size: 20px;
         line-height: 26px;
@@ -973,12 +970,12 @@
         line-height: 18px;
         margin: 0 auto 44px;
         width: 76%;
-    }
-    /* create pass */
+    }*/
+    /* create pass 
     .new-password-create-title {
         width: 100%;
-    }
-    /* mail approve and success-registred*/
+    }*/
+    /* mail approve and success-registred
     .mail-approve .mail-approve-input {
         width: 100%;
         height: 144px;
@@ -1001,7 +998,7 @@
     }
     .mail-approve-text {
         width: 100%;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 415px) {
@@ -1017,6 +1014,11 @@
     }
     .appear2 {
         display: initial!important;
+    }
+    #popup5 .popup {
+        margin: 260px auto 0;
+        width: 95%;
+        height: 50%;
     }
     .navbar {
         padding-top: 3.94rem;
@@ -1043,9 +1045,14 @@
         background: rgba(255, 255, 255, .4);
     }
     #popup2 .small-video-popup {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 98%;
         height: 230px;
-        margin: 354px auto;
+        margin: auto;
     }
     #popup2 .small-video-popup iframe {
         border-radius: 16px;
@@ -1222,7 +1229,7 @@
     .footer-user-icon, .footer-facebook-icon {
         width: 157px;
     }
-    /* auth registration form  */
+    /* auth registration form  
     .auth-registration-form {
         width: 366px;
         height: 498px;
@@ -1252,8 +1259,8 @@
     }
     .popup-recover-password {
         padding: 15px 31px 28px 0;
-    }
-    /* forgot pass registration form  */
+    }*/
+    /* forgot pass registration form  
     .registration-form.registration-form-signin, .input-popup-bg {
         height: 522px;
         border-radius: 28px;
@@ -1292,8 +1299,8 @@
     }
     .registration-form-signin .input-button {
         font-size: 14px;
-    }
-    /* check email registration form*/
+    }*/
+    /* check email registration form
     .second-forgot-pass img {
         margin: 52px auto 21px;
     }
@@ -1306,8 +1313,8 @@
     }
     .second-forgot-pass-input {
         margin: 0 auto 40px;
-    }
-    /* new pass registration form */
+    }*/
+    /* new pass registration form 
     .pwd-input-password input[type=password], .pwd-repeat-input-password input[type=password] {
         width: 248px;
         padding: 18px 20px;
@@ -1328,8 +1335,8 @@
     }
     .pwd-repeat-input-password {
         margin-bottom: 36px;
-    }
-    /* changed pass registration form */
+    }*/
+    /* changed pass registration form 
     .password-changed img {
         width: 96px;
         height: 114px;
@@ -1343,8 +1350,8 @@
         font-size: 12px;
         line-height: 18px;
         margin: 0 auto 48px;
-    }
-    /* new account form */
+    }*/
+    /* new account form 
     .new-account-title {
         font-family: 'FiraGO ExtraBold';
         font-size: 20px;
@@ -1366,15 +1373,15 @@
     }
     #popup10 .popup .close {
         bottom: -66px;
-    }
-    /* create accound form */
+    }*/
+    /* create accound form 
     .new-account-create-title {
         margin: 52px auto 44px;
     }
     .return-continue {
         height: 64px;
-    }
-    /* create pass */
+    }*/
+    /* create pass 
     .new-password-create-title {
         width: 100%;
         font-size: 20px;
@@ -1389,8 +1396,8 @@
     .checkbox-input {
         width: 318px;
         margin: 44px auto 69px;
-    }
-    /* mail approve and success-registred*/
+    }*/
+    /* mail approve and success-registred
     .mail-approve .mail-approve-img {
         width: 96px;
         margin: 56px auto 18px;
@@ -1426,7 +1433,7 @@
     }
     .success-registred-text {
         margin: 0 auto 48px;
-    }
+    }*/
 }
 
 /* @media only screen and (min-height: 700px) {
@@ -1470,19 +1477,19 @@
         height: 60px;
         border-radius: 16px;
     }
-    /* index style end */
+    /* index style end 
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .new-password-form label, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
         width: 240px;
     }
     .first-forgot-pass p {
         width: 260px;
-    }
-    /* new pass registration form */
+    }*/
+    /* new pass registration form 
     .pwd-input-password input[type=password], .pwd-repeat-input-password input[type=password] {
         width: 180px;
         padding: 18px 20px;
-    }
-    /* new account form */
+    }*/
+    /* new account form 
     .new-region-title {
         font-size: 16px;
         line-height: 19.2px;
@@ -1501,16 +1508,16 @@
     }
     ul.list label {
         padding: 10px 0 10px 12px;
-    }
-    /* create accound form */
+    }*/
+    /* create accound form 
     .new-account-create-title {
         font-size: 16px;
         line-height: 19.2px;
     }
     .return-continue {
         width: 248px;
-    }
-    /* create pass */
+    }*/
+    /* create pass 
     .new-password-create-title {
         font-size: 16px;
         line-height: 19.2px;
@@ -1521,7 +1528,7 @@
     }
     .checkbox-input-text {
         width: 210px;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 360px) {
@@ -1559,19 +1566,19 @@
     .verb-content {
         margin: 90px auto -248px;
     }
-    /* new pass registration form */
+    /* new pass registration form
     .new-password-title {
         font-size: 16px;
         line-height: 20.8px;
-    }
-    /* changed pass registration form */
+    } */
+    /* changed pass registration form
     .password-changed .password-changed-title {
         font-size: 16px;
         line-height: 20.8px;
     }
     .password-changed-text {
         width: 85%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 320.98px) {
@@ -1600,7 +1607,7 @@
     #popup2 .small-video-popup {
         width: 100%;
         height: 194px;
-        margin: 206px auto;
+        margin: auto;
     }
     #popup2 .small-video-popup iframe {
         border-radius: 8px;
@@ -1642,7 +1649,7 @@
     .header-footer {
         margin-top: -259px;
     }
-    /* auth registration form  */
+    /* auth registration form  
     .auth-registration-form {
         width: 280px;
         height: 414px;
@@ -1688,8 +1695,8 @@
         right: 46%;
         left: 46%;
         bottom: 14px;
-    }
-    /* forgot pass registration form  */
+    }*/
+    /* forgot pass registration form 
     .registration-form.registration-form-signin, .input-popup-bg {
         height: 439px;
     }
@@ -1721,8 +1728,8 @@
     }
     .registration-form-signin, .auth-registration-form {
         border-radius: 22px;
-    }
-    /* check email registration form*/
+    }*/
+    /* check email registration form
     .second-forgot-pass img {
         margin: 32px auto 12px;
     }
@@ -1738,8 +1745,8 @@
     }
     .second-forgot-pass-input {
         margin: 0 auto 28px;
-    }
-    /* new pass registration form */
+    }*/
+    /* new pass registration form 
     .registration-form.registration-form-signin.new-pass-registr-form {
         height: 434px;
         border-radius: 22px;
@@ -1767,8 +1774,8 @@
     .new-password button {
         width: 247px;
         height: 52px;
-    }
-    /* changed pass registration form */
+    }*/
+    /* changed pass registration form
     .password-changed img {
         width: 72px;
         height: 90px;
@@ -1784,8 +1791,8 @@
     }
     .password-changed .pass-changed-button {
         height: 52px;
-    }
-    /* new account form */
+    }*/
+    /* new account form 
     .new-region-title {
         font-size: 16px;
         line-height: 19.2px;
@@ -1837,8 +1844,8 @@
         right: 44%;
         left: 44%;
         bottom: -104px;
-    }
-    /* create accound form */
+    }*/
+    /* create accound form 
     .new-account-create-title {
         font-size: 16px;
         line-height: 19.2px;
@@ -1870,8 +1877,8 @@
     }
     .return span {
         display: initial;
-    }
-    /* create pass */
+    }*/
+    /* create pass 
     .new-password-create-title {
         margin: 40px auto 32px;
     }
@@ -1884,8 +1891,8 @@
     }
     .checkbox-input {
         margin: 28px auto 28px;
-    }
-    /* mail approve and success-registred*/
+    }*/
+    /* mail approve and success-registred
     .mail-approve .mail-approve-img {
         width: 96px;
         margin: 46px auto 28px;
@@ -1921,6 +1928,1592 @@
         display: none;
     }
     .appear-mail-approve {
+        display: initial;
+    }
+    */
+}
+
+@media screen and (max-width: 1920.98px) and (max-height: 1080px) {
+    #popup1 .video-popup {
+        padding: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    #popup8 .popup, #popup7 .popup, #popup10 .popup, #popup9 .popup {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .popup {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1920.98px) and (max-height: 767px) {
+    #popup1 .video-popup {
+        width: 990px;
+        height: 515px;
+    }
+    #popup1 .popup .close {
+        top: 0;
+        right: -70px;
+    }
+    .popup {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1246.98px) and (min-height: 790.99px) {
+    #popup1 .video-popup {
+        width: 80.2%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 1439.98px) and (max-height: 790.98px) {
+    #popup1 .video-popup {
+        width: 80.2%;
+        margin: auto;
+    }
+    .input-popup-bg {
+        width: 652px;
+        height: 565px;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        width: 692px;
+        height: 593px;
+    }
+    /* popup8 */
+    .registration-form-forgotpas img {
+        width: 127px;
+        height: 127px;
+        margin: 0 auto 15px;
+    }
+    #popup8 .registration-form-forgotpas {
+        text-align: center;
+        margin: 30px auto 0;
+    }
+    #popup8 .first-forgot-pass h3 {
+        margin-bottom: 18px;
+    }
+    #popup8 .first-forgot-pass p {
+        margin: 0 auto 34px;
+    }
+    #popup8 .registration-form-signin .auth-input-email {
+        margin: 0 auto 34px;
+    }
+    #popup8 .registration-form-signin .input-button {
+        margin: 0 auto;
+    }
+    /* popup8 second popup */
+    #second-forgot-pass img {
+        width: 127px;
+        height: 127px;
+        margin: 20px auto 25px;
+    }
+    #second-forgot-pass .second-forgot-pass-title {
+        margin-bottom: 30px;
+    }
+    #second-forgot-pass .second-forgot-pass-text {
+        margin: 0 auto 61px;
+    }
+    #second-forgot-pass .input-button {
+        margin: 0 auto 15px!important;
+    }
+    /* popup9 */
+    #popup9 .new-password-title {
+        margin: 50px auto 34px;
+    }
+    #popup9 .popup-auth-input-password {
+        margin-bottom: 25px;
+    }
+    #popup9 .registration-form-signin .auth-button {
+        margin: 45px auto 15px;
+        height: 75px;
+    }
+    /* popup9 second popup */
+    #password-changed img {
+        margin: 65px auto 35px;
+    }
+    #password-changed .password-changed-text {
+        margin-bottom: 82px;
+    }
+    /* popup7 */
+    #popup7 .auth-registration-form {
+        margin: 65px auto 0;
+    }
+    #popup7 .popup-registration-title {
+        margin: 0 auto 32px;
+    }
+    #popup7 .popup-recover-password {
+        padding: 15px 31px 28px 0;
+    }
+    #popup7 .popup-auth-button {
+        margin: 0 auto 15px;
+    }
+    /* #popup10 */
+    #popup10 .new-account-title {
+        margin: 45px auto 34px;
+        width: 446px;
+    }
+    #popup10 .pwd-input-password {
+        height: 52px;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    #popup10 .new-password-form label {
+        margin: 0 auto 12px;
+    }
+    #popup10 .about-header-icons3 {
+        margin-bottom: 32px;
+    }
+    #popup10 summary {
+        padding: 0.7rem;
+        border-radius: 10px;
+    }
+    #popup10 summary::after {
+        margin: 4px 16px 0 0;
+    }
+    #popup10 .new-region .pwd-repeat-input-password {
+        height: 52px;
+        border-radius: 12px;
+    }
+    #popup10 .input-password input[type=password] {
+        padding: 14px 20px;
+    }
+    #popup10 .new-region .new-region-button {
+        height: 60px;
+        border-radius: 12px;
+    }
+    /* popup10 second popup */
+    #name-fields .new-account-create-title {
+        margin: 62px auto 36px;
+    }
+    #name-fields .popup-auth-input-password {
+        height: 52px;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    #name-fields .create-account-input-email input[type=email] {
+        padding: 14px 20px;
+    }
+    #name-fields .create-account-button {
+        height: 63px;
+    }
+    #name-fields .create-account-input-email {
+        margin: 0 auto 40px;
+    }
+    /* popup10 three popup */
+    #create-password .new-password-create-title {
+        margin: 52px auto 36px;
+    }
+    #create-password .checkbox-input-privacy {
+        display: flex;
+        width: 397px;
+        margin: 0 auto 34px;
+    }
+    #create-password .return-continue .create-pass-button {
+        height: 63px;
+        border-radius: 14px;
+    }
+    #create-password .checkbox-input {
+        display: flex;
+        width: 397px;
+        margin: 0 auto 24px;
+    }
+    /* popup10 four popup */
+    #mail-approve img {
+        width: 127px;
+        height: 137px;
+        margin: 45px auto 10px;
+    }
+    #mail-approve .mail-approve-title {
+        margin: 0 auto 22px;
+    }
+    #mail-approve .mail-approve-text {
+        margin: 0 auto 54px;
+    }
+    #mail-approve .mail-approve-input .return {
+        height: 24px;
+    }
+    #mail-approve .return img {
+        width: 20px;
+        height: 20px;
+        margin: 0;
+    }
+    #mail-approve .mail-approve-button {
+        height: 70px;
+        margin: 0;
+    }
+    #mail-approve .mail-approve-input {
+        width: 446px;
+        height: 120px;
+        flex-direction: column-reverse;
+    }
+    /* popup10 five popup */
+    #success-registred img {
+        width: 127px;
+        height: 127px;
+        margin: 72px auto 35px;
+    }
+    #success-registred .success-registred-title {
+        margin: 0 auto 20px;
+    }
+    #success-registred .success-registred-text {
+        margin: 0 auto 75px;
+    }
+}
+
+@media screen and (max-width: 1439.98px) and (min-height: 790.99px) {
+    .input-popup-bg {
+        background-image: url('../images/sign-in/input-popup-bg2.svg');
+        width: 688px;
+        height: 765px;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        width: 728px;
+    }
+}
+
+@media screen and (max-width: 990.98px) and (min-height: 790.99px) {
+    #popup1 .video-popup { 
+        width: 80.2%;
+        padding: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    .popup {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    /* auth registration form */
+    .registration-form.registration-form-signin {
+        display: initial;
+        height: 535px;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        width: 728px;
+        /* margin: 18% auto 0px; */
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .popup-registration-title {
+        padding: 0;
+        margin: 0 auto 72px;
+    }
+    /* new pass registration */
+    .new-account-title {
+        text-align: left;
+        margin: 0px 0 58px 58px;
+    }
+    .about-header-icons3 {
+        margin-bottom: 64px;
+    }
+    /* new account form */
+    .new-account-title {
+        margin: 81px auto 64px;
+        width: 446px;
+    }
+}
+
+@media screen and (max-width: 830px) and (min-height: 790.99px) {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+        top: 45px;
+        right: 65px;
+        background-color: transparent;
+        color: #333333;
+        font-size: 45px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 830px) and (max-height: 790.98px) {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+        top: 15px;
+        right: 40px;
+        background-color: transparent;
+        color: #333333;
+        font-size: 45px;
+        font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 767.98px) and (max-height: 790.98px) {
+    .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
+        width: 84%;
+    }
+}
+
+@media screen and (max-width: 767.98px) and (min-height: 790.99px) {
+    #popup1 .video-popup {
+        padding: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    .popup {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    /* auth registration form */
+    .registration-form.registration-form-signin, .input-popup-bg {
+        border-radius: 44px;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        /* margin: 18% auto 0px; */
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
+        width: 446px;
+    }
+    .auth-registration-form .popup-error-p {
+        margin: 0 auto;
+    }
+    .popup-recover-password {
+        padding: 15px 31px 58px 0;
+        margin: 0 auto;
+        float: none;
+    }
+    .popup-auth-button {
+        margin: 0 auto 48px;
+    }
+    /* new account form */
+    .new-account-title {
+        margin: 82px auto 64px;
+        width: 446px;
+    }
+}
+
+@media screen and (max-width: 730px) and (max-height: 790.98px) {
+    /* auth registration form */
+    .input-popup-bg {
+        background-image: none;
+        width: 100%;
+        height: 540px;
+    }
+    .registration-form-signin, .auth-registration-form {
+        background-color: white;
+        border: 3px solid #F5F5F5;
+    }
+    #popup7 .auth-registration-form {
+        margin: 0 auto;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        /* margin: 18% auto 0px; */
+        width: 100%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #popup7 .popup, #popup10 .popup {
+        height: 580px;
+    }
+    #popup7 .popup .close {
+        top: 18px;
+        right: 100px;
+    }
+    #popup8 .popup {
+        height: 638px;
+    }
+    #popup8 .popup .close {
+        top: 45px;
+        right: 100px;
+    }
+    #popup7 .popup-registration-title {
+        margin: 60px auto 32px;
+    }
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+        font-weight: 300;
+    }
+    #popup7 .auth-input-email, .auth-input-password, #popup7 .popup-auth-button {
+        width: 446px;
+    }
+    .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
+        width: 446px;
+    }
+    #popup7 .auth-path-registration {
+        text-align: center;
+        margin: 0px auto 40px;
+    }
+    #first-forgot-pass img {
+        margin: 45px auto 0;
+    }
+    #popup8 .first-forgot-pass h3 {
+        margin-bottom: 10px;
+    }
+    #popup8 .first-forgot-pass p {
+        margin: 0px auto 30px;
+    }
+    #popup8 .registration-form-signin .auth-input-email {
+        margin: 0 auto 30px;
+    }
+    #second-forgot-pass img {
+        margin: 50px auto 10px;
+    }
+    #popup9 .new-password-title {
+        margin: 45px auto 28px;
+    }
+    #popup9 .popup .close {
+        top: 15px;
+        right: 96px;
+    }
+    #password-changed .password-changed-title {
+        font-size: 24px;
+    }
+    #password-changed .password-changed-text {
+        margin-bottom: 70px;
+    }
+    #popup10 .new-account-title {
+        margin: 40px auto 30px;
+        width: 446px;
+    }
+    #popup10 .popup .close {
+        top: 2.5%;
+        right: 6%;
+    }
+    #name-fields .new-account-create-title {
+        margin: 45px auto 32px;
+    }
+    #create-password .new-password-create-title {
+        margin: 38px auto 32px;
+    }
+    #mail-approve .mail-approve-title {
+        margin: 0 auto 18px;
+        font-size: 24px;
+    }
+    #mail-approve .mail-approve-text {
+        margin: 0 auto 45px;
+    }
+    #success-registred .success-registred-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 730px) and (min-height: 790.99px) {
+    /* auth registration form */
+    .input-popup-bg {
+        background-image: none;
+    }
+    .registration-form-signin, .auth-registration-form {
+        background-color: white;
+        border: 3px solid #F5F5F5;
+    }
+    .popup-registration-title {
+        padding: 0;
+        margin: 128px auto 72px;
+    }
+    .auth-registration-form {
+        margin: 0 auto;
+    }
+    .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
+        width: 84%;
+    }
+    /* forgot pass registration form  */
+    .registration-form.registration-form-signin, .input-popup-bg {
+        width: 99%;
+        height: 100%;
+    }
+    .registration-form-signin .registration-header-title {
+        padding-top: 72px;
+    }
+    .registration-form-forgotpas img {
+        margin: 82px auto 31px;
+    }
+    .registration-form-forgotpas {
+        margin: 0 auto;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        width: 100%;
+    }
+    /* new pass registration form */
+    .pwd-input-password, .pwd-repeat-input-password {
+        width: 446px;
+    }
+    /* new account form */
+    .new-account-title {
+        margin: 82px auto 64px;
+        width: 446px;
+    }
+    .new-password-form label {
+        display: block;
+        text-align: left;
+        width: 437px;
+        margin: 0 auto 20px;
+        font-family: 'FiraGo Medium';
+        font-size: 16px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-height: 790.99px) {
+    /* changed pass registration form */
+    .password-changed .password-changed-title {
+        width: 100%;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 700px) and (max-height: 790.98px) {
+    #popup7 .auth-registration-form, .registration-form.registration-form-signin {
+        width: 99%;
+        height: 100%;
+    }
+    #popup10 .popup {
+        width: 100%;
+        height: 605px;
+    }
+    #popup8 .popup {
+        width: 100%;
+        height: 667px;
+    }
+    .input-popup-bg {
+        width: 100%;
+        height: 565px;
+    }
+    #popup7 .popup, #popup9 .popup {
+        width: 100%;
+        height: 605px;
+    }
+    #popup7 .popup .close, #popup9 .popup .close {
+        top: 2.5%;
+        right: 7%;
+    }
+    #popup8 .popup .close {
+        top: 7%;
+        right: 7%;
+    }
+    /* #popup10 */
+    #popup10 .new-account-title {
+        margin: 45px auto 34px;
+    }
+    #popup10 .pwd-input-password {
+        height: 52px;
+        margin-bottom: 24px;
+        border-radius: 12px;
+    }
+    #popup10 .new-password-form label {
+        margin: 0 auto 12px;
+    }
+    #popup10 .about-header-icons3 {
+        margin-bottom: 32px;
+    }
+    .about-header-icons3 .can-toggle label .can-toggle__switch {
+        flex: 0 0 446px;
+        margin: 0 auto;
+    }
+    .can-toggle, .can-toggle #a, .can-toggle, .can-toggle #a2, .can-toggle label, .can-toggle__switch {
+        width: 100%;
+    }
+    #popup10 summary {
+        padding: 0.7rem;
+        border-radius: 10px;
+    }
+    #popup10 summary::after {
+        margin: 4px 16px 0 0;
+    }
+    #popup10 .new-region .pwd-repeat-input-password {
+        height: 52px;
+        border-radius: 12px;
+    }
+    #popup10 .input-password input[type=password] {
+        padding: 14px 20px;
+    }
+    #popup10 .new-region .new-region-button {
+        width: 446px;
+        height: 60px;
+        border-radius: 12px;
+    }
+}
+
+@media screen and (max-width: 687.98px) and (min-height: 790.99px) {
+    .registration-form, .input-popup-bg {
+        border-radius: 28px;
+    }
+}
+
+@media screen and (max-width: 600.98px) and (max-height: 790.98px) {
+    #popup7 .auth-input-email, #popup7 .popup-auth-button, .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-error-p, .popup-recover-password {
+        width: 446px;
+    }
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
+        width: 446px;
+    }
+    #second-forgot-pass .second-forgot-pass-title, #popup9 .new-password-title, #popup10 .new-account-title {
+        font-size: 24px;
+    }
+    #password-changed img {
+        margin: 65px auto 20px;
+    }
+    .registration-form-new-region .create-account-button {
+        width: 328px;
+    }
+}
+
+@media screen and (max-width: 545.98px) and (max-height: 800.99px) {
+    /* registration form */
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
+        width: 318px;
+        height: 64px;
+    }
+    #popup7 .auth-input-email, #popup7 .popup-auth-button, .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-recover-password {
+        width: 318px;
+        height: 64px;
+    }
+    .popup-error-p {
+        width: 318px;
+    }
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
+        width: 318px;
+    }
+    #popup7 .popup .close, #popup9 .popup .close {
+        top: 2.5%;
+        right: 7%;
+    }
+    #popup8 .popup .close {
+        top: 8%;
+        right: 7.5%;
+    }
+    #popup10 .popup .close {
+        top: 2.5%;
+        right: 6.5%;
+    }
+    #popup10 .new-region .new-region-button {
+        width: 318px;
+        height: 60px;
+        border-radius: 12px;
+    }
+    #popup8 .registration-form.registration-form-signin, .input-popup-bg {
+        height: 87%;
+    }
+    #popup8 .registration-form-forgotpas {
+        margin: 0 auto;
+    }
+    #popup8 .registration-form-forgotpas {
+        margin: 0 auto;
+    }
+    #popup8 .registration-form-signin {
+        margin: auto;
+    }
+    #create-password .checkbox-input {
+        width: 280px;
+    }
+    #mail-approve .mail-approve-input {
+        width: 318px;
+    }
+    .registration-form.registration-form-signin, .input-popup-bg {
+        height: 100%;
+    }
+    .first-forgot-pass p {
+        width: 328px;
+    }
+    .forgot-input-email input[type='email'] {
+        padding: 17px 20px;
+    }
+    /* new pass registration form */
+    #new-password .pwd-input-password input[type=password], #new-password .pwd-repeat-input-password input[type=password] {
+        width: 248px;
+        padding: 18px 20px;
+    }
+    #popup9 .registration-form-signin .auth-button {
+        margin: 48px auto 15px;
+        height: 72px;
+    }
+    .new-password-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    /* new account form */
+    #popup10 .new-account-title {
+        font-family: 'FiraGO ExtraBold';
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        width: 100%;
+    }
+    .about-header-icons3 .can-toggle label .can-toggle__switch {
+        flex: 0 0 318px;
+        height: 64px;
+        border: 1px solid #E7E8E8;
+        border-radius: 14px;
+        margin: 0 auto;
+    }
+    .about-header-icons3 .can-toggle label .can-toggle__switch:after {
+        top: 10px;
+        left: 10px;
+        right: 8px;
+        bottom: 7px;
+        border-radius: 8px;
+        width: 48%;
+        height: 42px;
+    }
+    .about-header-icons3 .can-toggle {
+        width: 100%;
+        margin: 0 auto;
+    }
+    ul.list {
+        width: 318px;
+    }
+    /* create accound form */
+    .new-account-create-title {
+        width: 100%;
+        margin: 82px auto 56px;
+        text-align: center;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .create-account-input-email input[type=email] {
+        padding: 18px 20px;
+    }
+    .return-continue {
+        width: 318px;
+        margin: 0 auto;
+    }
+    .return span {
+        display: none;
+    }
+    .registration-form-new-region .create-account-button {
+        width: 246px;
+        margin: 0;
+    }
+    .checkbox-input-text {
+        width: 290px;
+        margin-left: 12px;
+    }
+    .checkbox-input {
+        width: 318px;
+    }
+    #mail-approve .mail-approve-title, #success-registred .success-registred-title, #popup9 .new-password-title, #password-changed .password-changed-title, #popup7 .popup-registration-title, #popup8 .first-forgot-pass h3, #create-password .new-password-create-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    #create-password .new-password-create-title {
+        width: 318px;
+    }
+}
+
+@media screen and (max-width: 500.98px) and (max-height: 790.98px) {
+    /* #popup7 .popup .close {
+        top: 15px;
+        right: 75px;
+    } */
+}
+
+@media screen and (max-width: 500.98px) and (min-height: 790.99px) {
+    /* check email registration form*/
+    .second-forgot-pass-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    .second-forgot-pass-text {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 auto 44px;
+        width: 76%;
+    }
+    /* create pass */
+    .new-password-create-title {
+        width: 100%;
+    }
+    /* mail approve and success-registred*/
+    .mail-approve .mail-approve-input {
+        width: 100%;
+        height: 144px;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .mail-approve .mail-approve-button {
+        margin: 0 auto;
+    }
+    .mail-approve-title, .success-registred-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .mail-approve-title {
+        margin: 0 auto 54px;
+    }
+    .success-registred-title {
+        margin: 0 auto 28px;
+        width: 100%;
+    }
+    .mail-approve-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 415.98px) and (max-height: 790.98px) {
+    #popup7 .popup .close {
+        top: 3.5%;
+        font-size: 38px;
+        right: 22%;
+    }
+}
+
+@media screen and (max-width: 415.98px) and (max-height: 800.99px) {
+    /* auth registration form  */
+    .auth-registration-form {
+        width: 366px;
+        height: 498px;
+    }
+    #popup7 .auth-registration-form, #popup7 .registration-form.registration-form-signin {
+        width: 99%;
+        height: 74.5%;
+    }
+    #popup7 .popup-registration-title {
+        font-family: 'FiraGO ExtraBold';
+        font-size: 20px;
+        line-height: 24px;
+        margin: 40px auto 28px;
+    }
+    #popup7 .popup-auth-input-email, #popup7 .popup-auth-input-password, #popup7 .popup-auth-button, #popup7 .popup-error-p, #popup7 .popup-recover-password {
+        width: 84%;
+    }
+    #popup7 .popup-auth-input-email input[type=email], #popup7 .popup-auth-input-password input[type=password] {
+        padding: 17px 20px;
+    }
+    #popup7 .popup-auth-input-email, .popup-auth-input-password {
+        height: 60px;
+    }
+    #popup7 .popup-auth-input-password {
+        margin: 0 auto 16px;
+    }
+    #popup7 .popup-auth-button {
+        margin: 0 auto 10px;
+        padding: 0;
+        height: 64px;
+    }
+    #popup7 .popup-recover-password {
+        padding: 15px 31px 28px 0;
+    }
+    /* forgot pass registration form  */
+    /* #popup8 .registration-form.registration-form-signin, .input-popup-bg {
+        height: 522px;
+        border-radius: 28px;
+    } */
+    #popup8 .registration-form-forgotpas img {
+        width: 127px;
+        height: 127px;
+        margin: 40px auto 0;
+    }
+    #popup8 .first-forgot-pass h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+    .first-forgot-pass p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 auto 32px;
+    }
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        margin: auto;
+        /* height: 630px; */
+    }
+    /* #popup8 .popup{
+        height: 502px;
+    } */
+    /* #popup7 .popup {
+        margin: auto;
+        height: 610px;
+    } */
+    #popup7 .popup, #popup9 .popup {
+        width: 100%;
+        height: 565px;
+    }
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
+        margin: 0 auto 28px;
+    }
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+        top: initial;
+        right: 0;
+        left: 0;
+        bottom: 5px;
+        margin: 0 auto;
+        position: absolute;
+        transition: all 200ms;
+        color: #ffffff;
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: rgba(255, 255, 255, .4);
+        text-align: center;
+        border-radius: 13px;
+        width: 44px;
+        height: 44px;
+    }
+    #popup7 .popup {
+        bottom: 15px;
+    }
+    #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        bottom: 15px;
+        height: 582px;
+    }
+    #popup7 .popup .close:hover, #popup8 .popup .close:hover, #popup9 .popup .close:hover, #popup10 .popup .close:hover {
+        color: grey;
+        background-color: white;
+    }
+    #popup7 .auth-path-registration {
+        text-align: center;
+        margin: 0px auto 0;
+    }
+    #popup7 .input-button {
+        font-size: 14px;
+    }
+    /* check email registration form*/
+    #popup7 .registration-form, #popup8 .registration-form, #popup9 .registration-form, #popup7 .registration-form {
+        border-radius: 14px;
+    }
+    #popup7 .registration-form.registration-form-signin, #popup7 .input-popup-bg {
+        height: 632px;
+        border-radius: 14px;
+    }
+    #popup8 .registration-form.registration-form-signin, #popup8 .input-popup-bg, #popup10 .registration-form.registration-form-signin, #popup10 .input-popup-bg {
+        height: 502px;
+        border-radius: 14px;
+        margin: auto;
+    }
+    #popup10 .new-account-title {
+        margin: 32px auto 26px;
+    }
+    #popup9 .registration-form.registration-form-signin, #popup9 .input-popup-bg {
+        height: 494px;
+        border-radius: 14px;
+        margin: auto;
+    }
+    #popup8 .second-forgot-pass img {
+        margin: 25px auto 0;
+    }
+    #popup8 .first-forgot-pass p {
+        width: 260px;
+    }
+    #popup8 .second-forgot-pass-title {
+        width: 230px;
+        margin: 0 auto 20px;
+    }
+    #popup8 .second-forgot-pass-text {
+        width: 258px;
+    }
+    #popup8 .second-forgot-pass-input {
+        margin: 0 auto 40px;
+    }
+    #second-forgot-pass .second-forgot-pass-text {
+        margin: 0 auto 48px;
+    }
+    /* new pass registration form */
+    /* .pwd-input-password input[type=password], .pwd-repeat-input-password input[type=password] {
+        width: 248px;
+        padding: 18px 20px;
+    }
+    .new-password-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 60px auto 40px;
+    }
+    .new-password-form label {
+        width: 318px;
+        font-size: 14px;
+        line-height: 14px;
+        margin: 0 auto 12px;
+    }
+    .pwd-input-password {
+        margin-bottom: 24px;
+    }
+    .pwd-repeat-input-password {
+        margin-bottom: 36px;
+    } */
+    /* changed pass registration form */
+    /* .password-changed img {
+        width: 96px;
+        height: 114px;
+        margin: 72px auto 48px;
+    }
+    .password-changed .password-changed-title {
+        margin: 0 auto 20px;
+    }
+    .password-changed-text {
+        width: 80%;
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 auto 48px;
+    } */
+    /* new account form */
+    /* .new-account-title {
+        font-family: 'FiraGO ExtraBold';
+        font-size: 20px;
+        line-height: 24px;
+        margin: 82px auto 58px;
+        text-align: center;
+        width: 100%;
+        margin: 52px auto 44px;
+    } */
+    #popup10 .popup {
+        margin: auto;
+        /* height: 630px; */
+    }
+    /* .registration-form-signin.registration-form-new-region, .input-popup-bg {
+        height: 534px;
+    } */
+    /* .about-header-icons3 {
+        margin-bottom: 44px;
+    } */
+    #popup10 .popup .close {
+        bottom: 0;
+    }
+    #name-fields .new-account-create-title {
+        margin: 35px auto 30px;
+    }
+    #create-password .new-password-create-title {
+        margin: 30px auto 28px;
+    }
+    #mail-approve img {
+        margin: 35px auto 0;
+    }
+    #mail-approve .mail-approve-input {
+        height: 110px;
+    }
+    #mail-approve .mail-approve-title {
+        font-size: 18px;
+    }
+    #success-registred img {
+        width: 120px;
+        height: 127px;
+        margin: 55px auto 15px;
+    }
+    #success-registred .success-registred-title {
+        font-size: 18px;
+    }
+    /* create accound form */
+    /* .new-account-create-title {
+        margin: 52px auto 44px;
+    } */
+    /* .return-continue {
+        height: 64px;
+    } */
+    /* create pass */
+    /* .new-password-create-title {
+        width: 100%;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 52px auto 44px;
+        text-align: center;
+    } */
+    /* .checkbox-input-text {
+        width: 290px;
+        margin-left: 12px;
+    }
+    .checkbox-input {
+        width: 318px;
+        margin: 44px auto 69px;
+    } */
+    /* mail approve and success-registred*/
+    /* .mail-approve .mail-approve-img {
+        width: 96px;
+        margin: 56px auto 18px;
+    }
+    .success-registred-img {
+        width: 116px;
+        margin: 72px auto 18px;
+    }
+    .mail-approve .mail-approve-input {
+        width: 100%;
+        height: 120px;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+    .mail-approve .mail-approve-button {
+        margin: 0 auto;
+    }
+    .mail-approve-title, .success-registred-title {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .mail-approve-title {
+        width: 100%;
+        margin: 0 auto 28px;
+    }
+    .success-registred-title {
+        margin: 0 auto 28px;
+        width: 100%;
+    }
+    .mail-approve-text {
+        width: 94%;
+        margin: 0 auto 38px;
+    }
+    .success-registred-text {
+        margin: 0 auto 48px;
+    } */
+}
+
+@media screen and (max-width: 400px) and (max-height: 745.99px) {
+    /* new account form */
+    #new-region .new-region-title {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    #new-region .about-header-icons3 .can-toggle label .can-toggle__switch {
+        flex: 0 0 240px;
+    }
+    #new-region .registration-form-new-region .rem-back-img {
+        width: 250px;
+    }
+    #new-region ul.list {
+        width: 246px;
+    }
+    #new-region .pwd-repeat-input-password {
+        width: 240px;
+    }
+    #new-region ul.list label {
+        padding: 10px 0 10px 12px;
+    }
+    /* create accound form */
+    #name-fields .new-account-create-title {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    #name-fields .return-continue {
+        width: 248px;
+    }
+    /* create pass */
+    #create-password .new-password-create-title {
+        text-align: center;
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 30px auto 20px;
+    }
+    #create-password .checkbox-input {
+        width: 240px;
+        margin: 14px auto 0;
+    }
+    #create-password .return-continue .create-pass-button {
+        height: 54px;
+        border-radius: 14px;
+    }
+    #create-password .return-continue {
+        width: 240px;
+        height: 54px;
+        margin-top: 12px;
+    }
+    #create-password .checkbox-input-text {
+        width: 210px;
+        font-size: 12px;
+    }
+    #mail-approve .mail-approve-input, #mail-approve .mail-approve-button {
+        width: 240px;
+    }
+    #mail-approve .mail-approve-text {
+        width: 90%;
+    }
+    #mail-approve img {
+        width: 90px;
+        height: 100px;
+    }
+    #mail-approve .mail-approve-text {
+        margin: 0 auto 35px;
+    }
+    #success-registred .success-registred-text {
+        margin: 0 auto 65px;
+    }
+    #success-registred img {
+        width: 96px;
+        height: 104px;
+    }
+    #popup8 .registration-form-forgotpas img {
+        width: 96px;
+        height: 106px;
+        margin: 50px auto 0;
+    }
+    #password-changed img {
+        width: 96px;
+        height: 106px;
+        margin: 75px auto 20px;
+    }
+    #create-password .new-password-create-title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) and (max-height: 745.99px) {
+    /* new pass registration form */
+    #popup9 .new-password-title {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    /* changed pass registration form */
+    #popup9 .password-changed .password-changed-title {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    #popup9 .password-changed-text {
+        width: 85%;
+    }
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
+        width: 240px;
+        height: 64px;
+    }
+    #popup7 .auth-input-email, #popup7 .popup-auth-button, .popup-auth-input-email, .popup-auth-input-password, .popup-auth-button, .popup-recover-password, #popup7 .popup-auth-input-password {
+        width: 240px;
+        height: 64px;
+    }
+    .popup-error-p {
+        width: 240px;
+    }
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
+        width: 240px;
+    }
+    #popup8 .registration-form-signin .auth-button {
+        font-size: 14px;
+    }
+    /* #password-changed img {
+        margin: 45px auto 20px;
+    } */
+    #password-changed .password-changed-text {
+        width: 94%;
+        margin: 0 auto 55px;
+    }
+    #new-region .new-password-form label, #popup10 .new-password-form label {
+        font-size: 12px;
+    }
+    #popup10 .new-region .new-region-button {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 320.98px) and (max-height: 745.99px) {
+    /* auth registration form  */
+    #popup7 .auth-registration-form {
+        width: 280px;
+    }
+    #popup7 .popup-registration-title {
+        font-family: 'FiraGO ExtraBold';
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 40px auto 28px;
+    }
+    #popup7 .popup-auth-input-email, #popup7 .popup-auth-input-password, #popup7 .popup-auth-button, #popup7 .popup-error-p, #popup7 .popup-recover-password {
+        width: 90%;
+    }
+    #popup7 .popup-auth-input-email input[type=email], #popup7 .popup-auth-input-password input[type=password] {
+        padding: 17px 20px;
+    }
+    #popup7 .popup-auth-input-email, #popup7 .popup-auth-input-password {
+        height: 60px;
+    }
+    /* .popup-auth-input-email {
+        margin: 0 auto 12px;
+    }
+    .popup-auth-input-password {
+        margin: 0 auto 5px;
+    } */
+    #popup7 .popup-auth-button {
+        margin: 0 auto 24px;
+        padding: 0;
+        height: 52px;
+    }
+    #popup7 .popup-recover-password {
+        font-size: 12px;
+        line-height: 14px;
+        padding: 15px 0 24px 0;
+        text-decoration: underline;
+    }
+    #popup7 .popup-error-p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    /* #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+        top: initial;
+        right: 46%;
+        left: 46%;
+        bottom: 14px;
+    } */
+    /* forgot pass registration form  */
+    /* .registration-form.registration-form-signin, .input-popup-bg {
+        height: 439px;
+    } */
+    /* #popup8 .registration-form-forgotpas img {
+        width: 96px;
+        height: 96px;
+        margin: 32px auto 5px;
+    } */
+    #popup8 .first-forgot-pass h3 {
+        font-size: 16px;
+        line-height: 20.8px;
+        margin-bottom: 16px;
+    }
+    #popup8 .first-forgot-pass p {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 auto 24px;
+    }
+    #popup8 .registration-form.registration-form-signin {
+        height: 486px;
+    }
+    #popup8 .registration-form-forgotpas img {
+        width: 96px;
+        height: 106px;
+        margin: 60px auto 10px;
+    }
+    /* #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+        margin: 28px auto 0px;
+        height: 519px;
+    } */
+    .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
+        margin: 0 auto 16px;
+    }
+    /* .registration-form.registration-form-signin, .input-popup-bg {
+        height: 416px;
+        border-radius: 22px;
+    } */
+    /* .registration-form-signin, .auth-registration-form {
+        border-radius: 22px;
+    } */
+    /* check email registration form*/
+    #second-forgot-pass img {
+        margin: 32px auto 12px;
+    }
+    #second-forgot-pass .second-forgot-pass-title {
+        width: 160px;
+        font-size: 16px;
+        line-height: 20.8px;
+        margin: 0 auto 16px;
+    }
+    #second-forgot-pass .second-forgot-pass-text {
+        width: 240px;
+        margin: 0 auto 28px;
+    }
+    #second-forgot-pass .second-forgot-pass-input {
+        margin: 0 auto 28px;
+    }
+    /* new pass registration form */
+    /* .registration-form.registration-form-signin.new-pass-registr-form {
+        height: 434px;
+        border-radius: 22px;
+    } */
+    #popup9 .popup {
+        margin: auto;
+        /* height: 534px; */
+    }
+    #new-password .new-password-title {
+        margin: 44px auto 28px;
+    }
+    #new-password .pwd-input-password {
+        margin-bottom: 20px;
+    }
+    #new-password .pwd-repeat-input-password {
+        margin-bottom: 18px;
+    }
+    #new-password .pwd-input-password, .pwd-repeat-input-password {
+        width: 247px;
+        height: 60px;
+    }
+    #new-password .new-password-form label {
+        width: 247px;
+    }
+    #new-password .new-password button {
+        width: 247px;
+        height: 52px;
+    }
+    /* changed pass registration form */
+    /* #password-changed img {
+        width: 72px;
+        height: 90px;
+        margin: 48px auto 32px;
+    } */
+    #password-changed .password-changed .password-changed-title {
+        margin: 0 auto 16px;
+    }
+    #password-changed .password-changed-text {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 auto 52px;
+    }
+    #password-changed .password-changed .pass-changed-button {
+        height: 52px;
+    }
+    /* new account form */
+    #new-region .new-region-title {
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 40px auto 34px;
+    }
+    /* .registration-form-signin.registration-form-new-region, .input-popup-bg {
+        height: 536px;
+    } */
+    #new-region .registration-form-signin.registration-form-new-region .new-region-button {
+        height: 52px;
+        padding: 15px 0;
+    }
+    #new-region .registration-form-new-region .about-header-icons3 .can-toggle, #new-region .registration-form-new-region .new-region-button {
+        width: 244px;
+    }
+    #new-region .registration-form-new-region .rem-back-img {
+        width: 248px;
+        margin-bottom: 26px;
+    }
+    #new-region .registration-form-signin.registration-form-new-region .new-password-form label {
+        width: 243px;
+    }
+    #new-region .about-header-icons3 .can-toggle label .can-toggle__switch {
+        flex: 0 0 244px;
+    }
+    #new-region .pwd-repeat-input-password {
+        width: 244px;
+        margin-bottom: 26px;
+    }
+    #new-region .about-header-icons3 {
+        margin-bottom: 34px;
+    }
+    #new-region ul.list {
+        width: 246px;
+        max-height: 324px;
+        padding: 11px 0 0 0;
+    }
+    #new-region ul.list label {
+        padding: 10px 0 10px 12px;
+    }
+    #new-region summary:after {
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid #130F26;
+        border-left: 2px solid #130F26;
+    }
+    /* #popup10 .popup .close {
+        top: initial;
+        right: 44%;
+        left: 44%;
+        bottom: -104px;
+    } */
+    /* create accound form */
+    #name-fields .new-account-create-title {
+        font-size: 16px;
+        line-height: 19.2px;
+        margin: 38px auto 30px;
+    }
+    #name-fields .name-fields .input-password {
+        height: 60px;
+    }
+    #name-fields .name-fields .create-account-input {
+        margin-bottom: 20px;
+    }
+    #name-fields .name-fields .create-account-input-email {
+        margin: 0 auto 24px;
+    }
+    #name-fields .return-continue {
+        width: 248px;
+        flex-direction: column-reverse;
+        height: 78px;
+        margin-top: 40px;
+    }
+    #name-fields .return-continue .create-account-button {
+        margin: 12px auto 12px;
+    }
+    #name-fields .return img {
+        margin: 3px 8px 0px 0px;
+    }
+    #name-fields .return {
+        margin: 0 auto;
+    }
+    #name-fields .return span {
+        display: initial;
+    }
+    /* create pass */
+    /* #create-password .new-password-create-title {
+        margin: 40px auto 32px;
+    } */
+    /* #create-password .create-password .return-continue {
+        height: 92px;
+        margin-top: 0;
+    } */
+    #create-password .create-pass-button {
+        border-radius: 14px;
+    }
+    /* #create-password .checkbox-input {
+        margin: 28px auto 28px;
+    } */
+    /* mail approve and success-registred*/
+    #mail-approve.mail-approve-img {
+        width: 96px;
+        margin: 46px auto 28px;
+    }
+    #mail-approve .success-registred-img {
+        width: 100px;
+        margin: 84px auto 28px;
+    }
+    /* #mail-approve .mail-approve-input {
+        width: 100%;
+        height: 120px;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    } */
+    #mail-approve .mail-approve-button {
+        margin: 0 auto;
+    }
+    #mail-approve .mail-approve-title, .success-registred-title {
+        font-size: 16px;
+        line-height: 20.8px;
+    }
+    #mail-approve .mail-approve-title {
+        margin: 0 auto 26px;
+    }
+    #success-registred .success-registred-title {
+        margin: 0 auto 28px;
+    }
+    #success-registred .mail-approve-text {
+        width: 94%;
+        margin: 0 auto 34px;
+    }
+    #success-registred .return-continue {
+        width: 240px;
+        margin: 0 auto;
+    }
+    #success-registred .hide-mail-approve {
+        display: none;
+    }
+    #success-registred .appear-mail-approve {
         display: initial;
     }
 }

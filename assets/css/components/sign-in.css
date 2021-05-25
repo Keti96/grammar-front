@@ -134,7 +134,7 @@ a.sign-in-parent:hover:after {
 #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
     width: 945px;
     height: 805px;
-    margin: 157px auto;
+    /* margin: 157px auto; */
 }
 
 .registration-form-forgotpas {
