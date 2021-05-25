@@ -3119,6 +3119,9 @@
     #popup10 .new-password-form label {
         width: 230px;
     }
+    #popup10 summary {
+        margin: auto;
+    }
     #popup10 summary:after {
         width: 12px;
         height: 12px;
