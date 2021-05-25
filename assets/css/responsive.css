@@ -1986,6 +1986,7 @@
         margin: auto;
     }
 }
+
 @media screen and (max-width: 1439.98px) and (max-height: 790.98px) {
     #popup1 .video-popup {
         width: 80.2%;
@@ -2192,7 +2193,7 @@
 }
 
 @media screen and (max-width: 990.98px) and (min-height: 790.99px) {
-    #popup1 .video-popup { 
+    #popup1 .video-popup {
         width: 80.2%;
         padding: 0;
         position: absolute;
@@ -3095,19 +3096,35 @@
         line-height: 19.2px;
     }
     #new-region .about-header-icons3 .can-toggle label .can-toggle__switch {
-        flex: 0 0 240px;
+        flex: 0 0 234px;
+        height: 60px;
+        left: 0;
+    }
+    .about-header-icons3 .can-toggle label .can-toggle__switch:after {
+        top: 8px;
+        left: 8px;
     }
     #new-region .registration-form-new-region .rem-back-img {
         width: 250px;
     }
     #new-region ul.list {
-        width: 246px;
-    }
-    #new-region .pwd-repeat-input-password, #popup10 .pwd-input-password, #popup10 .new-password-form label, #popup10 .new-region .new-region-button {
         width: 240px;
     }
-    #new-region ul.list label {
-        padding: 10px 0 10px 12px;
+    #new-region .pwd-repeat-input-password, #popup10 .pwd-input-password {
+        width: 232px;
+    }
+    #popup10 .new-region .new-region-button {
+        width: 230px;
+    }
+    #popup10 .new-password-form label {
+        width: 230px;
+    }
+    #popup10 summary:after {
+        width: 12px;
+        height: 12px;
+        border-bottom: 2.5px solid #130F26;
+        border-left: 2.5px solid #130F26;
+        margin: 4px 10px 0 0;
     }
     /* create accound form */
     #name-fields .new-account-create-title {
