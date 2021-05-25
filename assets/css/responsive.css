@@ -3098,7 +3098,7 @@
     #new-region .about-header-icons3 .can-toggle label .can-toggle__switch {
         flex: 0 0 234px;
         height: 60px;
-        left: 0;
+        left: -2px;
     }
     .about-header-icons3 .can-toggle label .can-toggle__switch:after {
         top: 8px;
@@ -3113,9 +3113,15 @@
     #new-region .pwd-repeat-input-password, #popup10 .pwd-input-password {
         width: 232px;
         background-image: none;
+        background-color: white;
     }
     #popup10 .new-region .new-region-button {
         width: 230px;
+        height: 54px;
+        margin: 0 auto;
+    }
+    #popup10 .about-header-icons3 {
+        margin-bottom: 28px;
     }
     #popup10 .new-password-form label {
         width: 230px;
@@ -3124,11 +3130,27 @@
         margin: auto;
     }
     #popup10 summary:after {
-        width: 12px;
-        height: 12px;
+        width: 8px;
+        height: 8px;
         border-bottom: 2.5px solid #130F26;
         border-left: 2.5px solid #130F26;
-        margin: 4px 10px 0 0;
+        margin: 8px 7px 0 0;    
+    }
+    #popup10 .popup {
+        bottom: 0;
+        height: 610px;
+    }
+    #popup10 .popup .close {
+        bottom: 34px; 
+    } 
+    #popup10 .input-popup-bg {
+        height: 502px; 
+    }
+    #popup10 .new-account-title {
+        margin: 30px auto 22px;
+    }
+    #popup10 .registration-form.registration-form-signin {
+        height: 476px;
     }
     /* create accound form */
     #name-fields .new-account-create-title {
