@@ -3112,6 +3112,7 @@
     }
     #new-region .pwd-repeat-input-password, #popup10 .pwd-input-password {
         width: 232px;
+        background-image: none;
     }
     #popup10 .new-region .new-region-button {
         width: 230px;
