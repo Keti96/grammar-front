@@ -3131,7 +3131,7 @@
         /* padding: 1rem 0.7rem; */
         border-radius: 10px;
         text-align: left;
-        background: white;
+        background-color: white;
     }
     #popup10 .input-password input[type=password] {
         padding: 14px 10px;
@@ -3141,7 +3141,10 @@
         height: 8px;
         border-bottom: 2.5px solid #130F26;
         border-left: 2.5px solid #130F26;
-        /* margin: 8px 7px 0 0;     */
+        margin: 0;
+        position: relative;
+        top: 27.5%;
+        right: 3%;
     }
     #popup10 .popup {
         bottom: 0;
