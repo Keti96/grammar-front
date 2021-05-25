@@ -3103,7 +3103,7 @@
     #new-region ul.list {
         width: 246px;
     }
-    #new-region .pwd-repeat-input-password {
+    #new-region .pwd-repeat-input-password, #popup10 .pwd-input-password, #popup10 .new-password-form label, #popup10 .new-region .new-region-button {
         width: 240px;
     }
     #new-region ul.list label {
