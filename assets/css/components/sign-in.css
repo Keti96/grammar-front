@@ -486,6 +486,7 @@ input[type="radio"] {
 
 input[type="radio"]:checked {
     display: inline;
+    appearance: none;
 }
 
 input[type="radio"]:after {
