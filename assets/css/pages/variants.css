@@ -219,13 +219,16 @@ ul li.variants-active a  {
     display: flex;
 }
 
-.variants-need-help p {
+.variants-need-help a {
     font-family: 'FiraGo Light';
     font-size: 14px;
     line-height: 21px;
     color: #707070;
     padding: 0 0 0 30px;
     margin: auto 0;
+}
+.variants-need-help a:hover {
+    text-decoration: underline;
 }
 
 .variants-bg-fill {
@@ -409,7 +412,7 @@ ul li.variants-active a  {
 .all-variants-second {
     display: flex;
     margin-left: auto;
-    margin-right: -60px;
+    /* margin-right: -60px; */
 }
 
 .all-variants-second .variants-file {
