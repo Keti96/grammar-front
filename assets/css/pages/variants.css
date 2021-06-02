@@ -224,7 +224,7 @@ ul li.variants-active a  {
     font-size: 14px;
     line-height: 21px;
     color: #707070;
-    padding: 0 0 0 30px;
+    padding: 0 0 0 18px;
     margin: auto 0;
 }
 .variants-need-help a:hover {
@@ -325,6 +325,9 @@ ul li.variants-active a  {
     align-self: center;
     margin-right: 32px;
 }
+.header-variants-regist:hover {
+    color: initial;
+}
 
 .header-variants-login {
     font-family: 'FiraGo Book';
@@ -336,7 +339,15 @@ ul li.variants-active a  {
     border-radius: 8px;
     padding: 13px 45px;
 }
-
+.header-variants-login:hover, .variants-user-button-longin:hover, .variants-user-button:hover {
+    /* background-color: #00B261; */
+    background-color: #00CC6F;
+    box-shadow: 5px 5px 0px #00B261;
+    position: relative;
+    left: -1px;
+    top: -1px;
+    color: white;
+}
 .user-registred-no .header-variants-input-user {
     margin-left: auto;
 }
