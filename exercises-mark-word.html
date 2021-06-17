@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/pages/about-project.css">
+    <link rel="stylesheet" href="./assets/css/pages/special-exercises-dropdown.css">
+
     <script src="https://kit.fontawesome.com/77562e5fa6.js" crossorigin="anonymous"></script>
     <title>ქართული ენის გრამატიკის ელექტრონული რესურსი</title>
 </head>
@@ -59,6 +61,7 @@
         </div>
     </div>
 
+
     <div id="popup15" class="overlay">
         <div class="popup" id="pop-dessapear15">
             <a class="close close-in" id="close-in15" onclick="navDessapear15();" href="javascript:void(0);">&times;</a>
@@ -80,6 +83,8 @@
         </div>
     </div>
 
+
+
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
@@ -99,7 +104,7 @@
                 </div>
                 <div class="col-9 navbar-content">
                     <div class="adverb-return-back">
-                        <a href="exercises.html" ><i class="fas fa-arrow-left"></i>უკან დაბრუნება</a>
+                        <a href="exercises.html"><i class="fas fa-arrow-left"></i>უკან დაბრუნება</a>
                     </div>
                     <div class="col-4 user-registred">
                         <div class="header-variants-item user-registred-yes">
@@ -233,49 +238,32 @@
                         <div class="spec-exer-all">
                             <div class="spec-exer-head">
                                 <p class="spec-exer-head-ex3">სავარჯიშო #3</p>
-                                <button><i class="fas fa-volume-up"></i>პროექტორის რეჟიმი</button>
+                                <button>პროექტორის რეჟიმი</button>
                             </div>
-                            <div class="spec-exer-questions">
-                                <p class="spec-ask-question">რომელ ბრუნვაში დგას მოცემული ნაცვალსახელები: <span class="to-strong">მათ, მას, ჩვენ, შენ?</span></p>
-                                <span class="exer-choose-cor-answer">მონიშნე სწორი პასუხი</span>
+                            <p class="mark-word-title">მონიშნე ზედსართავი სახელები წინადადებაში</p>
+                            <span class="mark-word-subtitle">დააჭირე სიტყვებს მოსანიშნად</span>
+                            <div class="spec-exer--mark-word">
+                                <span>გიორგიმ</span>
+                                <span>ნიკოლოზს</span>
+                                <span>ფერადი</span>
+                                <span>ბურთი</span>
+                                <span>ახალ</span>
+                                <span>სათამაშოში</span>
+                                <span>გაუცვალა</span>
+                                <span>.</span>
+
                             </div>
-                            <div class="exer-answers-all">
-                                <div class="row">
-                                    <div class="col-6">
-                                        <div class="exer-answers-box">
-                                            <button>ა) სახელობით ბრუნვაში</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="exer-answers-box">
-                                            <button>ბ) ნათესაობით ბრუნვაში</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="exer-answers-box ">
-                                            <button>გ) მიცემით ბრუნვაში</button>
-                                        </div>
-                                    </div>
-                                    <div class="col-6">
-                                        <div class="exer-answers-box">
-                                            <button>დ) წოდებით ბრუნვაში</button>
-                                        </div>
-                                    </div>
-                                    <!-- <div class="col-12 check-button">
-                                        <button class="exer-check-button">შემოწმება</button>
-                                    </div> -->
-                                </div>
-                            </div>
+
                             <div class="check-count-boxes">
-                                
+
                                 <div class="special-exercises-return-button">
                                     <img src="./assets/images/icons/Arrow - Grey.svg" alt="">
                                 </div>
                                 <a href="#popup15" onclick="navAppear15();" class="ganmarteba">
 
-                                    
+
                                     <p>მაჩვენე განმარტება</p>
-4
+
                                 </a>
                                 <p class="counted-boxes">1/6</p>
                                 <div class="check-button">
@@ -292,6 +280,7 @@
 
 
     <script>
+
         var stopVideos = function () {
             var videos = document.querySelectorAll('iframe, video');
             Array.prototype.forEach.call(videos, function (video) {
@@ -333,26 +322,7 @@
             }
         });
 
-window.addEventListener('click', function (e) {
-            if (document.getElementById('popup15').contains(e.target)) {
-                // Clicked in box
-                if (document.getElementById('pop-dessapear15').contains(e.target)) {
-                    // Clicked in box
-                } else {
-                    // Clicked outside the box
-                    document.getElementById("close-in15").click();
-                    remove_hash_from_url();
-                }
-            } else {
-                // Clicked outside the box
-            }
-        });
-        var navDessapear15 = function () {
-            document.getElementById("popup15").style.display = "none";
-        }
-        var navAppear15 = function () {
-            document.getElementById("popup15").style.display = "inherit";
-        }
+
         var openVideos = function () {
             document.getElementById("popup1").style.display = "inherit";
         };
@@ -383,6 +353,20 @@ window.addEventListener('click', function (e) {
                 } else {
                     // Clicked outside the box
                     document.getElementById("close-in").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup15').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear15').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in15").click();
                     remove_hash_from_url();
                 }
             } else {
@@ -442,10 +426,16 @@ window.addEventListener('click', function (e) {
         var navDessapear2 = function () {
             document.getElementById("popup7").style.display = "none";
         }
+        var navDessapear15 = function () {
+            document.getElementById("popup15").style.display = "none";
+        }
         var navAppear2 = function () {
             document.getElementById("popup7").style.display = "inherit";
         }
 
+        var navAppear15 = function () {
+            document.getElementById("popup15").style.display = "inherit";
+        }
         var navDessapear3 = function () {
             document.getElementById("popup8").style.display = "none";
         }
@@ -523,23 +513,26 @@ window.addEventListener('click', function (e) {
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
+
         var elements = document.querySelectorAll('.exer-answers-box');
         var elementsTwo = document.querySelectorAll('.exer-answers-box button');
 
         [].forEach.call(elements, function (div) {
 
             div.addEventListener('click', function () {
+
                 var elementTwo = document.querySelector('.exer-choosed-answer');
-                if (elementTwo) {
-                    elementTwo.classList.remove("exer-choosed-answer");
-                }
-                div.classList.add("exer-choosed-answer");
-                
+                // if (elementTwo) {
+                //     elementTwo.classList.remove("exer-choosed-answer");
+                // }
+                // document.querySelector(div + 'button .squaredOne').click();
+                div.classList.toggle("exer-choosed-answer");
+
 
                 document.querySelector('button.exer-check-button').addEventListener('click', function () {
                     var button_check = document.querySelector('.exer-check-button')
                     button_check.classList.add("exer-check-button-active");
-                    document.querySelector('button.exer-check-button').innerHTML = '<a href="./special-exercises3-result.html">შემდეგი</a>';
+                    document.querySelector('button.exer-check-button').innerHTML = 'შემდეგი';
 
                     document.querySelector('.ganmarteba').style.display = "block";
 
@@ -553,6 +546,12 @@ window.addEventListener('click', function (e) {
             });
 
         })
+
+
+
+
+
+
     </script>
 </body>
 

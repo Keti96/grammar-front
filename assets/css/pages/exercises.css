@@ -15,15 +15,19 @@ html, .exercises-body {
     font-feature-settings: 'case' on;
     padding-right: 12px;
 }
+
 .all-exercises-first {
     margin-bottom: 20px;
 }
+
 .all-exercises-first .slice {
     background-color: #F8F7F2;
 }
+
 .all-exercises-first .c100 {
     background-color: #F8F7F2;
 }
+
 .exercises-issue-status {
     font-size: 12px;
 }
@@ -65,6 +69,7 @@ html, .exercises-body {
     display: flex;
     flex-direction: column;
 }
+
 .exercises-grammar-pagination {
     font-family: 'FiraGo';
     font-size: 12px;
@@ -72,18 +77,21 @@ html, .exercises-body {
     color: #4B6858;
     padding-bottom: 8px;
 }
+
 .exercises-grammar-title {
     font-family: 'FiraGo Medium';
     font-size: 14px;
     line-height: 21px;
-    color:#333333;
+    color: #333333;
     padding-bottom: 8px;
 }
+
 .exercises-grammar-item {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
 }
+
 .exercises-grammar-item span {
     font-family: 'FiraGo Book';
     font-size: 12px;
@@ -91,7 +99,8 @@ html, .exercises-body {
     color: #707070;
     align-self: center;
 }
-.exercises-grammar-item a img{
+
+.exercises-grammar-item a img {
     display: inline-block;
     margin: auto;
     /* vertical-align: middle; */
@@ -99,6 +108,7 @@ html, .exercises-body {
     border-radius: 20px;
     padding: 10px; */
 }
+
 .exercises-grammar-item a {
     background-color: #F6F7F7;
     border-radius: 50%;
@@ -106,13 +116,15 @@ html, .exercises-body {
     width: 32px;
     height: 32px;
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
-.exercises-grammar-item img{
+
+.exercises-grammar-item img {
     display: block;
     margin: auto;
 }
-.exercises-number-up{
+
+.exercises-number-up {
     font-family: 'FiraGo Bold';
     font-size: 32px;
     line-height: 38.4px;
@@ -121,7 +133,8 @@ html, .exercises-body {
     color: #4B6858;
     margin-top: auto;
 }
-.exercises-work{
+
+.exercises-work {
     font-family: 'FiraGo';
     font-size: 16px;
     letter-spacing: 0.2px;
@@ -129,12 +142,89 @@ html, .exercises-body {
     font-weight: bold;
     margin-bottom: auto;
 }
-.exercises-wb-pad-more{
+
+.exercises-wb-pad-more {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-.all-exercises-all{
+
+.all-exercises-all {
     overflow-y: scroll;
     height: calc(100% - 314px);
+}
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    ;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    /* background: rgba(112, 112, 112, .4); */
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+    /* background: #555;  */
+}
+
+/* slider */
+
+.splide__slide {
+    width: 23.2%!important;
+    margin: 0 10px!important;
+}
+
+.splide__slide .col-3 {
+    width: 100%;
+}
+
+ul#splide01-list {
+    width: 100%;
+}
+.splide .splide__arrows .splide__arrow--prev {
+    right: 4rem!important;
+    left: inherit;
+}
+.exercises-splide1 .splide__arrow--next, .exercises-splide2 .splide__arrow--next, .exercises-splide .splide__arrow--next3 {
+    right: 0.8em;
+}
+
+.exercises-splide1 .splide__arrow, .exercises-splide2 .splide__arrow, .exercises-splide3 .splide__arrow {
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 36px;
+    height: 36px;
+    color: #4B6858;
+    opacity: 1;
+}
+.exercises-splide1 .splide__arrow {
+    top: -50px;
+}
+/* .exercises-splide2 .splide__arrow {
+    
+}
+.exercises-splide3 .splide__arrow {
+    
+} */
+.exercises-splide1 .splide__arrow svg, .exercises-splide2 .splide__arrow svg, .exercises-splide3 .splide__arrow svg {
+    width: 0.9em;
+    height: 0.9em;
+}
+.exercises-splide1 .splide__pagination__page, .exercises-splide2 .splide__pagination__page, .exercises-splide3 .splide__pagination__page {
+    width: 0;
+    height: 0;
 }

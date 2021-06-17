@@ -13,6 +13,11 @@
 @import "./pages/exercises.css";
 @import "./pages/adverb-exercise-1.css";
 @import "./pages/special-exercises3.css";
+@import "./pages/special-exercises3-result.css";
+@import "./pages/special-exercises-dropdown.css";
+@import "./pages/special-exercises-missed-word.css";
+@import "./pages/exercises-correct-mistakes.css";
+@import "./pages/exercises-mark-word.css";
 
 /* @import "./pages/about-project.css"; */
 /* end page import */
