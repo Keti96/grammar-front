@@ -249,8 +249,8 @@
                                         <div class="exer-answers-box exer-wrong-answer">
                                             <button>
                                                 <div class="squaredOne ">
-                                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
-                                                    <label for="squaredOne" class="squaredOne2"></label>
+                                                    <input type="checkbox" value="None" id="squaredOne10" name="check" />
+                                                    <label for="squaredOne10" class="squaredOne2"></label>
                                                 </div> სახელობით ბრუნვაში
                                             </button>
                                         </div>
@@ -259,8 +259,8 @@
                                         <div class="exer-answers-box ">
                                             <button>
                                                 <div class="squaredOne">
-                                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
-                                                    <label for="squaredOne" class="squaredOne2"></label>
+                                                    <input type="checkbox" value="None" id="squaredOne11" name="check" />
+                                                    <label for="squaredOne11" class="squaredOne2"></label>
                                                 </div> ნათესაობით ბრუნვაში
                                             </button>
                                         </div>
@@ -269,8 +269,8 @@
                                         <div class="exer-answers-box">
                                             <button>
                                                 <div class="squaredOne">
-                                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
-                                                    <label for="squaredOne" class="squaredOne2"></label>
+                                                    <input type="checkbox" value="None" id="squaredOne12" name="check" />
+                                                    <label for="squaredOne12" class="squaredOne2"></label>
                                                 </div> მიცემით ბრუნვაში
                                             </button>
                                         </div>
@@ -279,8 +279,8 @@
                                         <div class="exer-answers-box">
                                             <button>
                                                 <div class="squaredOne">
-                                                    <input type="checkbox" value="None" id="squaredOne" name="check" />
-                                                    <label for="squaredOne" class="squaredOne2"></label>
+                                                    <input type="checkbox" value="None" id="squaredOne13" name="check" />
+                                                    <label for="squaredOne13" class="squaredOne2"></label>
                                                 </div> წოდებით ბრუნვაში
                                             </button>
                                         </div>
@@ -558,12 +558,16 @@
             div.addEventListener('click', function () {
                 
                 var elementTwo = document.querySelector('.exer-choosed-answer');
-                // if (elementTwo) {
-                //     elementTwo.classList.remove("exer-choosed-answer");
-                // }
-                // document.querySelector(div + 'button .squaredOne').click();
+                
                 div.classList.toggle("exer-choosed-answer");
-
+                if (div.classList.contains('exer-choosed-answer')) {
+                    div.children[0].children[0].children[0].checked = true;
+                }else{
+                    div.children[0].children[0].children[0].checked = false;
+                }
+                // document.querySelectorAll('').addEventListener("click",
+                // div.firstChild.firstChild.firstChild.checked = true;
+                    
 
                 document.querySelector('button.exer-check-button').addEventListener('click', function () {
                     var button_check = document.querySelector('.exer-check-button')

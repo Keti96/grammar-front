@@ -25,7 +25,7 @@
 .adverb-choose-fields {
     padding-bottom: 41px;
     border-bottom: 2px solid #F8F7F2;
-    margin-bottom: 44px;
+    margin-bottom: 4px;
 }
 
 .exercises-grey-box {
@@ -151,13 +151,7 @@
     width: 69%;
 }
 
-.subt-read {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 24px;
-}
-
-.adverb-main-text p {
+.exercise-rules-p {
     font-size: 14px;
     margin-bottom: 20px;
     letter-spacing: 0.2px;
@@ -165,26 +159,36 @@
     align-self: stretch;
     font-weight: normal;
     line-height: 23.8px;
+    margin-bottom: 24px;
 }
 .video-content {
+    margin-top: 48px;
+}
+.video-content iframe {
+    
     margin-bottom: 24.5px;
+    width: 100%;
     height: 150.5px;
+    border-radius: 20px;
 }
 
-.adverb-first-sec-all {
-    margin-bottom: 40px;
-}
-
-.subtitle {
+.exercise-rules-h3 {
     font-style: normal;
     font-family: 'FiraGo';
     font-size: 16px;
     letter-spacing: 0.2px;
     color: #333333;
     align-self: center;
+    margin-bottom: 28px;
 }
-
-.subt-read button {
+.adverb-volume {
+    position: relative;
+    top: 2rem;
+    left: 29rem;
+    width: 124px;
+    height: 42px;
+}
+.adverb-volume button {
     font-family: 'FiraGo';
     font-size: 12px;
     line-height: 18px;
@@ -192,9 +196,39 @@
     background: #FFF6F3;
     border-radius: 10px;
     color: #FB5012;
+    width: 124px;
+    height: 42px;
 }
-.subt-read button i {
+.adverb-volume button i {
     font-size: 14px;
     padding-right: 10px;
     color: #FB5012;
+}
+.chatbox {
+    position: fixed;
+    right: 63px;
+    bottom: 67px;
+    z-index: 9;
+}
+.chatbox-button {
+    width: 71px;
+    height: 71px;
+    background-color: #4B6858;
+    border-radius: 22px;
+    box-shadow: 12px 12px 16px rgba(33, 54, 42, 0.1);
+}
+.chatbox-button i {
+    color: #ffffff;
+    font-size: 23px;
+}
+@media only screen and (max-height: 700px) {
+    .adverb-row {
+        overflow-y: auto;
+        height: 100%;
+        max-height: 370px;
+    }
+    .adverb-volume {
+        top: 2rem;
+        left: 32.2rem;
+    }
 }

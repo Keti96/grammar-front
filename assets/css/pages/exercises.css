@@ -151,7 +151,7 @@ html, .exercises-body {
 
 .all-exercises-all {
     overflow-y: scroll;
-    height: calc(100% - 314px);
+    height: calc(100% - 317px);
 }
 
 /* width */
@@ -184,7 +184,7 @@ html, .exercises-body {
 /* slider */
 
 .splide__slide {
-    width: 23.2%!important;
+    width: 24%!important;
     margin: 0 10px!important;
 }
 
@@ -192,7 +192,7 @@ html, .exercises-body {
     width: 100%;
 }
 
-ul#splide01-list {
+ul.splide__list {
     width: 100%;
 }
 .splide .splide__arrows .splide__arrow--prev {
@@ -227,4 +227,16 @@ ul#splide01-list {
 .exercises-splide1 .splide__pagination__page, .exercises-splide2 .splide__pagination__page, .exercises-splide3 .splide__pagination__page {
     width: 0;
     height: 0;
+}
+.row .splide {
+    padding-left: 0;
+    padding-right: 0;
+} 
+.splide__slide {
+    width: 219px!important;
+}
+.chatbox {
+    position: fixed;
+    right: 63px;
+    bottom: 71px;
 }
