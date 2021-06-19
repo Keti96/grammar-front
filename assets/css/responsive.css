@@ -664,6 +664,11 @@
         padding-right: 16px;
         margin-bottom: 12px;
     }
+    /* chatbot index */
+    .chatbox-index {
+        top: 51.4rem!important;
+        right: 91px!important;
+    }
 }
 
 @media only screen and (max-width: 730px) {
@@ -1014,6 +1019,11 @@
     }
     .appear2 {
         display: initial!important;
+    }
+    /* catbox */
+    .chatbox-index {
+        right: 24px!important;
+        top: 54rem!important;
     }
     #popup5 .popup {
         margin: 260px auto 0;
@@ -1585,6 +1595,11 @@
     /* index style */
     .header {
         height: 656px;
+    }
+    /* chatbox index */
+    .chatbox-index {
+        right: 24px!important;
+        top: 525px!important;
     }
     .container-two {
         max-width: 290px;
