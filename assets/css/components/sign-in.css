@@ -595,7 +595,7 @@ ul.list label {
 
 /* chechbox */
 
-input[type=checkbox] {
+.squaredOne input[type=checkbox] {
 	visibility: hidden;
 }
 .checkbox-input {
