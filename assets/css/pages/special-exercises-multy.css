@@ -1,0 +1,12 @@
+.squaredOne-check {
+    margin-right: 16px;
+    border: 2px solid #E7E8E8!important;
+}
+
+@media screen and (max-height: 770.99px) {
+    .spec-exer-fields {
+        overflow-y: auto;
+        height: calc(100% - 200px);
+        padding: 0 38px 44px 23px;
+    }
+}

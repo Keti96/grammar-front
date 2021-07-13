@@ -1,0 +1,71 @@
+.not-added-yet {
+    font-family: 'FiraGo ExtraBold';
+    font-size: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #707070;
+    margin: 0 auto;
+}
+
+.not-added-yet span {
+    font-family: 'FiraGo';
+}
+
+.student-hasnot-head {
+    position: relative;
+    height: 100%;
+}
+.student-school-fields-title {
+    display: flex;
+}
+.student-school-fields-title p {
+    color: #333333;
+    margin-right: 40px;
+    font-family: 'FiraGo Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    align-self: center;
+    font-feature-settings: 'case' on;
+}
+.student-school-fields-title i {
+    background-color: #F3F3F3;
+    color: #333333;
+    font-size: 13px;
+    border-radius: 12px;
+    align-self: center;
+    padding: 12px;
+    margin-right: 12px;
+}
+.student-hasnot-added {
+    position: absolute;
+    height: 175px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.add-student-now-v {
+    font-family: 'FiraGO Medium';
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 23px 100px;
+    background: #4B6858;
+    border-radius: 12px;
+    position: inherit;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto auto 0 auto;
+}
+.add-student-now-v i {
+    margin-right: 8px;
+}

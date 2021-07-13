@@ -1,0 +1,121 @@
+.testing-content-fill {
+    margin: 0 30px 0 0;
+    overflow-y: scroll;
+    height: calc(100% - 88px);
+}
+
+.testing-title {
+    margin: 42px 0;
+}
+
+.testing-title-h2 {
+    font-family: 'FiraGo Bold';
+    font-size: 28px;
+    line-height: 33.6px;
+    font-feature-settings: 'case' on;
+    color: #333333;
+}
+
+.testing-issues {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+}
+
+.testing-issues-p {
+    font-family: 'FiraGo';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.cleaning {
+    display: flex;
+}
+
+.cleaning img {
+    display: inline;
+    vertical-align: middle;
+}
+
+.cleaning-p {
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.morphology-title, .syntax-title {
+    font-family: 'FiraGo Light';
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 25px;
+    color: #707070;
+}
+.syntax-title {
+    margin-top: 54px;
+}
+.morphology-list, .syntax-list  {
+    display: flex;
+    flex-wrap: wrap;
+}
+.morphology-list span {
+    font-family: 'FiraGo Book';
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    padding: 14px 16px;
+    margin: 8px 8px 0 0;
+    background: #F6F7F7;
+    border-radius: 10px;
+    color: #333333;
+}
+.choose-active {
+    font-family: 'FiraGo Medium'!important;
+    background-color: #EDF0EE!important;
+    border: 2px solid #4B6858;
+    box-sizing: border-box;
+    color: #333333;
+}
+.syntax-list span {
+    font-family: 'FiraGo Book';
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    padding: 14px 16px;
+    margin: 8px 8px 0 0;
+    background: #F6F7F7;
+    border-radius: 10px;
+    color: #333333;
+}
+.testing-button {
+    display: flex;
+    justify-content: center;
+    margin: 122px auto 0;
+}
+.testing-start {
+    font-family: 'FiraGo Bold';
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    background-color: #4B6858;
+    border-radius: 20px;
+    padding: 34px 180px;
+    text-align: center;
+}
+.exer-answers-box.exer-choosed-answer .squaredOne-check{
+    border: 2px solid #4B6858!important;
+}
+.exer-choosed-answer button{
+    border: none;
+}
+
+@media screen and (max-height: 770.99px) {
+    .testing-content-fill {
+        margin: 0 30px 0 0;
+        overflow-y: scroll;
+        height: calc(100% - 340px);
+    }
+}

@@ -1,0 +1,29 @@
+.testing-content-continue {
+    height: 100%;
+    padding: 0 38px 44px 23px;
+}
+.testing-answer-p {
+    font-family: 'FiraGo';
+    font-size: 24px;
+    line-height: 40.8px;
+    color: #333333;
+    
+}
+.testing-answer-bold {
+    font-family: 'FiraGo ExtraBold';
+}
+.answer-p {
+    font-family: 'FiraGo';
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+    margin: 10px 0 40px;   
+}
+
+@media screen and (max-height: 770.99px) {
+    .testing-content-continue {
+        overflow-y: auto;
+        height: calc(100% - 200px);
+        padding: 0 38px 44px 23px;
+    }
+}

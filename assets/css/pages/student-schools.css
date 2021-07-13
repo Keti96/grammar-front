@@ -1,0 +1,76 @@
+.variants-bg-fill-white {
+    height: 100%;
+    padding: 36px 44px 44px;
+}
+
+.all-school-distance {
+    display: flex;
+    padding: 44px 48px;
+}
+
+.all-school-one {
+    margin: 16px 0;
+    background: rgba(246, 247, 247, 0.1);
+    border: 1.5px solid rgba(103, 115, 135, 0.1);
+    border-radius: 28px;
+}
+
+.create-class {
+    padding: 40px 0;
+    display: flex;
+}
+
+.create-school-class {
+    margin-top: 48px;
+    background: rgba(246, 247, 247, 0.7);
+    /* Secondary colors/Lake green 30 */
+    border: 1.5px dashed #c9d2cd;
+    border-radius: 28px;
+}
+
+.create-class p {
+    font-family: "FiraGO Bold";
+    font-size: 14px;
+    line-height: 21px;
+    color: #4b6858;
+}
+
+.school-icon-text {
+    margin: 0 auto;
+    display: flex;
+    color: #4B6858;
+}
+.school-icon-text i {
+    margin: 0 auto;
+    display: flex;
+    color: #4B6858;
+    margin-right: 14px;
+    align-self: center;
+}
+
+.all-student-users {
+    display: flex;
+}
+
+.all-student-users p {
+    font-family: "FiraGO Bold"; 
+    font-size: 18px;
+    line-height: 40px;
+    margin: auto;
+    width: 52px;
+    text-align: center;
+    height: 52px;
+    border: 5px solid #ffffff;
+    border-radius: 64px;
+    margin-left: -13px;
+}
+
+.all-student-users-last {
+    background: #dbe1de;
+    color: #4b6858;
+}
+.all-school-one:hover {
+    background: rgba(246, 247, 247, 0.3);
+    border: 1.5px solid rgba(103, 115, 135, 0.3);
+}
+

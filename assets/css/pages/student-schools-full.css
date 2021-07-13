@@ -1,0 +1,78 @@
+.add-student-now-v2 {
+    font-family: 'FiraGO Medium';
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 23px 37.5px;
+    background: #4B6858;
+    border-radius: 12px;
+    margin-left: auto;
+}
+.add-student-now-v2 i {
+    margin-right: 8px;
+}
+
+
+.student-school-fields2 {
+    display: flex;
+}
+
+.student-added-inschools-parent {
+    margin-top: 44px;
+}
+
+.student-added-student {
+    font-family: 'FiraGO';
+    font-size: 14px;
+    line-height: 21px;
+    color: #707070;
+}
+
+.student-added-inschools {
+    margin-top: 40px;
+}
+
+.student-added-inschools-childs {
+    order: 0;
+    flex-grow: 0;
+    padding: 24px 0px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(103, 115, 135, 0.1);
+}
+
+.student-added-names {
+    font-family: 'FiraGO Medium';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.student-added-emails {
+    font-family: 'FiraGO';
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    width: 350px;
+}
+
+.student-added-profiles {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #4B6858;
+    margin-left: auto;
+}

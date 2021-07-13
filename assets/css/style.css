@@ -18,7 +18,17 @@
 @import "./pages/special-exercises-missed-word.css";
 @import "./pages/exercises-correct-mistakes.css";
 @import "./pages/exercises-mark-word.css";
-
+@import "./pages/special-exercises-multy.css";
+@import "./pages/testing-page.css";
+@import "./pages/testing-page-continue.css";
+@import "./pages/student-schools.css";
+@import "./pages/student-schools-class.css";
+@import "./pages/student-schools-empty.css";
+@import "./pages/student-schools-full.css";
+@import "./pages/student-schools-personal.css";
+@import "./pages/student-schools-results.css";
+@import "./pages/student-schools-check.css";
+@import "./pages/testing-page-result.css";
 /* @import "./pages/about-project.css"; */
 /* end page import */
 @import "./components/sign-in.css";

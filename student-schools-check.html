@@ -9,11 +9,12 @@
 
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/pages/about-project.css">
+
     <script src="https://kit.fontawesome.com/77562e5fa6.js" crossorigin="anonymous"></script>
     <title>ქართული ენის გრამატიკის ელექტრონული რესურსი</title>
 </head>
 
-<body class="exercises-body">
+<body class="variants-body">
 
     <div id="popup5" class="overlay overlay2">
         <div class="popup popup2">
@@ -59,27 +60,6 @@
         </div>
     </div>
 
-    <div id="popup15" class="overlay">
-        <div class="popup" id="pop-dessapear15">
-            <a class="close close-in" id="close-in15" onclick="navDessapear15();" href="javascript:void(0);">&times;</a>
-            <div class="input-popup-bg input-popup-bg15">
-                <div class="description-text">
-                    <h4>ქვესათაურის ტექსტი</h4>
-                    <p>ლორემ იპსუმ მოსამართლის დარდითა ბუნების შემოვიდნენ შევიტყვე ქრისტიანობაზე. ხაჯალზე ფუჭ
-                        სტანისლავსკის, ვეძახდი საოპერაციო აკნატუნებდნენ, ბუნების წიგნს კედლებმოხატული დაიმციროს ვიტანდი,
-                        სითბო აივნების შემოვიდნენ სიმულაციას. გააკონტროლეთ გრეგორი ბუნებრივად, ჩაკირულმა ძველად
-                        თერთმეტმა ციკლების ლოქოს გვახრჩობს დაკოჭლებული ტლინკები სოციოფობია ბეგიაშვილებთან, აუელავდა
-                        მისურელი.<br><br>
-                        ლორემ იპსუმ მოსამართლის დარდითა ბუნების შემოვიდნენ შევიტყვე ქრისტიანობაზე. ხაჯალზე ფუჭ
-                        სტანისლავსკის, ვეძახდი საოპერაციო აკნატუნებდნენ, ბუნების წიგნს კედლებმოხატული დაიმციროს ვიტანდი,
-                        სითბო აივნების შემოვიდნენ სიმულაციას. გააკონტროლეთ გრეგორი ბუნებრივად, ჩაკირულმა ძველად
-                        თერთმეტმა ციკლების ლოქოს გვახრჩობს დაკოჭლებული ტლინკები სოციოფობია ბეგიაშვილებთან, აუელავდა
-                        მისურელი.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
@@ -98,8 +78,8 @@
                         </button></a>
                 </div>
                 <div class="col-9 navbar-content">
-                    <div class="adverb-return-back">
-                        <a href="exercises.html" ><i class="fas fa-arrow-left"></i>უკან დაბრუნება</a>
+                    <div class="header-variants-input-search">
+                        <input type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
                     </div>
                     <div class="col-4 user-registred">
                         <div class="header-variants-item user-registred-yes">
@@ -130,100 +110,38 @@
             </div>
         </nav>
     </div>
-    <section class="adverb-content">
+    <!-- chatbox -->
+
+    <section class="variants-content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 adverb-exercises-content">
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad ">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
+                <div class="col-3 variants-user">
+                    <div class="user-registred2">
+                        <div class="variants-user-content user-registred-yes2">
+                            <p class="variants-user-title">თამთა კერესელიძე</p>
+                            <p class="variants-user-point"><span> 56</span>/250 ქულა</p>
+                            <button class="variants-user-button">ჩემი პროფილი</button>
+                        </div>
+                        <div class="variants-user-content user-registred-no2">
+                            <p class="variants-user-title2">სავარჯიშოების გასაკეთებლად გაიარე ავტორიზაცია</p>
+                            <button class="variants-user-button-longin">შესვლა</button>
+                            <button class="variants-user-button-regist">რეგისტრაცია</button>
                         </div>
                     </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="variants-navbar">
+
+                        <ul>
+                            <li class="variants-active"><a href="variants.html"><i class="fas fa-bookmark"></i>
+                                    საკითხები</a></li>
+                            <li><a href="exercises.html"><i class="fas fa-file-alt"></i> სავარჯიშოები</a></li>
+                            <li><a href="#"><i class="fas fa-chart-pie"></i> სტატისტიკა</a></li>
+                            <li><a href="#"><i class="fas fa-user"></i> ჩემი პროფილი</a>
+                            </li>
+                        </ul>
+
                     </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box exercises-active">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="exercises-grammar-box">
-                        <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad">
-                                <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
-                                <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
-                                </h4>
-                                <div class="exercises-adverb-item">
-                                    <span>8/10</span>
-                                    <a href="#"><i class="fas fa-play"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="variants-need-help">
+                        <a href="#" target="_blank">გჭირდება დახმარება?</a>
                     </div>
                 </div>
 
@@ -232,8 +150,10 @@
                     <div class="spec-exer-fields">
                         <div class="spec-exer-all">
                             <div class="spec-exer-head">
-                                <p class="spec-exer-head-ex3"><span>სავარჯიშო #3</span> -  ზმნიზედები შინაარსის მიხედვით</p>
-                                <button><i class="fas fa-volume-up"></i>პროექტორის რეჟიმი</button>
+                                <div class="variants-fields-title3 variants-fields-title4">
+                                    <p class="subject-with-cont">ზმნიზედები შინაარსის მიხედვით</p>
+                                    <p class="student-added-student2">საბა ჩიტაიშვილი</p>
+                                </div>
                             </div>
                             <div class="spec-exer-questions">
                                 <p class="spec-ask-question">რომელ ბრუნვაში დგას მოცემული ნაცვალსახელები: <span class="to-strong">მათ, მას, ჩვენ, შენ?</span></p>
@@ -247,12 +167,12 @@
                                         </div>
                                     </div>
                                     <div class="col-6">
-                                        <div class="exer-answers-box">
+                                        <div class="exer-answers-box exer-wrong-answer">
                                             <button>ბ) ნათესაობით ბრუნვაში</button>
                                         </div>
                                     </div>
                                     <div class="col-6">
-                                        <div class="exer-answers-box ">
+                                        <div class="exer-answers-box exer-choosed-answer">
                                             <button>გ) მიცემით ბრუნვაში</button>
                                         </div>
                                     </div>
@@ -261,25 +181,28 @@
                                             <button>დ) წოდებით ბრუნვაში</button>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-12 check-button">
-                                        <button class="exer-check-button">შემოწმება</button>
-                                    </div> -->
+                                   <a class="student-show-description" href=""><p class=""><i class="far fa-question-circle"></i> მაჩვენე განმარტება</p></a>
                                 </div>
                             </div>
                             <div class="check-count-boxes">
                                 
-                                <div class="special-exercises-return-button">
-                                    <img src="./assets/images/icons/Arrow - Grey.svg" alt="">
-                                </div>
-                                <a href="#popup15" onclick="navAppear15();" class="ganmarteba">
-
-                                    
-                                    <p>მაჩვენე განმარტება</p>
-4
-                                </a>
-                                <p class="counted-boxes">1/6</p>
-                                <div class="check-button">
-                                    <button class="exer-check-button">შემოწმება</button>
+                                <div class="student-already-answered-questions student-already-answered-questions2">
+                                    <p class="student-already-answered-questions-p">პასუხგაცემული კითხვები:</p>
+                                    <div class="student-answered-circle-all">
+                                        <p class="student-answered-circle student-answered-circle-correct">1</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">2</p>
+                                        <p class="student-answered-circle student-answered-circle-wrong">3</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">4</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">5</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">6</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">7</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">8</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">9</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">10</p>
+                                        <p class="student-answered-circle student-answered-circle-wrong">11</p>
+                                        <p class="student-answered-circle student-answered-circle-correct">12</p>
+                                        <p class="student-answered-circle2 student-answered-circle-flag2"><i class="fas fa-flag"></i> შედეგი</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -288,10 +211,31 @@
                 </div>
             </div>
         </div>
+        </div>
     </section>
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script>
+        new Chart(document.getElementById("doughnut-chart"), {
+            type: 'doughnut',
+            data: {
+                // labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
+                datasets: [
+                    {
+
+                        backgroundColor: ["#EB2347", "#00CC6F", "#F6F7F7"],
+                        data: [16, 56, 28]
+                    }
+                ],
+            },
+            options: {
+                title: {
+                    display: true,
+                    // text: 'სწორი / არასწორი პასუხები'
+                }
+            }
+        });
+
         var stopVideos = function () {
             var videos = document.querySelectorAll('iframe, video');
             Array.prototype.forEach.call(videos, function (video) {
@@ -333,26 +277,7 @@
             }
         });
 
-window.addEventListener('click', function (e) {
-            if (document.getElementById('popup15').contains(e.target)) {
-                // Clicked in box
-                if (document.getElementById('pop-dessapear15').contains(e.target)) {
-                    // Clicked in box
-                } else {
-                    // Clicked outside the box
-                    document.getElementById("close-in15").click();
-                    remove_hash_from_url();
-                }
-            } else {
-                // Clicked outside the box
-            }
-        });
-        var navDessapear15 = function () {
-            document.getElementById("popup15").style.display = "none";
-        }
-        var navAppear15 = function () {
-            document.getElementById("popup15").style.display = "inherit";
-        }
+
         var openVideos = function () {
             document.getElementById("popup1").style.display = "inherit";
         };
@@ -523,36 +448,6 @@ window.addEventListener('click', function (e) {
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
-        var elements = document.querySelectorAll('.exer-answers-box');
-        var elementsTwo = document.querySelectorAll('.exer-answers-box button');
-
-        [].forEach.call(elements, function (div) {
-
-            div.addEventListener('click', function () {
-                var elementTwo = document.querySelector('.exer-choosed-answer');
-                if (elementTwo) {
-                    elementTwo.classList.remove("exer-choosed-answer");
-                }
-                div.classList.add("exer-choosed-answer");
-                
-
-                document.querySelector('button.exer-check-button').addEventListener('click', function () {
-                    var button_check = document.querySelector('.exer-check-button')
-                    button_check.classList.add("exer-check-button-active");
-                    document.querySelector('button.exer-check-button').innerHTML = '<a href="./special-exercises3-result.html">შემდეგი</a>';
-
-                    document.querySelector('.ganmarteba').style.display = "block";
-
-                });
-            });
-
-        });
-        document.querySelector('button.exer-check-button').addEventListener('click', function () {
-            [].forEach.call(elementsTwo, function (divTwo) {
-                divTwo.setAttribute("disabled", "disabled");
-            });
-
-        })
     </script>
 </body>
 

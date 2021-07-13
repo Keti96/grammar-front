@@ -1,0 +1,87 @@
+.create-school-class-name {
+    margin-top: 48px;
+    background: rgba(242, 252, 248, 0.3);
+    border: 2px solid rgba(0, 204, 111, 0.3);
+    border-radius: 28px;
+}
+.create-class-name {
+    padding: 39px 48px;
+    width: 100%;
+}
+.class-name-sides {
+    display: flex;
+    width: 100%;
+}
+.add-class-button {
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 24px;
+    width: 226px;
+    height: 64px;
+    left: 647px;
+    top: 0px;
+    background: #00cc6f;
+    border-radius: 16px;
+}
+.add-class-button input {
+    color: white;
+    background: #00cc6f;
+    font-family: "FiraGO";
+    line-height: 16px;
+    font-size: 16px;
+    align-self: center;
+}
+.add-class-button i {
+    margin-left: 13px;
+    color: white;
+    font-size: 14px;
+}
+.class-name-left {
+    display: grid;
+    width: 100%;
+}
+.class-name-left label {
+    font-family: "FiraGO";
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+.className {
+    background-color: transparent;
+}
+.className {
+    font-family: "FiraGO Bold";
+    font-size: 20px;
+    line-height: 26px;
+    color: #333333;
+}
+.className::placeholder {
+    font-family: "FiraGO";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #999999;
+}
+.remove-adding-class {
+    margin-left: 48px;
+    font-family: FiraGO;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+    color: #999999;
+    cursor: pointer;
+}
+.remove-adding-class:hover {
+    text-decoration-line: underline;
+    color: #333333;
+}

@@ -1,0 +1,58 @@
+.testing-cont {
+    margin: 24px 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testing-title-h2 {
+    font-family: 'FiraGo Bold';
+    font-size: 28px;
+    line-height: 33.6px;
+    font-feature-settings: 'case' on;
+    color: #333333;
+    align-self: center;
+}
+
+.testing-cont a {
+    padding: 20px 53px;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B6858;
+    align-self: center;
+    background-color: #F6F7F7;
+    border-radius: 10px;
+}
+
+.more-exercise-title {
+    font-family: 'FiraGo Bold';
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    font-feature-settings: 'case' on;
+    margin-top: 72px;
+}
+
+.testing-cont-result {
+    order: 0;
+    flex-grow: 0;
+    padding: 19px 0px;
+    display: flex;
+    position: relative;
+    width: 86%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgba(103, 115, 135, 0.1);
+}
+.testing-res-item {
+    background-color: #F5FBFE;
+    color: #0099CC;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 18px;
+    padding: 8px 19px;
+    border-radius: 40px;
+}
+.testing-res-item-correct {
+    font-family: 'FiraGo SemiBold';
+}

@@ -1,0 +1,40 @@
+.student-already-answered-questions {
+    margin-top: 0;
+}
+
+.variants-fields-title4 {
+    margin-top: 32px;
+}
+
+.student-show-description p{
+    margin-left: auto;
+    text-align: right;
+    margin-top: 18px;
+    font-family: 'FiraGO';
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+.student-show-description{
+    margin-left: auto;
+    width: 200px;
+}
+.student-answered-circle2 {
+    color: #4B6858;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #E9F5EF;
+    /* border: 2px solid #4B6858; */
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 20px;
+    align-self: center;
+    padding: 13px;
+    margin-left: auto;
+}
+.student-answered-circle-flag2 i {
+    color: #768a7f;
+    align-self: center;
+    margin-right: 10px;
+}

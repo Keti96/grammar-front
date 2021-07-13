@@ -17,11 +17,13 @@
 .spec-exer-head button i {
     padding-right: 8px;
 }
-
+.spec-exer-head-ex3 span {
+    font-family: 'FiraGO Bold';
+    font-size: 14px;
+    line-height: 21px;
+}
 .spec-exer-head-ex3 {
-    font-family: 'FiraGO';
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'FiraGO Book';
     font-size: 14px;
     letter-spacing: 0.2px;
     color: #333333;
@@ -89,20 +91,6 @@
     border-radius: 16px;
 }
 
-/* .exer-check-button {
-    width: 100%;
-    height: auto;
-    padding: 24px;
-    background: #4B6858;
-    border-radius: 16px;
-    color: #FFFFFF;
-    font-family: 'FiraGO';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 16px;
-} */
-
 .exer-choosed-answer {
     background: #EDF0EE;
     border: 2px solid #4B6858;
@@ -119,15 +107,13 @@
 }
 
 .counted-boxes {
-    font-family: 'FiraGO';
-    font-style: normal;
-    font-weight: 500;
+    font-family: 'FiraGO Medium';
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.2px;
     color: #333333;
-    opacity: 0.7;
-    margin-right: 31px;
+    opacity: 0.5;
+    margin-right: 52px;
 }
 
 .exer-all-check-boxes {
@@ -139,6 +125,7 @@
 
 .check-count-boxes {
     display: flex;
+    align-items: center;
 }
 
 .all-count-boxes {
@@ -184,8 +171,8 @@
     /* background: #555;  */
 }
 .special-exercises-return-button img {
-    padding: 15px;
-    background-color: grey;
+    padding: 24px;
+    background-color: #F3F3F3;
     border-radius: 15px;
 }
 .special-exercises-return-button {
@@ -199,16 +186,15 @@
 .exer-check-button {
     width: 100%;
     height: auto;
-    padding: 24px;
+    padding: 22px 68px;
     background: transparent;
     border-radius: 16px;
-    color: grey;
-    font-family: "FiraGO";
-    font-style: normal;
-    font-weight: bold;
+    color: #333333;
+    opacity: 0.5;
+    font-family: "FiraGO Bold";
     font-size: 16px;
     line-height: 16px;
-    border: 2px solid grey;
+    border: 2px solid #333333;
 }
 .exer-check-button-active {
     background-color: green;

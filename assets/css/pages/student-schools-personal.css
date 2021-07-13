@@ -1,0 +1,228 @@
+.student-school-class-title {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    color: #707070;
+    margin-top: 12px;
+}
+.answered-questions-all {
+    background-image: url('../../images/student-schools/grey-frame.svg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.counted-answers-all {
+    padding: 42px 0 40px 40px;
+}
+
+.answered-questions-correct {
+    background-image: url('../../images/student-schools/green-frame.svg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.answered-questions-incorrect {
+    background-image: url('../../images/student-schools/red-frame.svg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.personals-row {
+    margin-top: 60px;
+}
+
+.counted-answers-p {
+    font-family: "FiraGO";
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.counted-answers-number {
+    font-family: "FiraGO ExtraBold";
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    color: #333333;
+    margin-top: 8px;
+}
+
+.chart-correct-incorrect {
+    font-family: "FiraGO Bold";
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #333333;
+    margin: 45px 0 20px;
+}
+
+.height-100 {
+    height: 100%;
+    border: 1.5px solid rgba(103, 115, 135, 0.1);
+    border-radius: 28px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+}
+
+.percentage-dots {
+    margin-top: 40px;
+    padding: 0 25px 30px 25px;
+}
+
+.small-dots {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto 0;
+}
+
+.red-dot {
+    background-color: #eb2347;
+}
+
+.green-dot {
+    background-color: #00cc6f;
+}
+
+.grey-dot {
+    background-color: #edf0ee;
+}
+
+.percentage-p {
+    margin-left: 8px;
+    font-family: "FiraGO";
+    line-height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #333333;
+}
+
+.percentage-dots-one {
+    display: flex;
+}
+
+.two-percentage-together {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.percentage-green {
+    margin-left: auto;
+}
+
+.percentage-grey {
+    margin: auto;
+    width: 135px;
+}
+
+.done-homeworks {
+    font-family: "FiraGO";
+    font-size: 22px;
+    line-height: 26.4px;
+    align-items: center;
+    font-feature-settings: "case" on;
+    color: #333333;
+}
+
+.done-homeworks span {
+    font-family: "FiraGO ExtraBold";
+}
+
+.done-homeworks-all {
+    display: flex;
+}
+
+.all-homework-together {
+    margin-left: auto;
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #4b6858;
+    align-self: center;
+}
+.student-school-correcanswers i, .student-school-wronganswers i {
+    font-size: 11px;
+    margin-right: 3px;
+    align-self: center;
+    text-align: center;
+}
+.student-added-profiles2 i {
+    margin-left: 5px;
+}
+.student-added-inschools2 {
+    margin-top: 34px;
+}
+
+.student-school-subjects {
+    font-family: 'FiraGO';
+    font-size: 14px;
+    line-height: 21px;    
+    color: #333333;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.student-added-profiles2 {
+    font-family: 'FiraGO';
+    font-size: 10px;
+    line-height: 15px;
+    align-items: center;
+    text-align: right;
+    color: #707070;
+    margin-left: 63px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.student-school-allanswers {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    border-radius: 40px;
+    font-family: 'FiraGO';
+    font-size: 12px;
+    align-items: center;
+    text-align: right;
+    margin-left: 8px;
+}
+
+.student-school-allquestions {
+    background: #F6F7F7;
+    color: #707070;
+}
+.student-school-correcanswers{
+    background: #F4FAF7;
+    color: #239F61;
+}
+.student-school-wronganswers{
+    background: #FEF4F6;
+    color: #EB2347;
+}
+.inpersonal-all {
+    display: flex;
+    margin-left: auto;
+}
+.student-added-inschools-childs2 {
+    order: 0;
+    flex-grow: 0;
+    padding: 19px 0px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid rgba(103, 115, 135, 0.1);
+}
