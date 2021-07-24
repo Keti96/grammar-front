@@ -1,0 +1,240 @@
+.my-profile-cont, .my-profile-user-data, .my-profile-item {
+    display: flex;
+}
+
+.my-profile-user-data {
+    background: linear-gradient(262.51deg, #EDF0EE 1.77%, #F6F7F7 82.96%);
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    width: 40%;
+    padding: 40px 0 40px 40px;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+}
+
+.my-profile-item {
+    background-color: linear-gradient(268.81deg, #F6F7F7 0%, rgba(246, 247, 247, 0) 100%);
+    border-radius: 24px;
+    clip-path: polygon(5% 0, 100% 0, 100% 99%, 0% 100%);
+    width: 60%;
+    padding: 40px 40px 40px 0px;
+}
+
+.my-profile-bg {
+    height: 100%;
+    padding: 0 40px 0 0;
+}
+
+.my-profile-cont {
+    background: linear-gradient(268.81deg, #F6F7F7 0%, rgba(246, 247, 247, 0) 100%);
+    border-radius: 24px;
+    margin-bottom: 84px;
+}
+
+p.profile-short-name-p {
+    background: #4B6858;
+    border-radius: 16px;
+    padding: 16px 18px;
+    font-size: 27px;
+    font-family: 'FiraGO Bold';
+    color: white;
+}
+
+.profile-user-fields {
+    margin-left: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+p.profile-user-fields-p {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    align-items: center;
+    letter-spacing: 0.2px;
+    font-feature-settings: 'case' on;
+    color: #333333;
+}
+
+span.profile-user-fields-span {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #707070;
+}
+
+.my-score {
+    margin: auto 85px auto auto;
+}
+
+button.delete-progress {
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #333333;
+    padding: 18px 36px;
+}
+
+.correct-score {
+    font-family: 'FiraGO ExtraBold';
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+}
+
+.question-score {
+    font-family: 'FiraGO Light';
+    font-size: 20px;
+    line-height: 30px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #333333;
+    opacity: .6;
+}
+
+.my-profile-data {
+    margin-top: 80px;
+}
+
+.my-profile-data {
+    padding: 0 50px;
+}
+
+.my-profile-data-title {
+    font-family: 'FiraGo';
+    font-size: 22px;
+    line-height: 26.4px;
+    color: #333333;
+    font-feature-settings: 'case' on;
+    margin-bottom: 56px;
+}
+
+.my-profile-data-title span {
+    font-family: 'FiraGo ExtraBold';
+}
+
+.my-data-title {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 14px;
+    color: #707070;
+}
+
+.my-data-accounts {
+    font-family: 'FiraGO';
+    font-size: 14px;
+    line-height: 16.8px;
+    color: #000000;
+    margin-top: 12px;
+}
+
+.my-data-child2 {
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.my-data-button-edit {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    padding: 20px 100px;
+    background-color: transparent;
+    border: 1px solid #EDF0EE;
+    border-radius: 10px;
+}
+
+/* .my-data-button-out {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+    padding: 20px 119px;
+    background-color: transparent;
+    border: 1px solid #EDF0EE;
+    border-radius: 10px;
+} */
+
+.my-data-logout {
+    width: 38%;
+    padding: 20px 93px;
+    background-color: transparent;
+    border: 1px solid #EDF0EE;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.my-data-logout img {
+    display: inline;
+    vertical-align: sub;
+    margin-right: 10px;
+}
+.my-data-logout button {
+    display: inline;
+    background-color: transparent;
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.my-data-change-password {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B6858;
+    padding: 20px 141px;
+    background-color: #F6F7F7;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.my-profile-data-item {
+    display: flex;
+}
+
+.my-data-button {
+    margin: auto 0 auto auto;
+}
+
+.my-data-button button {
+    display: block;
+}
+
+.my-data-out-change {
+    margin-top: 92px;
+}
+
+.my-data-button-remove {
+    margin-top: 24px;
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    background-color: transparent;
+    color: #707070;
+}
+
+.my-data-out-change .my-data-button-remove {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+@media screen and (max-height: 770.99px) {
+    .my-profile-bg {
+        overflow-y: scroll;
+        height: calc(100% - 230px);
+    }
+}

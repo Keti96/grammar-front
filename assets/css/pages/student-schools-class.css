@@ -4,14 +4,17 @@
     border: 2px solid rgba(0, 204, 111, 0.3);
     border-radius: 28px;
 }
+
 .create-class-name {
     padding: 39px 48px;
     width: 100%;
 }
+
 .class-name-sides {
     display: flex;
     width: 100%;
 }
+
 .add-class-button {
     margin-left: auto;
     display: flex;
@@ -26,6 +29,7 @@
     background: #00cc6f;
     border-radius: 16px;
 }
+
 .add-class-button input {
     color: white;
     background: #00cc6f;
@@ -34,30 +38,36 @@
     font-size: 16px;
     align-self: center;
 }
+
 .add-class-button i {
     margin-left: 13px;
     color: white;
     font-size: 14px;
 }
+
 .class-name-left {
     display: grid;
     width: 100%;
 }
+
 .class-name-left label {
     font-family: "FiraGO";
     font-size: 12px;
     line-height: 18px;
     color: #333333;
 }
+
 .className {
     background-color: transparent;
 }
+
 .className {
     font-family: "FiraGO Bold";
     font-size: 20px;
     line-height: 26px;
     color: #333333;
 }
+
 .className::placeholder {
     font-family: "FiraGO";
     font-style: normal;
@@ -66,6 +76,7 @@
     letter-spacing: 0.2px;
     color: #999999;
 }
+
 .remove-adding-class {
     margin-left: 48px;
     font-family: FiraGO;
@@ -73,15 +84,33 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-
     display: flex;
     align-items: center;
     letter-spacing: 0.2px;
-
     color: #999999;
     cursor: pointer;
 }
+
 .remove-adding-class:hover {
     text-decoration-line: underline;
     color: #333333;
+}
+
+.all-student-add-button {
+    font-family: 'FiraGo Medium';
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B6858;
+    padding: 0 37px;
+    background-color: #F6F7F7;
+    border-radius: 12px;
+}
+
+.all-student-add-button i {
+    margin-right: 8px;
+}
+
+.sjdhsjdh {
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    background-color: linear-gradient(262.51deg, #EDF0EE 1.77%, #F6F7F7 82.96%);;
 }
