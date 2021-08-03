@@ -58,6 +58,7 @@
     align-items: center;
     text-align: center;
     color: #333333;
+    cursor: pointer;
 }
 
 .student-try-active {

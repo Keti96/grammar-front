@@ -159,11 +159,12 @@
                             <p class="student-perormance-history">შესრულების ისტორია:</p>
                             <div class="student-try-grandparent">
                                 <div class="student-try-parent">
-                                    <p class="student-try student-try-1">ცდა 1</p>
-                                    <p class="student-try student-try-2">ცდა 2</p>
-                                    <p class="student-try student-try-3">ცდა 3</p>
-                                    <p class="student-try student-try-4 ">ცდა 4</p>
-                                    <p class="student-try student-try-5 student-try-active">ცდა 5</p>
+                                    <p class="student-try student-try-1" onclick="dodajAktywne(this)">ცდა 1</p>
+                                    <p class="student-try student-try-2" onclick="dodajAktywne(this)">ცდა 2</p>
+                                    <p class="student-try student-try-3" onclick="dodajAktywne(this)">ცდა 3</p>
+                                    <p class="student-try student-try-4" onclick="dodajAktywne(this)">ცდა 4</p>
+                                    <p class="student-try student-try-5 student-try-active"
+                                        onclick="dodajAktywne(this)">ცდა 5</p>
                                 </div>
                             </div>
                             <div class="student-full-correct-answers">
@@ -190,7 +191,8 @@
                                     <p class="student-answered-circle student-answered-circle-correct">10</p>
                                     <p class="student-answered-circle student-answered-circle-wrong">11</p>
                                     <p class="student-answered-circle student-answered-circle-correct">12</p>
-                                    <p class="student-answered-circle student-answered-circle-flag"><i class="fas fa-flag"></i></p>
+                                    <p class="student-answered-circle student-answered-circle-flag"><i
+                                            class="fas fa-flag"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +439,28 @@
             document.getElementById("popup5").style.display = "none";
         }
         var navAppear = function () {
-            document.getElementById("popup5").style.display = "inherit";
+            document.getEle
+            mentById("popup5").style.display = "inherit";
+        }
+        document.querySelector(".student-try").addEventListener('click', function (event) {
+            if (this.classList.contains("student-try-active")) {
+
+            } else {
+                document.querySelectorAll(".student-try").classList.remove("student-try-active");
+                this.classList.contains("student-try-active");
+            }
+        });
+        function dodajAktywne(elem) {
+            var a = document.getElementsByTagName('.student-try-parent p')
+            // for (i = 0; i < a.length; i++) {
+            //     a[i].classList.remove('student-try-active')
+            // }
+            document.querySelector(".student-try-1").classList.remove('student-try-active');
+            document.querySelector(".student-try-2").classList.remove('student-try-active');
+            document.querySelector(".student-try-3").classList.remove('student-try-active');
+            document.querySelector(".student-try-4").classList.remove('student-try-active');
+            document.querySelector(".student-try-5").classList.remove('student-try-active');
+            elem.classList.add('student-try-active');
         }
     </script>
 </body>

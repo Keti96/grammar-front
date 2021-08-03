@@ -91,6 +91,9 @@
     background: #FFF8EB;
     color: #FF8800;
 }
+.create-class-name2{
+    display: none;
+}
 
 
 @media screen and (max-height: 770.99px) {

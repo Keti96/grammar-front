@@ -1,0 +1,105 @@
+.search-result-bg {
+    padding: 65px 40px 0 0;
+}
+
+.search-result-span {
+    color: #707070;
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.search-result-title {
+    font-family: 'FiraGo Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    margin: 12px 0 72px;
+}
+
+.search-result-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-result-a, .search-result-a i {
+    color: #4B6858;
+}
+
+.search-result-a i {
+    margin-right: 8px;
+}
+
+.search-result-a {
+    font-family: 'FiraGo Medium';
+    font-size: 14px;
+    line-height: 16px;
+}
+.search-result-more-exercises {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-result-exercises-grey-box {
+    background-color: #F6F7F7;
+    border-radius: 20px;
+    width: 250px;
+    height: 172px;
+    margin-bottom: 16px;
+}
+.search-result-exercises-grey-box:hover {
+    border: 2.5px solid #4B6858
+}
+.search-result-exercises-wb-pad {
+    padding: 28px 24px;
+    width: 250px;
+    height: 172px;
+    display: flex;
+    flex-direction: column;
+}
+.search-result-exercises-pagination {
+    font-family: 'FiraGo';
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B6858;
+    padding-bottom: 8px;
+}
+.search-result-exercises-title {
+    font-family: 'FiraGo Medium';
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    padding-bottom: 8px;
+}
+.search-result-exercises-item a i {
+    color: white;
+    font-size: 12px;
+}
+
+.search-result-exercises-item a {
+    background-color: #4B6858;
+    border-radius: 50%;
+    padding: 10px 12px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.search-result-exercises-item a:hover {
+    box-shadow: 1.5px 1.5px 0px #314F3E;
+    position: relative;
+    left: -1px;
+    top: -1px;
+}
+.search-result-exercises-item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.search-result-exercises-item span {
+    font-family: 'FiraGo Book';
+    font-size: 12px;
+    line-height: 18px;
+    color: #707070;
+    align-self: center;
+}

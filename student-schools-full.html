@@ -59,6 +59,28 @@
         </div>
     </div>
 
+
+
+    <div id="popup75" class="overlay">
+        <div class="popup popup751" id="pop-dessapear75">
+            <a class="close close-in" id="close-in75" onclick="navDessapear75();" href="javascript:void(0);">&times;</a>
+            <div class="input-popup-bg75">
+                <h5 class="popup75-add-students">მოსწავლეების დამატება</h5>
+                <p class="popup75-student-p">რამდენიმე მოსწავლის ერთდროულად დასამატებლად შეიყვანე მათი ელ-ფოსტის
+                    მისამართი და გამოყე ისინი მძიმეებით ან დაშორებებით.</p>
+                <form class="student-emails-send" action="/action_page.php">
+
+                    <div class="student-emails-input">
+                        <input class="" type="email" id="emails" name="emails" placeholder="ჩაწერე ელ-ფოსტა" multiple>
+                    </div>
+                    <input class="student-add-email-submit" type="submit" placeholder="მოსაწვევის გაგზავნა">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
@@ -154,7 +176,7 @@
                                 <i class="fas fa-trash"></i>
                             </div>
 
-                            <button class="add-student-now-v2"><i class="fas fa-user-plus"></i>მოსწავლის დამატება</button>
+                            <a href="#popup75" onclick="navAppear75();" class="pop-b-p"><button class="add-student-now-v2"><i class="fas fa-user-plus"></i>მოსწავლის დამატება</button></a>
                         </div>
 
 
@@ -166,43 +188,43 @@
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">ნათელა ბეგიაშვილი</p>
                                     <p class="student-added-emails">steven.sutherland@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">რეზო დავითაძე</p>
                                     <p class="student-added-emails">adam.bell@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">კონსტანტინე ქორიძე</p>
                                     <p class="student-added-emails">jonathan.north@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">რამაზ ბაირამოვი</p>
                                     <p class="student-added-emails">skatherine.glover@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
 
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">გრიგოლ ქობულაძე</p>
                                     <p class="student-added-emails">kylie.bower@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">ბეჟან მიქაძე</p>
                                     <p class="student-added-emails">tracey.langdon@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">ნარგიზ ალადაშვილი</p>
                                     <p class="student-added-emails">zoe.peters@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                                 <div class="student-added-inschools-childs">
                                     <p class="student-added-names">ანზორი გუსეინოვა</p>
                                     <p class="student-added-emails">thomas.cameron@gmail.com</p>
-                                    <p class="student-added-profiles">მოსწავლის პროფილი</p>
+                                    <p class="student-added-profiles">მოსწავლის პროფილი<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
                                 </div>
                             </div>
                         </div>
@@ -298,6 +320,20 @@
             }
         });
         window.addEventListener('click', function (e) {
+            if (document.getElementById('popup75').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear75').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in75").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
             if (document.getElementById('popup8').contains(e.target)) {
                 // Clicked in box
                 if (document.getElementById('pop-dessapear8').contains(e.target)) {
@@ -353,7 +389,12 @@
         var navAppear2 = function () {
             document.getElementById("popup7").style.display = "inherit";
         }
-
+        var navDessapear75 = function () {
+            document.getElementById("popup75").style.display = "none";
+        }
+        var navAppear75 = function () {
+            document.getElementById("popup75").style.display = "inherit";
+        }
         var navDessapear3 = function () {
             document.getElementById("popup8").style.display = "none";
         }

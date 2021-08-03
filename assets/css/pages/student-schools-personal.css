@@ -138,7 +138,10 @@
 .done-homeworks span {
     font-family: "FiraGO ExtraBold";
 }
-
+.variants-bg-fill-white2{
+    height: 100%;
+    padding: 36px 44px 44px 0;
+}
 .done-homeworks-all {
     display: flex;
 }
@@ -162,6 +165,9 @@
 }
 .student-added-profiles2 i {
     margin-left: 5px;
+}
+.student-added-profiles2 a{
+    color: #707070;
 }
 .student-added-inschools2 {
     margin-top: 34px;

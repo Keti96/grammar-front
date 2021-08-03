@@ -60,7 +60,7 @@
     padding: 23px 100px;
     background: #4B6858;
     border-radius: 12px;
-    position: inherit;
+    position: absolute;
     bottom: 0;
     right: 0;
     left: 0;

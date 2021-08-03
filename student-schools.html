@@ -158,6 +158,20 @@
                                     <p>ახალი კლასის შექმნა</p>
                                 </div>
                             </div>
+                            <div class="create-class-name create-class-name2">
+                                <form action="" class="class-name-sides">
+                                    <div class="class-name-left">
+                                        <label for="className">კლასის სახელი</label>
+                                        <input type="text" id="className" name="className" class="className" placeholder="&nbsp;შეიყვანე კლასის სახელი">
+                                    </div>
+                                    <div class="add-class-button">
+                                        <input type="submit" value="დამატება">
+                                        <i class="fas fa-check" aria-hidden="true"></i>
+                                    </div>
+
+                                    <p class="remove-adding-class">გაუქმება</p>
+                                </form>
+                            </div>
                         </div>
 
 
@@ -184,9 +198,11 @@
                                     </div>
                                 </div>
                                 <div class="all-variants-third">
-                                    <div class="special-exercises-return-button">
-                                        <img src="./assets/images/icons/Arrow - Right-Black.svg" alt="">
-                                    </div>
+                                    <a href="#">
+                                        <div class="special-exercises-return-button">
+                                            <img src="./assets/images/icons/Arrow - Right-Black.svg" alt="">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -198,11 +214,8 @@
                                 </div>
                                 <div class="all-variants-second">
                                     <div class="all-student-users">
-                                        <p>თს</p>
-                                        <p>დრ</p>
-                                        <p>აგ</p>
-                                        <p>დკ</p>
-                                        <p class="all-student-users-last">+19</p>
+                                        <button class="all-student-add-button"><i class="fas fa-user-plus"
+                                                aria-hidden="true"></i> მოსწავლის დამატება</button>
                                     </div>
                                 </div>
                                 <div class="all-variants-third">
@@ -228,9 +241,11 @@
                                     </div>
                                 </div>
                                 <div class="all-variants-third">
-                                    <div class="special-exercises-return-button">
-                                        <img src="./assets/images/icons/Arrow - Right-Black.svg" alt="">
-                                    </div>
+                                    <a href="#">
+                                        <div class="special-exercises-return-button">
+                                            <img src="./assets/images/icons/Arrow - Right-Black.svg" alt="">
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -477,6 +492,17 @@
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
+        var creatClass = document.querySelector(".create-class");
+        creatClass.addEventListener('click', event => {
+            document.querySelector(".create-class").style.display = 'none';
+            document.querySelector(".create-class-name2").style.display = 'inherit';
+        });
+        
+        var removeClass = document.querySelector(".remove-adding-class");
+        removeClass.addEventListener('click', event => {
+            document.querySelector(".create-class").style.display = 'flex';
+            document.querySelector(".create-class-name2").style.display = 'none';
+        });
     </script>
 </body>
 

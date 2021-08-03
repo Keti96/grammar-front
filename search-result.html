@@ -59,30 +59,6 @@
         </div>
     </div>
 
-
-
-    <div id="popup75" class="overlay">
-        <div class="popup popup751" id="pop-dessapear75">
-            <a class="close close-in" id="close-in75" onclick="navDessapear75();" href="javascript:void(0);">&times;</a>
-            <div class="input-popup-bg75">
-                <h5 class="popup75-add-students">მოსწავლეების დამატება</h5>
-                <p class="popup75-student-p">რამდენიმე მოსწავლის ერთდროულად დასამატებლად შეიყვანე მათი ელ-ფოსტის
-                    მისამართი და გამოყე ისინი მძიმეებით ან დაშორებებით.</p>
-                <form class="student-emails-send" action="/action_page.php">
-
-                    <div class="student-emails-input">
-                        <input class="" type="email" id="emails" name="emails" placeholder="ჩაწერე ელ-ფოსტა" multiple>
-                    </div>
-                    <input class="student-add-email-submit" type="submit" placeholder="მოსაწვევის გაგზავნა">
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-
-
-
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
@@ -134,7 +110,9 @@
         </nav>
     </div>
     <!-- chatbox -->
-
+    <div class="chatbox">
+        <button class="chatbox-button"><i class="fas fa-comment-dots"></i></button>
+    </div>
     <section class="variants-content">
         <div class="container-fluid">
             <div class="row">
@@ -170,29 +148,124 @@
 
 
                 <div class="col-9 p-0">
-                    <!-- <div class="variants-bg-fill-white-empty"> -->
-                        <div>
-                        <div class="student-school-fields-title">
-                            <p>53-ე სკოლა, VIIა კლასი</p>
-                            <i class="fas fa-pen"></i>
-                            <i class="fas fa-trash"></i>
+                    <div class="search-result-bg">
+                        <div class="search-result-item">
+                            <span class="search-result-span">ძებნის შედეგი</span>
+                            <a href="#" class="search-result-a"><i class="fas fa-arrow-left"></i>უკან დაბრუნება</a>
                         </div>
-                       
+                        <h3 class="search-result-title">არსებითი სახელი</h3>
 
-                    </div>
-                    <div class="student-hasnot-head">
-                        <div class="student-hasnot-added">
-                            <p class="not-added-yet"><span>მოცემულ კლასში </span> მოსწავლეები არ დაგიმატებიათ</p>
-                            <a href="#popup75" onclick="navAppear75();" class="pop-b-p"><button class="add-student-now-v"><i class="fas fa-user-plus"></i>მოსწავლის დამატება</button></a>
+                        <div class="search-result-more-exercises">
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">არსებითი სახელის უღლება</p>
+                                                <h4 class="search-result-exercises-title">თანდებულიანი სიტყვების მართლწერა
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-3"><div class="search-result-exercises-box">
+                                    <div class="search-result-exercises-grey-box">
+                                        <div class="search-result-exercises-wb-pad">
+                                            <p class="search-result-exercises-pagination">აარსებითი სახელის ბრუნება</p>
+                                            <h4 class="search-result-exercises-title">ზმნიზედები შინაარსის მიხედვით
+                                            </h4>
+                                            <div class="search-result-exercises-item">
+                                                <span>8/10</span>
+                                                <a href="#"><i class="fas fa-play"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div></div>
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">აარსებითი სახელის ბრუნება</p>
+                                                <h4 class="search-result-exercises-title">ზმნიზედები შინაარსის მიხედვით
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">არსებითი სახელი</p>
+                                                <h4 class="search-result-exercises-title">ზმნიზედები შინაარსის მიხედვით
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">არსებითი სახელის უღლება</p>
+                                                <h4 class="search-result-exercises-title">კუმშვადი და უკუმშველი სახელები
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">არსებითი სახელის უღლება</p>
+                                                <h4 class="search-result-exercises-title">ზმნიზედები შინაარსის მიხედვით
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="search-result-exercises-box">
+                                        <div class="search-result-exercises-grey-box">
+                                            <div class="search-result-exercises-wb-pad">
+                                                <p class="search-result-exercises-pagination">არსებითი სახელის უღლება</p>
+                                                <h4 class="search-result-exercises-title">ზმნიზედები შინაარსის მიხედვით
+                                                </h4>
+                                                <div class="search-result-exercises-item">
+                                                    <span>8/10</span>
+                                                    <a href="#"><i class="fas fa-play"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-
-
-
                 </div>
             </div>
-        </div>
         </div>
     </section>
 
@@ -225,7 +298,6 @@
                 // Clicked outside the box
             }
         });
-        
         window.addEventListener('click', function (e) {
             if (document.getElementById('popup2').contains(e.target)) {
                 // Clicked in box
@@ -271,20 +343,6 @@
                 } else {
                     // Clicked outside the box
                     document.getElementById("close-in").click();
-                    remove_hash_from_url();
-                }
-            } else {
-                // Clicked outside the box
-            }
-        });
-        window.addEventListener('click', function (e) {
-            if (document.getElementById('popup75').contains(e.target)) {
-                // Clicked in box
-                if (document.getElementById('pop-dessapear75').contains(e.target)) {
-                    // Clicked in box
-                } else {
-                    // Clicked outside the box
-                    document.getElementById("close-in75").click();
                     remove_hash_from_url();
                 }
             } else {
@@ -347,12 +405,7 @@
         var navAppear2 = function () {
             document.getElementById("popup7").style.display = "inherit";
         }
-        var navDessapear75 = function () {
-            document.getElementById("popup75").style.display = "none";
-        }
-        var navAppear75 = function () {
-            document.getElementById("popup75").style.display = "inherit";
-        }
+
         var navDessapear3 = function () {
             document.getElementById("popup8").style.display = "none";
         }

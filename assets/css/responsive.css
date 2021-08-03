@@ -1958,7 +1958,7 @@
         top: 0;
         margin: auto;
     }
-    #popup8 .popup, #popup7 .popup, #popup10 .popup, #popup9 .popup {
+    #popup8 .popup, #popup7 .popup, #popup10 .popup, #popup9 .popup, #popup09 .popup {
         position: absolute;
         margin: auto;
         left: 0;
@@ -2011,7 +2011,7 @@
         width: 652px;
         height: 565px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         width: 692px;
         height: 593px;
     }
@@ -2053,13 +2053,13 @@
         margin: 0 auto 15px!important;
     }
     /* popup9 */
-    #popup9 .new-password-title {
+    #popup9 .new-password-title, #popup09 .new-password-title {
         margin: 50px auto 34px;
     }
-    #popup9 .popup-auth-input-password {
+    #popup9 .popup-auth-input-password, #popup09 .popup-auth-input-password {
         margin-bottom: 25px;
     }
-    #popup9 .registration-form-signin .auth-button {
+    #popup9 .registration-form-signin .auth-button, #popup09 .registration-form-signin .auth-button {
         margin: 45px auto 15px;
         height: 75px;
     }
@@ -2202,7 +2202,7 @@
         width: 688px;
         height: 765px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         width: 728px;
     }
 }
@@ -2231,7 +2231,7 @@
         display: initial;
         height: 535px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         width: 728px;
         /* margin: 18% auto 0px; */
         position: absolute;
@@ -2261,7 +2261,7 @@
 }
 
 @media screen and (max-width: 830px) and (min-height: 790.99px) {
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
         top: 45px;
         right: 65px;
         background-color: transparent;
@@ -2272,7 +2272,7 @@
 }
 
 @media screen and (max-width: 830px) and (max-height: 790.98px) {
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
         top: 15px;
         right: 40px;
         background-color: transparent;
@@ -2310,7 +2310,7 @@
     .registration-form.registration-form-signin, .input-popup-bg {
         border-radius: 44px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup9 .popup {
         /* margin: 18% auto 0px; */
         position: absolute;
         margin: auto;
@@ -2354,7 +2354,7 @@
     #popup7 .auth-registration-form {
         margin: 0 auto;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         /* margin: 18% auto 0px; */
         width: 100%;
         position: absolute;
@@ -2381,7 +2381,7 @@
     #popup7 .popup-registration-title {
         margin: 60px auto 32px;
     }
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
         font-weight: 300;
     }
     #popup7 .auth-input-email, .auth-input-password, #popup7 .popup-auth-button {
@@ -2409,10 +2409,10 @@
     #second-forgot-pass img {
         margin: 50px auto 10px;
     }
-    #popup9 .new-password-title {
+    #popup9 .new-password-title, #popup09 .new-password-title {
         margin: 45px auto 28px;
     }
-    #popup9 .popup .close {
+    #popup9 .popup .close, #popup09 .popup .close {
         top: 15px;
         right: 96px;
     }
@@ -2481,7 +2481,7 @@
     .registration-form-forgotpas {
         margin: 0 auto;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         width: 100%;
     }
     /* new pass registration form */
@@ -2530,11 +2530,11 @@
         width: 100%;
         height: 565px;
     }
-    #popup7 .popup, #popup9 .popup {
+    #popup7 .popup, #popup9 .popup, #popup09 .popup {
         width: 100%;
         height: 605px;
     }
-    #popup7 .popup .close, #popup9 .popup .close {
+    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close {
         top: 2.5%;
         right: 7%;
     }
@@ -2598,7 +2598,7 @@
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
         width: 446px;
     }
-    #second-forgot-pass .second-forgot-pass-title, #popup9 .new-password-title, #popup10 .new-account-title {
+    #second-forgot-pass .second-forgot-pass-title, #popup9 .new-password-title, #popup10 .new-account-title, #popup09 .new-password-title {
         font-size: 24px;
     }
     #password-changed img {
@@ -2625,7 +2625,7 @@
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
         width: 318px;
     }
-    #popup7 .popup .close, #popup9 .popup .close {
+    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close {
         top: 2.5%;
         right: 7%;
     }
@@ -2674,7 +2674,7 @@
         width: 248px;
         padding: 18px 20px;
     }
-    #popup9 .registration-form-signin .auth-button {
+    #popup9 .registration-form-signin .auth-button, #popup09 .registration-form-signin .auth-button {
         margin: 48px auto 15px;
         height: 72px;
     }
@@ -2742,7 +2742,7 @@
     .checkbox-input {
         width: 318px;
     }
-    #mail-approve .mail-approve-title, #success-registred .success-registred-title, #popup9 .new-password-title, #password-changed .password-changed-title, #popup7 .popup-registration-title, #popup8 .first-forgot-pass h3, #create-password .new-password-create-title {
+    #mail-approve .mail-approve-title, #success-registred .success-registred-title, #popup9 .new-password-title, #popup09 .new-password-title, #password-changed .password-changed-title, #popup7 .popup-registration-title, #popup8 .first-forgot-pass h3, #create-password .new-password-create-title {
         font-size: 20px;
         line-height: 26px;
     }
@@ -2865,7 +2865,7 @@
         line-height: 18px;
         margin: 0 auto 32px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         margin: auto;
         /* height: 630px; */
     }
@@ -2876,14 +2876,14 @@
         margin: auto;
         height: 610px;
     } */
-    #popup7 .popup, #popup9 .popup {
+    #popup7 .popup, #popup9 .popup, #popup09 .popup {
         width: 100%;
         height: 565px;
     }
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
         margin: 0 auto 28px;
     }
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
         top: initial;
         right: 0;
         left: 0;
@@ -2904,11 +2904,11 @@
     #popup7 .popup {
         bottom: 15px;
     }
-    #popup8 .popup, #popup9 .popup, #popup10 .popup {
+    #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         bottom: 15px;
         height: 582px;
     }
-    #popup7 .popup .close:hover, #popup8 .popup .close:hover, #popup9 .popup .close:hover, #popup10 .popup .close:hover {
+    #popup7 .popup .close:hover, #popup8 .popup .close:hover, #popup9 .popup .close:hover, #popup10 .popup .close:hover, #popup09 .popup .close:hover {
         color: grey;
         background-color: white;
     }
@@ -2920,7 +2920,7 @@
         font-size: 14px;
     }
     /* check email registration form*/
-    #popup7 .registration-form, #popup8 .registration-form, #popup9 .registration-form, #popup7 .registration-form {
+    #popup7 .registration-form, #popup8 .registration-form, #popup9 .registration-form, #popup7 .registration-form, #popup09 .registration-form {
         border-radius: 14px;
     }
     #popup7 .registration-form.registration-form-signin, #popup7 .input-popup-bg {
@@ -2935,7 +2935,7 @@
     #popup10 .new-account-title {
         margin: 32px auto 26px;
     }
-    #popup9 .registration-form.registration-form-signin, #popup9 .input-popup-bg {
+    #popup9 .registration-form.registration-form-signin, #popup9 .input-popup-bg, #popup09 .registration-form.registration-form-signin, #popup09 .input-popup-bg {
         height: 494px;
         border-radius: 14px;
         margin: auto;
@@ -3247,16 +3247,16 @@
 
 @media screen and (max-width: 360px) and (max-height: 745.99px) {
     /* new pass registration form */
-    #popup9 .new-password-title {
+    #popup9 .new-password-title, #popup09 .new-password-title {
         font-size: 16px;
         line-height: 20.8px;
     }
     /* changed pass registration form */
-    #popup9 .password-changed .password-changed-title {
+    #popup9 .password-changed .password-changed-title, #popup09 .password-changed .password-changed-title {
         font-size: 16px;
         line-height: 20.8px;
     }
-    #popup9 .password-changed-text {
+    #popup9 .password-changed-text, #popup09 .password-changed-text {
         width: 85%;
     }
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .pwd-input-password, .registration-form-signin .pwd-repeat-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
@@ -3401,7 +3401,7 @@
         height: 434px;
         border-radius: 22px;
     } */
-    #popup9 .popup {
+    #popup9 .popup, #popup09 .popup {
         margin: auto;
         /* height: 534px; */
     }
