@@ -156,6 +156,7 @@
     letter-spacing: 0.2px;
     color: #4b6858;
     align-self: center;
+    padding-right: 5px;
 }
 .student-school-correcanswers i, .student-school-wronganswers i {
     font-size: 11px;
@@ -169,8 +170,9 @@
 .student-added-profiles2 a{
     color: #707070;
 }
-.student-added-inschools2 {
+.student-added-inschools3 {
     margin-top: 34px;
+    padding-right: 5px;
 }
 
 .student-school-subjects {
@@ -231,4 +233,26 @@
     position: relative;
     width: 100%;
     border-bottom: 1px solid rgba(103, 115, 135, 0.1);
+}
+@media screen and (max-height: 770.99px) {
+    .student-added-inschools3 {
+        height: 16vh;
+        overflow-y: scroll;
+    }
+    .student-added-inschools3::-webkit-scrollbar {
+        width: 1px;
+        margin-left: 2px;
+    }
+    /* Track */
+    .student-added-inschools3::-webkit-scrollbar-track {
+        background: white;
+    }
+    /* Handle */
+    .student-added-inschools3::-webkit-scrollbar-thumb {
+        background: rgba(112, 112, 112, .6);
+    }
+    /* Handle on hover */
+    .student-added-inschools3::-webkit-scrollbar-thumb:hover {
+        background: transparent;
+    }
 }

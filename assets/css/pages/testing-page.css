@@ -19,7 +19,7 @@
 .testing-issues {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 68px;
+    margin: 0 10px 68px 0;
 }
 
 .testing-issues-p {
@@ -121,6 +121,31 @@
         margin: 0 30px 0 0;
         overflow-y: scroll;
         height: calc(100% - 340px);
+    }
+    .testing-content-fill::-webkit-scrollbar {
+        width: 1px;
+        margin-left: 2px;
+    }
+    
+    /* Track */
+    
+    .testing-content-fill::-webkit-scrollbar-track {
+        background: white;
+        ;
+    }
+    
+    /* Handle */
+    
+    .testing-content-fill::-webkit-scrollbar-thumb {
+        /* background: red; */
+        background: rgba(112, 112, 112, .6);
+    }
+    
+    /* Handle on hover */
+    
+    .testing-content-fill::-webkit-scrollbar-thumb:hover {
+        background: transparent;
+        /* background: #555;  */
     }
     .testing-content-fill-result {
         margin: 0 30px 0 0;
