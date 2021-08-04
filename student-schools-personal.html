@@ -319,24 +319,48 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script>
+        // new Chart(document.getElementById("doughnut-chart"), {
+        //     type: 'doughnut',
+        //     data: {
+        //         datasets: [
+        //             {
+
+        //                 backgroundColor: ["#EB2347", "#00CC6F", "#F6F7F7"],
+        //                 data: [16, 56, 28]
+        //             }
+        //         ],
+        //     },
+        //     options: {
+        //         title: {
+        //             display: true,
+                   
+        //         }
+        //     }
+        // });
         new Chart(document.getElementById("doughnut-chart"), {
             type: 'doughnut',
             data: {
-                // labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-                datasets: [
-                    {
-
-                        backgroundColor: ["#EB2347", "#00CC6F", "#F6F7F7"],
-                        data: [16, 56, 28]
-                    }
-                ],
+                labels: [' არასწორი ', ' სწორი ', ' პასუხგაუცემელი '],
+                datasets: [{
+                    backgroundColor: ["#EB2347", "#00CC6F", "#F6F7F7"],
+                    data: [16, 56, 28]
+                }]
             },
             options: {
-                title: {
-                    display: true,
-                    // text: 'სწორი / არასწორი პასუხები'
+                legend: {
+                    display: false
+                },
+                plugins: {
+                    datalabels: {
+                        display: true,
+                        formatter: (val, ctx) => {
+                            return ctx.chart.data.labels[ctx.dataIndex];
+                        },
+                        color: '#fff',
+                        backgroundColor: '#404040'
+                    },
                 }
-            }
+            }, 
         });
 
         var stopVideos = function () {
