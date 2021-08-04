@@ -229,6 +229,9 @@ button.delete-progress {
 .new-password-title2{
     margin-top: 78px!important;
 }
+.password-changed {
+    display: none;
+}
 .my-data-out-change .my-data-button-remove {
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +240,7 @@ button.delete-progress {
 #popup09 form .input-password{
     border: 2px solid #131515;
 }
+
 @media screen and (max-height: 770.99px) {
     .my-profile-bg {
         overflow-y: scroll;

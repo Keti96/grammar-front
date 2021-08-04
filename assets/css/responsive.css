@@ -1958,7 +1958,7 @@
         top: 0;
         margin: auto;
     }
-    #popup8 .popup, #popup7 .popup, #popup10 .popup, #popup9 .popup, #popup09 .popup {
+    #popup8 .popup, #popup7 .popup, #popup10 .popup, #popup9 .popup, #popup09 .popup, #popup12 .popup {
         position: absolute;
         margin: auto;
         left: 0;
@@ -2011,7 +2011,7 @@
         width: 652px;
         height: 565px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup, #popup12 .popup {
         width: 692px;
         height: 593px;
     }
@@ -2053,19 +2053,33 @@
         margin: 0 auto 15px!important;
     }
     /* popup9 */
-    #popup9 .new-password-title, #popup09 .new-password-title {
+    #popup09 .new-password-title2 {
         margin: 50px auto 34px;
+    }
+    #popup09 .new-title09 {
+        margin: 30px auto 16px!important;
     }
     #popup9 .popup-auth-input-password, #popup09 .popup-auth-input-password {
         margin-bottom: 25px;
     }
-    #popup9 .registration-form-signin .auth-button, #popup09 .registration-form-signin .auth-button {
+    #popup9 .registration-form-signin .auth-button {
         margin: 45px auto 15px;
         height: 75px;
     }
+    #popup09 .registration-form-signin .auth-button {
+        margin: 25px auto 15px;
+        height: 62px;
+    }
     /* popup9 second popup */
-    #password-changed img {
+    #password-changed img, #password-changed2 img {
         margin: 65px auto 35px;
+    }
+    #password-changed2 .password-changed-title2 {
+        font-size: 25px;
+        margin: 20px auto 86px;
+    }
+    #password-changed2 .registration-form-signin .pass-changed-button {
+        margin: 95px auto 38px;
     }
     #password-changed .password-changed-text {
         margin-bottom: 82px;
@@ -2117,6 +2131,7 @@
         height: 60px;
         border-radius: 12px;
     }
+    
     /* popup10 second popup */
     #name-fields .new-account-create-title {
         margin: 62px auto 36px;
@@ -2202,7 +2217,7 @@
         width: 688px;
         height: 765px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup, #popup12 .popup {
         width: 728px;
     }
 }
@@ -2231,7 +2246,7 @@
         display: initial;
         height: 535px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup, #popup12 .popup {
         width: 728px;
         /* margin: 18% auto 0px; */
         position: absolute;
@@ -2261,7 +2276,7 @@
 }
 
 @media screen and (max-width: 830px) and (min-height: 790.99px) {
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: 45px;
         right: 65px;
         background-color: transparent;
@@ -2272,7 +2287,7 @@
 }
 
 @media screen and (max-width: 830px) and (max-height: 790.98px) {
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: 15px;
         right: 40px;
         background-color: transparent;
@@ -2310,7 +2325,7 @@
     .registration-form.registration-form-signin, .input-popup-bg {
         border-radius: 44px;
     }
-    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup9 .popup {
+    #popup7 .popup, #popup8 .popup, #popup9 .popup, #popup10 .popup, #popup09 .popup {
         /* margin: 18% auto 0px; */
         position: absolute;
         margin: auto;
@@ -2381,7 +2396,7 @@
     #popup7 .popup-registration-title {
         margin: 60px auto 32px;
     }
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         font-weight: 300;
     }
     #popup7 .auth-input-email, .auth-input-password, #popup7 .popup-auth-button {
@@ -2412,7 +2427,7 @@
     #popup9 .new-password-title, #popup09 .new-password-title {
         margin: 45px auto 28px;
     }
-    #popup9 .popup .close, #popup09 .popup .close {
+    #popup9 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: 15px;
         right: 96px;
     }
@@ -2530,11 +2545,11 @@
         width: 100%;
         height: 565px;
     }
-    #popup7 .popup, #popup9 .popup, #popup09 .popup {
+    #popup7 .popup, #popup9 .popup, #popup09 .popup, #popup12 .popup {
         width: 100%;
         height: 605px;
     }
-    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: 2.5%;
         right: 7%;
     }
@@ -2625,7 +2640,7 @@
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button, .new-password-form label, #password-changed .password-changed-title, #popup10 .new-account-title {
         width: 318px;
     }
-    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup9 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: 2.5%;
         right: 7%;
     }
@@ -2883,7 +2898,7 @@
     .registration-form-signin .auth-input-email, .registration-form-signin .auth-input-password, .registration-form-signin .error-p, .registration-form-signin .recover-password, .registration-form-signin .input-button {
         margin: 0 auto 28px;
     }
-    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close {
+    #popup7 .popup .close, #popup8 .popup .close, #popup9 .popup .close, #popup10 .popup .close, #popup09 .popup .close, #popup12 .popup .close {
         top: initial;
         right: 0;
         left: 0;
@@ -2908,7 +2923,7 @@
         bottom: 15px;
         height: 582px;
     }
-    #popup7 .popup .close:hover, #popup8 .popup .close:hover, #popup9 .popup .close:hover, #popup10 .popup .close:hover, #popup09 .popup .close:hover {
+    #popup7 .popup .close:hover, #popup8 .popup .close:hover, #popup9 .popup .close:hover, #popup10 .popup .close:hover, #popup09 .popup .close:hover, #popup12 .popup .close:hover {
         color: grey;
         background-color: white;
     }
@@ -3401,7 +3416,7 @@
         height: 434px;
         border-radius: 22px;
     } */
-    #popup9 .popup, #popup09 .popup {
+    #popup9 .popup, #popup09 .popup, #popup12 .popup {
         margin: auto;
         /* height: 534px; */
     }
@@ -3440,6 +3455,9 @@
         margin: 0 auto 52px;
     }
     #password-changed .password-changed .pass-changed-button {
+        height: 52px;
+    }
+    #password-changed2 .password-changed .pass-changed-button {
         height: 52px;
     }
     /* new account form */

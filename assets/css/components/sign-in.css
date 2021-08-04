@@ -231,11 +231,18 @@ a.sign-in-parent:hover:after {
     font-family: 'FiraGo Bold';
     font-size: 28px;
     line-height: 36.4px;
-    margin: 110px auto 64px;
+    margin: 110px auto 60px;
     color: #333333;
     font-feature-settings: 'case' on;
 }
-
+#popup12 .new-password-title {
+    font-family: 'FiraGo Bold';
+    font-size: 28px;
+    line-height: 36.4px;
+    margin: 40px auto 25px;
+    color: #333333;
+    font-feature-settings: 'case' on;
+}
 .new-password-form label {
     display: block;
     text-align: left;
@@ -257,7 +264,24 @@ a.sign-in-parent:hover:after {
 .pwd-repeat-input-password {
     margin-bottom: 60px;
 }
-
+#popup12 .search-psw-popup {
+    margin-bottom: 25px!important;
+}
+#popup12 .input-button {
+    height: 60px;
+}
+#popup12 .new-password-form label {
+    margin: 0 auto 12px;
+}
+#popup12 .pwd-input-password {
+    margin-bottom: 26px;
+}
+#popup12 .popup {
+    height: 90%;
+}
+#popup12 .password-changed .password-changed-title {
+    margin: 0 auto 105px;
+}
 .password-changed {
     display: none;
 }

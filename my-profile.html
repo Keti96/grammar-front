@@ -69,8 +69,8 @@
             <div class="input-popup-bg">
                 <div
                     class="registration-form registration-form-signin registration-form-forgotpas new-pass-registr-form">
-                    <div class="new-password" id="new-password">
-                        <h4 class="new-password-title new-password-title2">
+                    <div class="new-password" id="new-password2">
+                        <h4 class="new-password-title new-password-title2 new-title09">
                             მონაცემების რედაქტირება
                         </h4>
                         <form action="#" class="new-password-form">
@@ -78,10 +78,6 @@
                             <div class="pwd-input-password popup-auth-input-password input-password rem-back-img">
                                 <input type="password" id="pwd" name="pwd" placeholder="შეიყვანე პაროლი">
                             </div>
-                            <!-- <label for="pwd">რეგიონი <span>*</span></label> -->
-                            <!-- <div class="pwd-input-password popup-auth-input-password input-password rem-back-img">
-                                <input type="password" id="pwd" name="pwd" placeholder="შეიყვნაე ახალი პაროლი">
-                            </div> -->
                             <form action="#" class="new-password-form">
                                 <label for="region">რეგიონი <span>*</span></label>
                                 <div
@@ -135,19 +131,26 @@
                                     class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
                                     <input type="password" id="repeat-pwd" name="pwd" placeholder="შენი სკოლის სახელი">
                                 </div>
-                                
                             </form>
-                            <!-- <label for="repeat-pwd">სკოლა <span>*</span></label>
-                            <div
-                                class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
-                                <input type="password" id="repeat-pwd" name="pwd" placeholder="გაიმეორე პაროლი">
-                            </div> -->
                         </form>
-                        <a href="#"><button type="button" class="auth-button input-button">
+                        <button type="button" class="auth-button input-button" onclick="errorExchange22();">
                             ცვლილების შენახვა
-                        </button></a>
+                        </button>
                     </div>
                     
+                    <div class="password-changed" id="password-changed2">
+                        <img src="./assets/images/sign-in/success-smile.svg" alt="img">
+                        <div class="password-changed-content">
+                            <h3 class="password-changed-title password-changed-title2">პროფილი წარმატებით დარედაქტირდა</h3>
+                        </div>
+                        <form action="#">
+                            <a href="#">
+                                <button type="button" class="pass-changed-button popup-auth-button input-button">
+                                    გაგრძელება
+                                </button>
+                            </a>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -155,14 +158,14 @@
 
 
     
-    <div id="popup9" class="overlay">
-        <div class="popup" id="pop-dessapear9">
-            <a class="close close-in" id="close-in3" onclick="navDessapear4();" href="javascript:void(0);">&times;</a>
+    <div id="popup12" class="overlay">
+        <div class="popup" id="pop-dessapear12">
+            <a class="close close-in" id="close-in12" onclick="navDessapear12();" href="javascript:void(0);">&times;</a>
             <div class="input-popup-bg">
                 <div
                     class="registration-form registration-form-signin registration-form-forgotpas new-pass-registr-form">
                     <div class="new-password" id="new-password">
-                        <h4 class="new-password-title new-password-title2">
+                        <h4 class="new-password-title">
                             მოიფიქრე ახალი პაროლი
                         </h4>
                         <form action="#" class="new-password-form">
@@ -176,11 +179,11 @@
                             </div>
                             <label for="repeat-pwd">გაიმეორე პაროლი <span>*</span></label>
                             <div
-                                class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img">
+                                class="pwd-repeat-input-password popup-auth-input-password input-password rem-back-img search-psw-popup">
                                 <input type="password" id="repeat-pwd" name="pwd" placeholder="გაიმეორე პაროლი">
                             </div>
                         </form>
-                        <button type="button" onclick="errorExchange2();" class="auth-button input-button">
+                        <button type="button" onclick="errorExchange2();" class="auth-button input-button search-result-auth-button">
                             პაროლის შეცვლა
                         </button>
                     </div>
@@ -188,8 +191,7 @@
                         <img src="./assets/images/sign-in/success-smile.svg" alt="img">
                         <div class="password-changed-content">
                             <h3 class="password-changed-title">შენ წარმატებით აღადგინე პაროლი.</h3>
-                            <p class="password-changed-text">დააჭირე შესვლის ღილაკს ანგარიშში შესასვლელად.
-                            </p>
+                           
                         </div>
                         <form action="#">
                             <a href="#">
@@ -331,7 +333,7 @@
                                     <a href="#popup09" onclick="navAppear6();"><button class="my-data-button-edit"><i class="fas fa-pen"></i> მონაცემების
                                         რედაქტირება</button>
                                     </a>
-                                    <a href="#popup9" onclick="navAppear4();"><button
+                                    <a href="#popup12" onclick="navAppear4();"><button
                                             class="my-data-change-password">პაროლის შეცვლა</button></a>
                                 </div>
                             </div>
@@ -476,6 +478,20 @@
                 // Clicked outside the box
             }
         });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup12').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear12').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in12").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
 
         window.addEventListener('click', function (e) {
             if (document.getElementById('popup10').contains(e.target)) {
@@ -527,6 +543,14 @@
         }
         var navAppear6 = function () {
             document.getElementById("popup09").style.display = "inherit";
+            document.getElementById("new-password2").style.display = "inherit";
+            document.getElementById("password-changed2").style.display = "none";
+        }
+        var navDessapear12 = function () {
+            document.getElementById("popup12").style.display = "none";
+        }
+        var navAppear6 = function () {
+            document.getElementById("popup12").style.display = "inherit";
             document.getElementById("new-password").style.display = "inherit";
             document.getElementById("password-changed").style.display = "none";
         }
@@ -548,6 +572,10 @@
         var errorExchange2 = function () {
             document.getElementById("new-password").style.display = "none";
             document.getElementById("password-changed").style.display = "inherit";
+        }
+        var errorExchange22 = function () {
+            document.getElementById("new-password2").style.display = "none";
+            document.getElementById("password-changed2").style.display = "inherit";
         }
         var errorExchange3 = function () {
             document.getElementById("new-region").style.display = "none";

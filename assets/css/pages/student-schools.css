@@ -36,6 +36,7 @@
 }
 
 .school-icon-text {
+    cursor: pointer;
     margin: 0 auto;
     display: flex;
     color: #4B6858;
