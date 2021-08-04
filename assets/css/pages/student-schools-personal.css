@@ -188,10 +188,10 @@
     font-family: 'FiraGO';
     font-size: 10px;
     line-height: 15px;
+    width: 16px;
     align-items: center;
     text-align: right;
     color: #707070;
-    margin-left: 63px;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -199,27 +199,32 @@
 .student-school-allanswers {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 8px 16px;
     border-radius: 40px;
     font-family: 'FiraGO';
     font-size: 12px;
     align-items: center;
-    text-align: right;
+    align-self: center;
+    justify-content: center;
     margin-left: 8px;
 }
 
 .student-school-allquestions {
     background: #F6F7F7;
     color: #707070;
+    width: 77px;
+    height: 34px;
 }
 .student-school-correcanswers{
     background: #F4FAF7;
-    color: #239F61;
+    color: #a5ceb9;
+    width: 55px;
+    height: 34px;
 }
 .student-school-wronganswers{
     background: #FEF4F6;
     color: #EB2347;
+    width: 50px;
+    height: 34px;
 }
 .inpersonal-all {
     display: flex;
