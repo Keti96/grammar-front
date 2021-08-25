@@ -14,11 +14,14 @@
 
 .student-hasnot-head {
     position: relative;
-    height: 100%;
+    /* height: 100%; */
+    height: calc(100% - 37px);
 }
+
 .student-school-fields-title {
     display: flex;
 }
+
 .student-school-fields-title p {
     color: #333333;
     margin-right: 40px;
@@ -28,15 +31,27 @@
     align-self: center;
     font-feature-settings: 'case' on;
 }
+
 .student-school-fields-title i {
     background-color: #F3F3F3;
-    color: #333333;
+    color: #5A5B5B;
     font-size: 13px;
     border-radius: 12px;
     align-self: center;
     padding: 12px;
     margin-right: 12px;
 }
+
+.student-school-fields-title i:hover {
+    background-color: #E7E8E8;
+    color: #5A5B5B;
+}
+
+.student-school-fields-title i:active {
+    background-color: #E7E8E8;
+    color: #131515;
+}
+
 .student-hasnot-added {
     position: absolute;
     height: 175px;
@@ -47,6 +62,83 @@
     left: 0;
 }
 
+.re-edit-class::placeholder {
+    font-family: 'FiraGO';
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    /* color: #333333; */
+    color: #707070;
+}
+
+.before-re-edit {
+    display: flex;
+}
+
+.in-re-edit {
+    align-self: center;
+    display: none;
+}
+
+.re-edit-class {
+    margin-right: 52px;
+    font-family: 'FiraGO';
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #333333;
+    vertical-align: middle;
+}
+
+.re-edit-save {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    background: #00CC6F;
+    border-radius: 10px;
+}
+.re-edit-save:hover{
+    background: #00B361;
+}
+.re-edit-dissable:hover{
+    background: #E7E8E8;
+}
+.re-edit-save:active{
+    background: #00B361;
+    color: #F5F5F5;
+}
+.re-edit-dissable:active{
+    color: #333333;
+    background: #E7E8E8;
+}
+.re-edit-dissable {
+    font-family: 'FiraGO';
+    font-size: 12px;
+    line-height: 18px;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #707070;
+    padding: 11px 20px;
+    background: #F3F3F3;
+    border-radius: 12px;
+    margin-left: 13px;
+}
+.re-edit-save-dissabled{
+    color: #F5F5F5;
+    background: #80E5B7;
+}
+.re-edit-save-dissabled:hover,.re-edit-save-dissabled:active{
+    color: #F5F5F5;
+    background: #80E5B7;
+}
 .add-student-now-v {
     font-family: 'FiraGO Medium';
     font-size: 12px;
@@ -66,6 +158,7 @@
     left: 0;
     margin: auto auto 0 auto;
 }
+
 .add-student-now-v i {
     margin-right: 8px;
 }

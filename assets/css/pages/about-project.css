@@ -847,6 +847,10 @@ a.about-nav-link.active {
     .appear3 {
         display: initial;
     }
+    .header-resp-hide1 {
+        display: none;
+    }
+    
 }
 
 @media only screen and (max-width: 414.9px) {

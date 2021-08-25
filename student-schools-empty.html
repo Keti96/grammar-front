@@ -171,19 +171,28 @@
 
                 <div class="col-9 p-0">
                     <!-- <div class="variants-bg-fill-white-empty"> -->
-                        <div>
+                    <div>
                         <div class="student-school-fields-title">
-                            <p>53-ე სკოლა, VIIა კლასი</p>
-                            <i class="fas fa-pen"></i>
-                            <i class="fas fa-trash"></i>
+                            <div class="in-re-edit">
+                                <input class="re-edit-class" type="text" placeholder="კლასის სახელი">
+                                <button class="re-edit-save " onclick="reEdit2();">შენახვა</button>
+                                <button class="re-edit-dissable" onclick="reEdit3();">გაუქმება</button>
+                            </div>
+                            <div class="before-re-edit">
+                                <p class="re-edit-class-name">53-ე სკოლა, VIIა კლასი</p>
+                                <i class="fas fa-pen" onclick="reEdit();"></i>
+                                <i class="fas fa-trash"></i>
+                            </div>
                         </div>
-                       
+
 
                     </div>
                     <div class="student-hasnot-head">
                         <div class="student-hasnot-added">
                             <p class="not-added-yet"><span>მოცემულ კლასში </span> მოსწავლეები არ დაგიმატებიათ</p>
-                            <a href="#popup75" onclick="navAppear75();" class="pop-b-p"><button class="add-student-now-v"><i class="fas fa-user-plus"></i>მოსწავლის დამატება</button></a>
+                            <a href="#popup75" onclick="navAppear75();" class="pop-b-p"><button
+                                    class="add-student-now-v"><i class="fas fa-user-plus"></i>მოსწავლის
+                                    დამატება</button></a>
                         </div>
                     </div>
 
@@ -225,7 +234,7 @@
                 // Clicked outside the box
             }
         });
-        
+
         window.addEventListener('click', function (e) {
             if (document.getElementById('popup2').contains(e.target)) {
                 // Clicked in box
@@ -430,6 +439,35 @@
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
+        var reEdit = function () {
+            document.querySelector(".before-re-edit").style.display = "none";
+            document.querySelector(".in-re-edit").style.display = "flex";
+            var getText = document.querySelector(".re-edit-class-name").innerHTML;
+            document.querySelector(".re-edit-class").value = getText;
+        }
+        var reEdit2 = function () {
+            document.querySelector(".in-re-edit").style.display = "none";
+            document.querySelector(".before-re-edit").style.display = "flex";
+            if (document.querySelector(".re-edit-class").value.length !== 0) {
+                var getText2 = document.querySelector(".re-edit-class").value;
+                document.querySelector(".re-edit-class-name").innerHTML = getText2;
+            }
+            document.querySelector(".re-edit-save").classList.remove("re-edit-save-dissabled");
+
+        }
+        var reEdit3 = function () {
+            document.querySelector(".in-re-edit").style.display = "none";
+            document.querySelector(".before-re-edit").style.display = "flex";
+            document.querySelector(".re-edit-save").classList.remove("re-edit-save-dissabled");
+
+        }
+
+        document.querySelector(".re-edit-class").addEventListener('change', () => {
+            if (document.querySelector(".re-edit-class").value.length === 0) {
+                document.querySelector(".re-edit-save").className += " re-edit-save-dissabled";
+            }
+            
+        });
     </script>
 </body>
 
