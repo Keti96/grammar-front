@@ -34,6 +34,9 @@
     font-size: 14px;
     line-height: 16px;
 }
+.search-result-a:focus{
+    color: #4B6858;
+}
 .search-result-more-exercises {
     display: flex;
     flex-wrap: wrap;
