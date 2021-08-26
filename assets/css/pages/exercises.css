@@ -62,7 +62,9 @@ html, .exercises-body {
     height: 172px;
     margin-bottom: 36px;
 }
-
+.exercises-white-box:hover{
+    border: 2px solid #4B6858;
+}
 .exercises-wb-pad {
     padding: 28px 24px;
     height: 172px;
@@ -184,12 +186,15 @@ html, .exercises-body {
 /* slider */
 
 .splide__slide {
-    width: 24%!important;
+   
     margin: 0 10px!important;
 }
 
 .splide__slide .col-3 {
     width: 100%;
+}
+.splide__list .splide__slide{
+    width: 23%!important;
 }
 
 ul.splide__list {
