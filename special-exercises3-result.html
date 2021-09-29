@@ -59,14 +59,76 @@
         </div>
     </div>
 
+    <div id="popup77" class="overlay overlay2">
+        <div class="popup popup2">
+            <a class="open hide3" href="#"><img src="./assets/images/icons/footer-logo.svg" alt=""></a>
+            <a class="open appear3" href="#"><img src="./assets/images/icons/burger-menu-small.svg" alt=""></a>
+            <a class="close close2 " id="close-in77" href="javascript:void(0);" onclick="navDessapear77();">&times;</a>
+            <div class="collapse2 navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link burger-menu " aria-current="page" href="index.html">
+                            სტატისტიკა
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="about-project.html">
+                            საკითხები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            სავარჯიშოები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ტესტირება
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ჩემი პროფილი
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-d-flex conf-user justify-content-between conf2">
+                <p class="footer-logo-content-item">
+                    <a href="privacy-policy.html">
+                        კონფიდენციალურობის პოლიტიკა
+                    </a>
+                </p>
+                <p class="footer-logo-content-item">
+                    <a href="terms-of-use.html">
+                        მოხმარების პირობები
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
                 <a class="navbar-brand" href="index.html">
-                    <img class="hide3" src="./assets/images/icons/logo.svg" alt="logo">
-                    <img class="appear3" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="hide3 header-resp-hide1" src="./assets/images/icons/logo.svg" alt="logo">
+                    <img class="appear3 header-resp-hide1" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="header-resp-appear1" src="./assets/images/icons/logo-414.svg" alt="logo-414">
+                    <a href="#popup77" onclick="navAppear77();"> <img class="header-resp-appear1 header-four-dots"
+                            src="./assets/images/icons/menu-dots.svg" alt="dots-icon"></a>
                 </a>
-                <div class="navbar-icons">
+                <div class="navbar-icons other-pages-i">
                     <a href="#popup7" onclick="navAppear2();" class="login appear"><img
                             src="./assets/images/icons/login.svg" alt=""></a>
                     <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
@@ -77,9 +139,12 @@
                         </button></a>
                 </div>
                 <div class="col-9 navbar-content">
-                    <div class="adverb-return-back">
-                        <a href="exercises.html" ><i class="fas fa-arrow-left"></i>უკან დაბრუნება</a>
+                    <div class="adverb-return-back  adverb-return-back2">
+                        <a href="exercises.html"><i class="fas fa-arrow-left" aria-hidden="true"></i>უკან დაბრუნება</a>
                     </div>
+                    <!-- <div class="resp-search-parent">
+                        <img src="./assets/images/icons/Search2.svg" alt="">
+                    </div> -->
                     <div class="col-4 user-registred">
                         <div class="header-variants-item user-registred-yes">
                             <div class="col-9 header-variants-input-user">
@@ -112,10 +177,34 @@
     <section class="adverb-content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 adverb-exercises-content">
+                <div class="col-3 adverb-exercises-content resp-1200-body-f">
+                    <div class="exercises-grammar-fields exercises-grammar-fields2">
+                                    <div class="all-variants-first all-exercises-first">
+                                        <div class="exercises-head-pr">
+                                            <p class="variants-issue-name">არსებითი სახელი </p>
+                                            <div class="c100 p56 center small">
+                                                <!-- <span>.</span> -->
+                                                <div class="slice">
+                                                    <div class="bar"></div>
+                                                    <div class="fill"></div>
+                                                </div>
+                                            </div>
+                                            <span class="percentage-distance">56%</span>
+                                        </div>
+                                        <span class="variants-issue-status exercises-issue-status">სინტაქსი</span>
+                                    </div>
+                                    <!-- <div class="exercises-head-right">
+                                        <p>გაგრძელება<i class="fas fa-arrow-right"></i></p>
+                                    </div> -->
+                                    <div class="exercises-head-right">
+                                        <div class="exercises-head-arrowup">
+                                           <a href="#"> <img src="./assets/images/icons/Arrow - Up 2.svg" alt=""></a>
+                                        </div>
+                                    </div>
+                                </div>
                     <div class="exercises-grammar-box">
                         <div class="exercises-grey-box">
-                            <div class="exercises-wb-pad ">
+                            <div class="exercises-wb-pad">
                                 <p class="exercises-grammar-pagination">სავარჯიშო #1</p>
                                 <h4 class="exercises-grammar-title">ზმნიზედები შინაარსის მიხედვით
                                 </h4>
@@ -123,6 +212,7 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
                             </div>
                         </div>
                     </div>
@@ -136,6 +226,8 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -149,6 +241,8 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -162,6 +256,8 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -175,6 +271,8 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -188,6 +286,8 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -201,94 +301,392 @@
                                     <span>8/10</span>
                                     <a href="#"><i class="fas fa-play"></i></a>
                                 </div>
+                                <a class="resp-video" href="#"><i class="fas fa-play" aria-hidden="true"></i></a>
+
                             </div>
                         </div>
                     </div>
                 </div>
 
 
-                <div class="col-9 p-0">
-                    <div class="exercises-contents">
-                        <div class="exercises-contents-title">
-                            <p>სავარჯიშო #3 -  ზმნიზედები შინაარსის მიხედვით</p>
-                        </div>
-                        <div class="project-mode">
-                            <button class="project-mode-button">პროექტორის რეჟიმი</button>
-                        </div>
-                    </div>
-                    <div class="exercises-result">
-                        <div class="exercises-result-correct-answer">
-                            <span>10</span>
-                        </div>
-                        <div class="correct-answer-content">
-                            <p>სწორი პასუხი</p>
-                            <samp>12 კითხვიდან</samp>
-                        </div>  
-                    </div>
 
-                    <div class="result-check-answer">
-                        <div class="check-answer">
-                            <a href="#"><p>შეამოწმე შენი პასუხები</p></a>
-                        </div>
-                    </div>
-                    <div class="list-of-issues">
-                        <div class="result-issues">
-                            <a href="#">1</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">2</a>
-                        </div>
-                        <div class="result-issues wrong-answer">
-                            <a href="#">3</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">4</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">5</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">6</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">7</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">8</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">9</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">10</a>
-                        </div>
-                        <div class="result-issues wrong-answer">
-                            <a href="#">11</a>
-                        </div>
-                        <div class="result-issues">
-                            <a href="#">12</a>
-                        </div>
-                        <div class="result-issues">
-                            <i class="fas fa-flag"></i>
-                        </div>
-                    </div>
+                <div class="col-9 p-0 p-0 resp-1200-body-f projector-regime">
+                    <div class="spec-exer-fields spec-exer-fields-results">
+                        <div class="spec-exer-all">
+                            <div class="spec-exer3-cont">
+                                <p class="spec-exer3-p"><span>სავარჯიშო #3</span> - ზმნიზედები შინაარსის მიხედვით
+                                </p>
+                                <button class="spec-exer3-button for-proeqtor"> <img
+                                        src="./assets/images/icons/projector-icon.png" alt="projector">პროექტორის
+                                    რეჟიმი</button>
+                                <button class="spec-exer3-button for-proeqtor-reverse"> <img
+                                        src="./assets/images/icons/projector-reverse.png" alt="projector">ჩვეულებრივი
+                                    რეჟიმი</button>
+                            </div>
+                            <div class="exercises-result">
+                                <div class="exercises-result-correct-answer">
+                                    <span>10</span>
+                                </div>
+                                <div class="correct-answer-content">
+                                    <p class="correct-answer-content-p">სწორი პასუხი</p>
+                                    <p class="correct-answer-content-question">12 კითხვიდან</p>
+                                </div>
+                            </div>
 
-                    <div class="prev-next-item">
-                        <button class="prev-start-over">
-                            თავიდან დაწყება
-                        </button>
-                        <button class="next-exercise">
-                            შემდეგი სავარჯიშო
-                        </button>
-                    </div>
 
+                            <div class="student-already-answered-questions">
+                                <p class="student-already-questions-p">შეამოწმე შენი პასუხები</p>
+                                <div class="student-answered-circle-all">
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>1</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>2</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-wrong">
+                                        <p>3</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>4</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>5</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>6</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>7</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>8</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>9</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>10</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-wrong">
+                                        <p>11</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-correct">
+                                        <p>12</p>
+                                    </a>
+                                    <a href="#" class="student-answered-circle student-answered-circle-flag">
+                                        <p><i class="fas fa-flag"></i></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="prev-next-item">
+                                <button class="prev-start-over">
+                                    თავიდან დაწყება
+                                </button>
+                                <button class="next-exercise">
+                                    შემდეგი სავარჯიშო
+                                    <img src="./assets/images/icons/Arrow - Right.svg" alt="left-arrow">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
- 
+    <script>
+        var stopVideos = function () {
+            var videos = document.querySelectorAll('iframe, video');
+            Array.prototype.forEach.call(videos, function (video) {
+                if (video.tagName.toLowerCase() === 'video') {
+                    video.pause();
+                } else {
+                    var src = video.src;
+                    video.src = src;
+                }
+            });
+            document.getElementById("popup1").style.display = "none";
+            document.getElementById("popup2").style.display = "none";
+
+        };
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup1').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("pause-button").click();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup2').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear2').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("pause-button2").click();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup15').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear15').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in15").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        var navDessapear15 = function () {
+            document.getElementById("popup15").style.display = "none";
+        }
+        var navAppear15 = function () {
+            document.getElementById("popup15").style.display = "inherit";
+        }
+        var openVideos = function () {
+            document.getElementById("popup1").style.display = "inherit";
+        };
+        var openVideos2 = function () {
+            document.getElementById("popup2").style.display = "inherit";
+        };
+
+
+        function remove_hash_from_url() {
+            var uri = window.location.toString();
+
+            if (uri.indexOf("#") > 0) {
+                var clean_uri = uri.substring(0,
+                    uri.indexOf("#"));
+
+                window.history.replaceState({},
+                    document.title, clean_uri);
+            }
+        }
+
+        // remove_hash_from_url();
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup7').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear7').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup8').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear8').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in2").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup77').contains(e.target)) {
+                // Clicked in box
+                if (document.querySelector('#popup77 .collapse2').contains(e.target) || document.querySelector('#popup77 .popup .open img').contains(e.target) || document.querySelector('#popup77 .conf2').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in77").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup9').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear9').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in3").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+
+        window.addEventListener('click', function (e) {
+            if (document.getElementById('popup10').contains(e.target)) {
+                // Clicked in box
+                if (document.getElementById('pop-dessapear10').contains(e.target)) {
+                    // Clicked in box
+                } else {
+                    // Clicked outside the box
+                    document.getElementById("close-in4").click();
+                    remove_hash_from_url();
+                }
+            } else {
+                // Clicked outside the box
+            }
+        });
+        var navDessapear = function () {
+            document.getElementById("popup5").style.display = "none";
+        }
+        var navAppear = function () {
+            document.getElementById("popup5").style.display = "inherit";
+        }
+
+        var navDessapear2 = function () {
+            document.getElementById("popup7").style.display = "none";
+        }
+        var navAppear2 = function () {
+            document.getElementById("popup7").style.display = "inherit";
+        }
+
+        var navDessapear3 = function () {
+            document.getElementById("popup8").style.display = "none";
+        }
+        var navAppear3 = function () {
+            document.getElementById("popup8").style.display = "inherit";
+            document.getElementById("first-forgot-pass").style.display = "inherit";
+            document.getElementById("second-forgot-pass").style.display = "none";
+        }
+        var navAppear77 = function () {
+            document.getElementById("popup77").style.display = "inherit";
+        }
+        var navDessapear77 = function () {
+            document.getElementById("popup77").style.display = "none";
+        }
+        var navDessapear4 = function () {
+            document.getElementById("popup9").style.display = "none";
+        }
+        var navAppear4 = function () {
+            document.getElementById("popup9").style.display = "inherit";
+            document.getElementById("new-password").style.display = "inherit";
+            document.getElementById("password-changed").style.display = "none";
+        }
+        var navDessapear5 = function () {
+            document.getElementById("popup10").style.display = "none";
+        }
+        var navAppear5 = function () {
+            document.getElementById("popup10").style.display = "inherit";
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+            document.getElementById("create-password").style.display = "none";
+            document.getElementById("mail-approve").style.display = "none";
+            document.getElementById("success-registred").style.display = "none";
+        }
+        var errorExchange1 = function () {
+            document.getElementById("first-forgot-pass").style.display = "none";
+            document.getElementById("second-forgot-pass").style.display = "inherit";
+        }
+        var errorExchange2 = function () {
+            document.getElementById("new-password").style.display = "none";
+            document.getElementById("password-changed").style.display = "inherit";
+        }
+        var errorExchange3 = function () {
+            document.getElementById("new-region").style.display = "none";
+            document.getElementById("name-fields").style.display = "inherit";
+        }
+
+
+
+
+
+
+        var return1 = function () {
+            document.getElementById("new-region").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var next1 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("name-fields").style.display = "none";
+        }
+        var return2 = function () {
+            document.getElementById("name-fields").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var next2 = function () {
+            document.getElementById("mail-approve").style.display = "inherit";
+            document.getElementById("create-password").style.display = "none";
+        }
+        var return3 = function () {
+            document.getElementById("create-password").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+        var next3 = function () {
+            document.getElementById("success-registred").style.display = "inherit";
+            document.getElementById("mail-approve").style.display = "none";
+        }
+
+        var navDessapear = function () {
+            document.getElementById("popup5").style.display = "none";
+        }
+        var navAppear = function () {
+            document.getElementById("popup5").style.display = "inherit";
+        }
+
+
+
+        document.querySelector('button.for-proeqtor').addEventListener('click', function () {
+            document.querySelector(".variants-header").style.display = "none";
+            document.querySelector(".adverb-exercises-content").style.display = "none";
+            document.querySelector(".adverb-content").style.height = "100%";
+            document.querySelector(".adverb-content").style.padding = "0";
+
+            document.querySelector(".projector-regime").style.margin = "auto";
+            // document.querySelector(".spec-exer-fields").style.padding = "0";
+
+            document.querySelector(".adverb-content .row").style.position = "absolute";
+            document.querySelector(".adverb-content .row").style.right = "0";
+            document.querySelector(".adverb-content .row").style.left = "0";
+            document.querySelector(".adverb-content .row").style.top = "0";
+            document.querySelector(".adverb-content .row").style.bottom = "0";
+            document.querySelector("button.for-proeqtor-reverse").style.display = "initial";
+            document.querySelector("button.for-proeqtor").style.display = "none";
+        });
+
+        document.querySelector('button.for-proeqtor-reverse').addEventListener('click', function () {
+            document.querySelector(".variants-header").style.display = "inherit";
+            document.querySelector(".adverb-exercises-content").style.display = "block";
+            document.querySelector(".adverb-content").style.height = "auto";
+            document.querySelector(".adverb-content").style.paddingTop = "59px";
+
+            document.querySelector(".projector-regime").style.margin = "0";
+            // document.querySelector(".spec-exer-fields").style.padding = "0 38px 44px 23px";
+
+            document.querySelector(".adverb-content .row").style.position = "inherit";
+            document.querySelector(".adverb-content .row").style.right = "0";
+            document.querySelector(".adverb-content .row").style.left = "0";
+            document.querySelector(".adverb-content .row").style.top = "0";
+            document.querySelector(".adverb-content .row").style.bottom = "0";
+            document.querySelector(".for-proeqtor-reverse").style.display = "none";
+            document.querySelector(".for-proeqtor").style.display = "inherit";
+        });
+
+    </script>
 </body>
 
 </html>

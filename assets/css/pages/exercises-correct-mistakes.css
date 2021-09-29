@@ -1,8 +1,42 @@
 .spec-exer--textarea {
     padding: 28px;
     background-color: #F6F7F7;
-    margin: 40px 0;
+    margin: 28px 0 44px;
+    border-radius: 16px; 
 }
 .spec-exer--textarea textarea {
-    background-color: #F6F7F7;   
+    background: #F6F7F7;
+    font-family: "FiraGo";
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #333333;
+}
+.exer-mistakes-head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 52px;
+}
+
+.exer-mistakes-choose-correct {
+    font-family: "FiraGo";
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+.exer-mistakes-correct-answer {
+    font-family: "FiraGo";
+    font-size: 12px;
+    line-height: 15.6px;
+    color: #239F61;
+    margin-left: 28px;
+}
+.spec-exer--textarea2 {
+    padding: 28px;
+}
+.spec-exer--textarea2 textarea {
+    font-family: "FiraGo";
+    font-size: 16px;
+    line-height: 28.8px;
+    color: #333333;
+    margin-bottom: 94px;
 }

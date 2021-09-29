@@ -1,20 +1,53 @@
 .spec-exer--mark-word {
     display: flex;
-    justify-content: space-between;
-    width: 90%;
+    /* justify-content: space-between; */
+    width: 100%;
 }
+
 .spec-exer--mark-word span {
     padding: 14px 16px;
     background-color: #F6F7F7;
     color: #333333;
+    font-family: "FiraGo";
     font-size: 16px;
-    margin-bottom: 30px;
+    border-radius: 10px;
+    margin: 0px 4px 30px 4px;
 }
+
 .mark-word-title {
-    font-size: 22px;
+    font-family: "FiraGo";
+    font-size: 24px;
+    line-height: 40.8px;
+    color: #333333;
     margin-bottom: 20px;
 }
+
+.mark-word-title span {
+    font-family: "FiraGo Bold";
+}
+
 .mark-word-subtitle {
+    color: #707070;
+    font-family: "FiraGo";
+    font-size: 16px;
+    line-height: 24px;
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 72px;
+}
+
+.spec-exer--mark-word {
+    flex-wrap: wrap;
+    margin-bottom: 140px;
+}
+
+/* .spec-exer--mark-word span{
+    margin: 0px 4px 30px 4px;
+} */
+
+.mark-word-correct {
+    color: #4B6858!important;
+    background: #EDF0EE;
+    border: 1.5px solid #4B6858;
+    box-sizing: border-box;
+    border-radius: 10px;
 }

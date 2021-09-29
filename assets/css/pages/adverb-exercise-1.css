@@ -9,6 +9,7 @@
 .adverb-return-back {
     display: flex;
     flex-direction: column;
+    margin-left: 22px;
 }
 
 .adverb-return-back a {
@@ -221,6 +222,9 @@
     color: #ffffff;
     font-size: 23px;
 }
+.resp-video{
+    display: none;
+}
 @media only screen and (max-height: 700px) {
     .adverb-row {
         overflow-y: auto;
@@ -231,4 +235,7 @@
         top: 2rem;
         left: 32.2rem;
     }
+}
+.exercises-grammar-fields2{
+    display: none;
 }

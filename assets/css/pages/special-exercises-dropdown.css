@@ -14,14 +14,16 @@
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #FFFFFF;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border: 1.5px solid #E7E8E8;
+    box-sizing: border-box;
+    border-radius: 16px;
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: #333333;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -50,7 +52,7 @@
   }
   
   .select-selected {
-    background-color: DodgerBlue;
+    background-color: #F6F7F7;
   }
   
   /*style the arrow inside the select element:*/
@@ -61,13 +63,17 @@
     right: 10px;
     width: 0;
     height: 0;
-    border: 6px solid transparent;
-    border-color: #fff transparent transparent transparent;
+    border: 1.5px solid #E7E8E8;
+    box-sizing: border-box;
+    border-radius: 16px;
   }
   
   /*point the arrow upwards when the select box is open (active):*/
   .select-selected.select-arrow-active:after {
-    border-color: transparent transparent #fff transparent;
+    border: 1.5px solid #E7E8E8;
+    box-sizing: border-box;
+    border-radius: 16px;
+    /* border-color: transparent transparent #fff transparent; */
     top: 7px;
   }
   
@@ -75,7 +81,7 @@
   .select-items div,.select-selected {
     color: #ffffff;
     padding: 8px 16px;
-    border: 1px solid transparent;
+    border: 1.5px solid #E7E8E8;
     border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
     cursor: pointer;
     user-select: none;
@@ -84,7 +90,7 @@
   /*style items (options):*/
   .select-items {
     position: absolute;
-    background-color: DodgerBlue;
+    background-color: #F6F7F7;
     top: 100%;
     left: 0;
     right: 0;
@@ -102,4 +108,14 @@
 
 .spec-exer-questions {
     margin-top: 30px;
+}
+.choose-your-word{
+  text-decoration: underline;
+  opacity: 0.5;
+}
+.choose-correct-answer {
+  font-family: 'FiraGO';
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
 }

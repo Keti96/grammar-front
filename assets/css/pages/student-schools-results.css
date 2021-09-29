@@ -93,8 +93,10 @@
     line-height: 80px;
     align-items: center;
     color: #4B6858;
-    line-height: 67px;
     margin-right: 20px;
+}
+.student-school-result-item-p {
+    align-self: center;
 }
 
 .student-result-corr-answer {
@@ -136,20 +138,17 @@
 }
 
 .student-answered-circle {
-    border-radius: 20px;
     font-family: 'FiraGO Bold';
     font-size: 14px;
     line-height: 16px;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.2px;
+    align-self: center;
+    text-align: center; 
     margin: 0 auto;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     width: 40px;
     height: 40px;
-    line-height: 37px;
 }
 
 .student-answered-circle-correct {

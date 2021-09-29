@@ -91,7 +91,8 @@
                                             <input type="radio" name="item" id="item4" title="იმერეთი">
                                             <input type="radio" name="item" id="item5" title="კახეთი">
                                             <input type="radio" name="item" id="item6" title="მცხხეთა - მთიანეთი">
-                                            <input type="radio" name="item" id="item7" title="რაჭა ლეჩხუმი - ქვემო სვანეთი">
+                                            <input type="radio" name="item" id="item7"
+                                                title="რაჭა ლეჩხუმი - ქვემო სვანეთი">
                                             <input type="radio" name="item" id="item8" title="სამეგრელო - ზემო სვანეთი">
                                             <input type="radio" name="item" id="item9" title="სამცხე-ჯავახეთი">
                                         </summary>
@@ -137,11 +138,12 @@
                             ცვლილების შენახვა
                         </button>
                     </div>
-                    
+
                     <div class="password-changed" id="password-changed2">
                         <img src="./assets/images/sign-in/success-smile.svg" alt="img">
                         <div class="password-changed-content">
-                            <h3 class="password-changed-title password-changed-title2">პროფილი წარმატებით დარედაქტირდა</h3>
+                            <h3 class="password-changed-title password-changed-title2">პროფილი წარმატებით დარედაქტირდა
+                            </h3>
                         </div>
                         <form action="#">
                             <a href="#">
@@ -157,7 +159,7 @@
     </div>
 
 
-    
+
     <div id="popup12" class="overlay">
         <div class="popup" id="pop-dessapear12">
             <a class="close close-in" id="close-in12" onclick="navDessapear12();" href="javascript:void(0);">&times;</a>
@@ -183,7 +185,8 @@
                                 <input type="password" id="repeat-pwd" name="pwd" placeholder="გაიმეორე პაროლი">
                             </div>
                         </form>
-                        <button type="button" onclick="errorExchange2();" class="auth-button input-button search-result-auth-button">
+                        <button type="button" onclick="errorExchange2();"
+                            class="auth-button input-button search-result-auth-button">
                             პაროლის შეცვლა
                         </button>
                     </div>
@@ -191,7 +194,7 @@
                         <img src="./assets/images/sign-in/success-smile.svg" alt="img">
                         <div class="password-changed-content">
                             <h3 class="password-changed-title">შენ წარმატებით აღადგინე პაროლი.</h3>
-                           
+
                         </div>
                         <form action="#">
                             <a href="#">
@@ -208,14 +211,69 @@
 
 
 
+    <div id="popup77" class="overlay overlay2">
+        <div class="popup popup2">
+            <a class="open hide3" href="#"><img src="./assets/images/icons/footer-logo.svg" alt=""></a>
+            <a class="open appear3" href="#"><img src="./assets/images/icons/burger-menu-small.svg" alt=""></a>
+            <a class="close close2 " id="close-in77" href="javascript:void(0);" onclick="navDessapear77();">&times;</a>
+            <div class="collapse2 navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link burger-menu " aria-current="page" href="index.html">
+                            სტატისტიკა
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="about-project.html">
+                            საკითხები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            სავარჯიშოები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ტესტირება
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ჩემი პროფილი
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-d-flex conf-user justify-content-between conf2">
+                <p class="footer-logo-content-item">
+                    <a href="privacy-policy.html">
+                        კონფიდენციალურობის პოლიტიკა
+                    </a>
+                </p>
+                <p class="footer-logo-content-item">
+                    <a href="terms-of-use.html">
+                        მოხმარების პირობები
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
                 <a class="navbar-brand" href="index.html">
-                    <img class="hide3" src="./assets/images/icons/logo.svg" alt="logo">
-                    <img class="appear3" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="hide3 header-resp-hide1" src="./assets/images/icons/logo.svg" alt="logo">
+                    <img class="appear3 header-resp-hide1" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="header-resp-appear1" src="./assets/images/icons/logo-414.svg" alt="logo-414">
+                    <a href="#popup77" onclick="navAppear77();"> <img class="header-resp-appear1 header-four-dots"
+                            src="./assets/images/icons/menu-dots.svg" alt="dots-icon"></a>
                 </a>
-                <div class="navbar-icons">
+                <div class="navbar-icons other-pages-i">
                     <a href="#popup7" onclick="navAppear2();" class="login appear"><img
                             src="./assets/images/icons/login.svg" alt=""></a>
                     <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
@@ -228,6 +286,9 @@
                 <div class="col-9 navbar-content">
                     <div class="header-variants-input-search">
                         <input type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
+                    </div>
+                    <div class="resp-search-parent">
+                        <img src="./assets/images/icons/Search2.svg" alt="">
                     </div>
                     <div class="col-4 user-registred">
                         <div class="header-variants-item user-registred-yes">
@@ -258,11 +319,15 @@
             </div>
         </nav>
     </div>
+    <div class="header-variants-input-search header-variants-input-search2">
+        <input class="search-class" type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
+        <div class="search-close-b"><i class="fas fa-times"></i></div>
+    </div>
 
     <section class="variants-content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 variants-user">
+                <div class="col-3 variants-user resp-1200-body-s">
                     <div class="user-registred2">
                         <div class="variants-user-content user-registred-yes2">
                             <p class="variants-user-title">თამთა კერესელიძე</p>
@@ -290,30 +355,45 @@
                     </div>
                 </div>
 
-                <div class="col-9 p-0">
+                <div class="col-9 p-0 resp-1200-body-f">
                     <div class="my-profile-bg">
                         <div class="my-profile-cont">
-                            <div class="my-profile-user-data">
+                            <div class="profile-outof-div">
                                 <div class="profile-short-name">
                                     <p class="profile-short-name-p">თკ</p>
                                 </div>
                                 <div class="profile-user-fields">
                                     <p class="profile-user-fields-p">თამთა კერესელიძე</p>
-                                    <span class="profile-user-fields-span">მოსწავლე</span>
+                                    <div class="profile-student-scores">
+                                        <span class="profile-user-fields-span">მოსწავლე</span><span
+                                        class="profile-user-fields-span profile-user-fields-span2"> - 103/250
+                                        ქულა</span>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="my-profile-user-data">
+
+                            </div>
                             <div class="my-profile-item">
-                                <div class="my-score">
+                                <div class="my-score resp-1200-body-s">
                                     <p><span class="correct-score">103</span><span class="question-score">/250
                                             კითხვა</span>
                                     </p>
                                 </div>
-                                <button class="delete-progress"><i class="fas fa-trash"></i> პროგრესის წაშლა</button>
+                                <button class="delete-progress delete-progress3"><i class="fas fa-trash"></i> პროგრესის წაშლა</button>
                             </div>
+                            <button class="delete-progress delete-progress2"><i class="fas fa-trash"></i> პროგრესის წაშლა</button>
+
                         </div>
 
                         <div class="my-profile-data">
-                            <h2 class="my-profile-data-title"><span>ჩემი</span> მონაცემები</h2>
+                            <div class="d-1200-flex">
+                                <h2 class="my-profile-data-title"><span>ჩემი</span> მონაცემები</h2>
+                                <a href="#popup09" class="resp-1200-body-f red-mon2" onclick="navAppear6();"><button
+                                        class="my-data-button-edit"><i class="fas fa-pen"></i> მონაცემების
+                                        რედაქტირება</button>
+                                </a>
+                            </div>
                             <div class="my-profile-data-item">
                                 <div class="my-data">
                                     <div class="my-data-child">
@@ -330,10 +410,11 @@
                                     </div>
                                 </div>
                                 <div class="my-data-button">
-                                    <a href="#popup09" onclick="navAppear6();"><button class="my-data-button-edit"><i class="fas fa-pen"></i> მონაცემების
-                                        რედაქტირება</button>
+                                    <a href="#popup09" onclick="navAppear6();" class="resp-1200-body-s"><button
+                                            class="my-data-button-edit"><i class="fas fa-pen"></i> მონაცემების
+                                            რედაქტირება</button>
                                     </a>
-                                    <a href="#popup12" onclick="navAppear4();"><button
+                                    <a href="#popup12" onclick="navAppear4();" class="resp-1200-body-s"><button
                                             class="my-data-change-password">პაროლის შეცვლა</button></a>
                                 </div>
                             </div>
@@ -343,9 +424,19 @@
                                 <img src="./assets/images/icons/Logout-variants.svg" alt="Logout-variants">
                                 <button class="my-data-button-out"> ანგარიშიდან გასვლა</button>
                             </div> -->
+                            <a href="#popup12" onclick="navAppear4();"><button
+                                    class="my-data-change-password my-data-change-password2 resp-1200-body-f">პაროლის
+                                    შეცვლა</button></a>
+                            <a href="#popup09" class="resp-1200-body-f red-mon" onclick="navAppear6();"><button
+                                    class="my-data-button-edit"><i class="fas fa-pen"></i> მონაცემების
+                                    რედაქტირება</button>
+                            </a>
                             <div class="my-data-logout">
                                 <img src="./assets/images/icons/Logout-variants.svg" alt="Logout-variants">
                                 <button> ანგარიშიდან გასვლა</button>
+                            </div>
+                            <div class="delete-prof-account-parent">
+                                <a href="#" class="delete-prof-account">ანგარიშის წაშლა</a>
                             </div>
                             <!-- <button class="my-data-button-remove">ანგარიშის წაშლა</button> -->
                         </div>
@@ -618,7 +709,7 @@
         var navAppear = function () {
             document.getElementById("popup5").style.display = "inherit";
         }
-        
+
     </script>
 </body>
 

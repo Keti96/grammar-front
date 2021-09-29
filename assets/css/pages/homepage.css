@@ -871,3 +871,64 @@ button:focus:not(:focus-visible) {
 }
 
 /* end variants */
+
+/* statistics page */
+
+.resp-1024-body-a {
+    display: none;
+}
+
+.resp-1200-body-a {
+    display: none;
+}
+
+.statistic-head-ret {
+    display: flex;
+}
+
+.statistic-head-p {
+    font-family: 'FiraGo ExtraBold';
+    font-style: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    color: #333333;
+}
+
+.statistic-ret-p {
+    font-family: "FiraGO";
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #4B6858;
+}
+
+.statistic-ret {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+.resp-768-body-f{
+    display: none;
+}
+.percentage-dots3 .percentage-green {
+    padding: 0 24px;
+}
+.percentage-dots3{
+    padding: 0 15px!important;
+}
+.student-school-subjects-parent {
+    display: block;
+    margin: auto 0;
+}
+.exercises-grammar-box-appear{
+    display: none;
+}.exercises-head-right{
+    display: none;
+}
+.exercises-grammar-fields2{
+    display: none;
+}
+/* statistics page end */

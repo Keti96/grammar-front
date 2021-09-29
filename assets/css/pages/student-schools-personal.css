@@ -230,6 +230,9 @@
     display: flex;
     margin-left: auto;
 }
+.inpersonal-all2{
+    display: none;
+}
 .student-added-inschools-childs2 {
     order: 0;
     flex-grow: 0;

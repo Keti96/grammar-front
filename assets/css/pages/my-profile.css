@@ -77,14 +77,16 @@ button.delete-progress {
     border-radius: 10px;
     font-family: 'FiraGO';
     font-style: normal;
-    font-weight: normal;
     font-size: 12px;
-    line-height: 150%;
+    line-height: 18px;
     align-items: center;
     text-align: right;
     letter-spacing: 0.2px;
     color: #333333;
     padding: 18px 36px;
+    height: 58px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .correct-score {
@@ -169,7 +171,7 @@ button.delete-progress {
 } */
 
 .my-data-logout {
-    width: 38%;
+    width: 393px;
     padding: 20px 93px;
     background-color: transparent;
     border: 1px solid #EDF0EE;
@@ -182,6 +184,7 @@ button.delete-progress {
     vertical-align: sub;
     margin-right: 10px;
 }
+
 .my-data-logout button {
     display: inline;
     background-color: transparent;
@@ -226,18 +229,22 @@ button.delete-progress {
     background-color: transparent;
     color: #707070;
 }
-.new-password-title2{
+
+.new-password-title2 {
     margin-top: 78px!important;
 }
+
 .password-changed {
     display: none;
 }
+
 .my-data-out-change .my-data-button-remove {
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-#popup09 form .input-password{
+
+#popup09 form .input-password {
     border: 2px solid #131515;
 }
 
@@ -247,3 +254,44 @@ button.delete-progress {
         height: calc(100% - 230px);
     }
 }
+
+.delete-prof-account {
+    margin: auto;
+    width: 350px;
+    display: block;
+    margin-top:24px;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #707070;
+}
+
+.delete-prof-account:hover{
+    text-decoration: none;
+    color: #707070;
+
+}
+.d-1200-flex a,.my-data-out-change .my-data-change-password2{
+    display: none;
+}
+.profile-user-fields-span2{
+    display: none;
+}
+.red-mon{
+    display: none;
+}
+.profile-outof-div{
+    display: flex;
+    position: absolute;
+    z-index: 99;
+    padding: 33px 0 33px 40px;
+}
+.delete-progress2{
+    display: none;
+}
+/* .my-profile-item{
+    height: 206px;
+} */

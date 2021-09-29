@@ -59,14 +59,69 @@
         </div>
     </div>
 
+    <div id="popup77" class="overlay overlay2">
+        <div class="popup popup2">
+            <a class="open hide3" href="#"><img src="./assets/images/icons/footer-logo.svg" alt=""></a>
+            <a class="open appear3" href="#"><img src="./assets/images/icons/burger-menu-small.svg" alt=""></a>
+            <a class="close close2 " id="close-in77" href="javascript:void(0);" onclick="navDessapear77();">&times;</a>
+            <div class="collapse2 navbar-collapse homepage-navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link burger-menu " aria-current="page" href="index.html">
+                            სტატისტიკა
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="about-project.html">
+                            საკითხები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            სავარჯიშოები
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ტესტირება
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            ჩემი პროფილი
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="for-d-flex conf-user justify-content-between conf2">
+                <p class="footer-logo-content-item">
+                    <a href="privacy-policy.html">
+                        კონფიდენციალურობის პოლიტიკა
+                    </a>
+                </p>
+                <p class="footer-logo-content-item">
+                    <a href="terms-of-use.html">
+                        მოხმარების პირობები
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="variants-header">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container container-variants">
                 <a class="navbar-brand" href="index.html">
-                    <img class="hide3" src="./assets/images/icons/logo.svg" alt="logo">
-                    <img class="appear3" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="hide3 header-resp-hide1" src="./assets/images/icons/logo.svg" alt="logo">
+                    <img class="appear3 header-resp-hide1" src="./assets/images/icons/logo-414.svg" alt="">
+                    <img class="header-resp-appear1" src="./assets/images/icons/logo-414.svg" alt="logo-414">
+                    <a href="#popup77" onclick="navAppear77();"> <img class="header-resp-appear1 header-four-dots"
+                            src="./assets/images/icons/menu-dots.svg" alt="dots-icon"></a>
                 </a>
-                <div class="navbar-icons">
+                <div class="navbar-icons other-pages-i">
                     <a href="#popup7" onclick="navAppear2();" class="login appear"><img
                             src="./assets/images/icons/login.svg" alt=""></a>
                     <a href="#popup5" onclick="navAppear();"><button class="navbar-toggler" type="button"
@@ -79,6 +134,9 @@
                 <div class="col-9 navbar-content">
                     <div class="header-variants-input-search">
                         <input type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
+                    </div>
+                    <div class="resp-search-parent">
+                        <img src="./assets/images/icons/Search2.svg" alt="">
                     </div>
                     <div class="col-4 user-registred">
                         <div class="header-variants-item user-registred-yes">
@@ -109,12 +167,16 @@
             </div>
         </nav>
     </div>
+    <div class="header-variants-input-search header-variants-input-search2">
+        <input class="search-class" type="search" name="search" placeholder="მოძებნე საკითხი ან სავარჯიშო">
+        <div class="search-close-b"><i class="fas fa-times"></i></div>
+    </div>
     <!-- chatbox -->
 
     <section class="variants-content">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3 variants-user">
+                <div class="col-3 variants-user resp-1200-body-s">
                     <div class="user-registred2">
                         <div class="variants-user-content user-registred-yes2">
                             <p class="variants-user-title">თამთა კერესელიძე</p>
@@ -145,10 +207,22 @@
                 </div>
 
 
-                <div class="col-9 p-0">
+                <div class="col-9 p-0 resp-1200-body-f">
                     <div class="statistics-bg">
                         <div class="statistics-cont">
-                            <div class="row">
+                            <div class="row resp-1200-body-a">
+                                <div class="statistic-head-ret">
+                                    <div class="statistic-head resp-768-body-s">
+                                        <p class="statistic-head-p">სტატისტიკა</p>
+                                    </div>
+                                    <div class="statistic-ret">
+                                        <p class="statistic-ret-p">
+                                            <img src="./assets/images/icons/" alt="">
+                                            უკან დაბრუნება</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row resp-768-body-s">
                                 <div class="col-4">
                                     <div class="answered-questions-all">
                                         <div class="counted-answers-all">
@@ -174,8 +248,55 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="row resp-1024-body-a">
+                                <div class="dot-space">
+                                    <div class="cor-false-parent">
+                                        <p class="cor-false">სწორი / არასწორი პასუხები</p>
+                                    </div>
+                                    <div class="percentage-dots resp-768-body-s">
+                                        <div class="two-percentage-together">
+                                            <div class="percentage-red percentage-dots-one">
+                                                <span class="red-dot small-dots"></span>
+                                                <p class="percentage-red-p percentage-p">არასწორი პასუხი</p>
+                                            </div>
+                                            <div class="percentage-green percentage-dots-one">
+                                                <span class="green-dot small-dots"></span>
+                                                <p class="percentage-green-p percentage-p">სწორი პასუხი</p>
+                                            </div>
+                                            <div class="percentage-grey percentage-dots-one">
+                                                <span class="grey-dot small-dots"></span>
+                                                <p class="percentage-grey-p percentage-p">პასუხგაუცემელი</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="line-space">
+                                    <div class="graph-line graph-red-line" style="width: 16%;"></div>
+                                    <div class="graph-line graph-green-line" style="width: 56%"></div>
+                                    <div class="graph-line graph-grey-line" style="width: 28%"></div>
+
+                                </div>
+                                <div class="percentage-dots3 percentage-dots  resp-768-body-f">
+                                    <div class="two-percentage-together">
+                                        <div class="percentage-red percentage-dots-one">
+                                            <span class="red-dot small-dots"></span>
+                                            <p class="percentage-red-p percentage-p">არასწორი პასუხი</p>
+                                        </div>
+                                        <div class="percentage-green percentage-dots-one">
+                                            <span class="green-dot small-dots"></span>
+                                            <p class="percentage-green-p percentage-p">სწორი პასუხი</p>
+                                        </div>
+                                        <div class="percentage-grey percentage-dots-one">
+                                            <span class="grey-dot small-dots"></span>
+                                            <p class="percentage-grey-p percentage-p">პასუხგაუცემელი</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                             <div class="row personals-row">
-                                <div class="col-8">
+                                <div class="col-8 resp-1024-body-f">
                                     <div class="statistics-personals">
                                         <div class="done-homeworks-all">
                                             <p class="done-homeworks"><span>შესრულებული </span> სავარჯიშოები</p>
@@ -184,8 +305,23 @@
 
                                         <div class="student-added-inschools2">
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">ზმნიზედები შინაარსის მიხედვით</p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">ზმნიზედები შინაარსის მიხედვით</p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -195,13 +331,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">კუმშვადი და უკუმშველი სახელები
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">კუმშვადი და უკუმშველი სახელები
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -211,13 +362,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -227,13 +393,29 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">უკვეცელი უცხოური არსებითი სახელები
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">უკვეცელი უცხოური არსებითი
+                                                        სახელები
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -243,13 +425,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2">გახსნა <i
+                                                <p class="student-added-profiles2"><span class="statistic-open">გახსნა </span><i
                                                         class="fas fa-chevron-right"></i></p>
                                             </div>
 
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">მაერთებელი კავშირი</p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">მაერთებელი კავშირი</p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -258,14 +455,30 @@
                                                     <p class="student-school-wronganswers student-school-allanswers">
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
+
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -275,13 +488,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -291,13 +519,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -307,13 +550,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -323,13 +581,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -339,13 +612,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -355,13 +643,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -371,13 +674,28 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
                                             <div class="student-added-inschools-childs2">
-                                                <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
-                                                </p>
-                                                <div class="inpersonal-all">
+                                                <div class="student-school-subjects-parent">
+                                                    <p class="student-school-subjects">თანდებულიანი სიტყვების მართლწერა
+                                                    </p>
+                                                    <div class="inpersonal-all inpersonal-all2 ">
+                                                        <p
+                                                            class="student-school-allquestions student-school-allanswers">
+                                                            სულ: 19</p>
+                                                        <p
+                                                            class="student-school-correcanswers student-school-allanswers">
+                                                            <i class="fas fa-check"></i> 14
+                                                        </p>
+                                                        <p
+                                                            class="student-school-wronganswers student-school-allanswers">
+                                                            <i class="fas fa-times"></i> 5
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="inpersonal-all resp-768-body-s">
                                                     <p class="student-school-allquestions student-school-allanswers">
                                                         სულ: 19</p>
                                                     <p class="student-school-correcanswers student-school-allanswers">
@@ -387,7 +705,7 @@
                                                         <i class="fas fa-times"></i> 5
                                                     </p>
                                                 </div>
-                                                <p class="student-added-profiles2"><a href="#">გახსნა <i
+                                                <p class="student-added-profiles2"><a href="#"><span class="statistic-open">გახსნა </span><i
                                                             class="fas fa-chevron-right"></i></a></p>
                                             </div>
 
@@ -397,7 +715,7 @@
 
 
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 resp-1024-body-s">
                                     <div class="height-100">
                                         <p class="chart-correct-incorrect">სწორი / არასწორი პასუხები</p>
                                         <div>
@@ -497,7 +815,7 @@
                         backgroundColor: '#404040'
                     },
                 }
-            }, 
+            },
         });
 
 

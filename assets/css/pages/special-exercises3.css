@@ -33,7 +33,7 @@
 .spec-exer-head {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 76px;
+    margin-bottom: 117px;
 }
 
 .spec-ask-question {
@@ -57,10 +57,8 @@
 
 .exer-choose-cor-answer {
     font-family: 'FiraGO';
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
-    letter-spacing: 0.2px;
+    line-height: 24px;
     color: #707070;
 }
 
@@ -103,7 +101,7 @@
 } */
 
 .exer-answers-all {
-    margin-bottom: 67px;
+    margin-bottom: 93px;
 }
 
 .counted-boxes {
@@ -197,9 +195,13 @@
     border: 2px solid #333333;
 }
 .exer-check-button-active {
-    background-color: green;
+    background: #4B6858;
+        border: none;
+        opacity: 1;
+}
+.exer-check-button-active a{
     color: white;
-    border: none;
+
 }
 .exer-wrong-answer button{
     background: #FEF4F6;
@@ -224,4 +226,13 @@
 #pop-dessapear15{
     width: 960px;
     height: 765px;
+}
+.adverb-return-back2{
+    margin-left: 0;
+}
+.ganmarteba p {
+    color: #333333;
+}
+.for-proeqtor-reverse{
+    display: none;
 }

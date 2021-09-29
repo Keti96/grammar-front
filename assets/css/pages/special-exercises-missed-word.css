@@ -1,0 +1,8 @@
+.spec-ask-question input::placeholder{
+    text-decoration: underline;
+}
+
+.spec-ask-question input{
+    width: 173px;
+
+}
