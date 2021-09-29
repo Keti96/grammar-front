@@ -44,7 +44,21 @@
     margin: 0px 4px 30px 4px;
 } */
 
-.mark-word-correct {
+.mark-word-choose-answer {
+    color: #4B6858!important;
+    background: #EDF0EE;
+    border: 1.5px solid #4B6858;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.mark-word-correct-answer {
+    color: #4B6858!important;
+    background: #F4FAF7;
+    border: 1.5px solid #4B6858;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.mark-word-choose-answer {
     color: #4B6858!important;
     background: #EDF0EE;
     border: 1.5px solid #4B6858;
